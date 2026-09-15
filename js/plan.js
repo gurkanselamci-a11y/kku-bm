@@ -117,9 +117,17 @@ export function totalAkts(cur) {
 export function weekSlots(cur) {
   const mine = myCourses(cur);
   if (!mine.length) {
+    // Resmî programda birden çok yarıyılın saatleri var (1. yarıyıl + 2026-2027 Güz
+    // 3. yarıyıl dersleri). Hepsini birden basmak farklı yarıyılları üst üste bindirip
+    // sahte çakışmalar gösterir; örnek görünüm yalnızca etkin yarıyılı gösterir.
+    const sem = Number(store.state.settings?.activeSemester) || cur.activeSemester || 1;
+    const semCourses = new Set((cur.semesters || []).find((s) => s.n === sem)?.courses || []);
     return {
       official: true,
-      slots: (cur.schedule || []).map((s) => ({ ...s, ...courseInfo(cur, s.code) })),
+      semester: sem,
+      slots: (cur.schedule || [])
+        .filter((s) => semCourses.has(s.code))
+        .map((s) => ({ ...s, ...courseInfo(cur, s.code) })),
       missing: [],
     };
   }

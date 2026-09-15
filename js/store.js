@@ -90,18 +90,36 @@ let state = load();
 let saveTimer = null;
 const listeners = new Set();
 
-function persist() {
+function writeNow() {
   clearTimeout(saveTimer);
-  saveTimer = setTimeout(() => {
-    try {
-      localStorage.setItem(KEY, JSON.stringify(state));
-    } catch (err) {
-      // Kota dolduysa en eski cevap kayıtlarını at ve tekrar dene
-      console.warn('Kayıt başarısız, geçmiş kırpılıyor.', err);
-      state.answers = state.answers.slice(-500);
-      try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (_) {}
-    }
-  }, 120);
+  saveTimer = null;
+  try {
+    localStorage.setItem(KEY, JSON.stringify(state));
+  } catch (err) {
+    // Kota dolduysa en eski cevap kayıtlarını at ve tekrar dene
+    console.warn('Kayıt başarısız, geçmiş kırpılıyor.', err);
+    state.answers = state.answers.slice(-500);
+    try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (_) {}
+  }
+}
+
+// Yazma 120 ms geciktirilir: art arda gelen değişiklikler (kart, cevap, sayaç) tek yazmada
+// birleşsin. AMA sayfa gizlendiğinde ya da kapanırken bekleyen zamanlayıcı hiç çalışmayabilir
+// — telefonda uygulama arka plana atılınca zamanlayıcılar dondurulur, sayfa kapanınca hiç
+// tetiklenmez. Eskiden tam o anda yapılan değişiklik kayboluyordu; en sistematik örneği,
+// sekme gizlenirken app.js'in eklediği oturum sonu çalışma dakikalarıydı. Bu yüzden:
+//   1. Sayfa zaten gizliyse beklemeden yaz.
+//   2. Gizlenme/kapanma anında bekleyen yazmayı boşalt.
+function persist() {
+  if (typeof document !== 'undefined' && document.visibilityState === 'hidden') { writeNow(); return; }
+  clearTimeout(saveTimer);
+  saveTimer = setTimeout(writeNow, 120);
+}
+
+if (typeof window !== 'undefined') {
+  const flush = () => { if (saveTimer) writeNow(); };
+  window.addEventListener('pagehide', flush);
+  document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden') flush(); });
 }
 
 export const store = {

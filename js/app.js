@@ -132,6 +132,46 @@ function setTitle(title, sub) {
 
 function markNav(nav) {
   $$('[data-nav]').forEach((a) => a.classList.toggle('on', a.dataset.nav === nav));
+  // Açık sayfa alt çubukta yoksa (Program, Notlar…) "Menü" sekmesi yansın ki kullanıcı
+  // nerede olduğunu kaybetmesin.
+  const inTabbar = $$('#tabbar [data-nav]').some((a) => a.dataset.nav === nav);
+  document.getElementById('moreBtn')?.classList.toggle('on', !inTabbar);
+}
+
+// ---------- mobil "Menü" paneli ----------
+
+const moreSheet = () => document.getElementById('moreSheet');
+const moreBtn = () => document.getElementById('moreBtn');
+
+/** Panel içeriğini kenar menüden üretir: bölüm listesi tek yerde (index.html #sidenav) kalsın. */
+function buildMoreGrid() {
+  const grid = document.getElementById('moreGrid');
+  if (!grid || grid.childElementCount) return;
+  for (const a of $$('#sidenav a[data-nav]')) {
+    const clone = a.cloneNode(true);
+    clone.querySelectorAll('[id]').forEach((el) => el.removeAttribute('id'));   // kopya kimlik olmasın
+    clone.querySelectorAll('.badge').forEach((el) => el.remove());              // rozet alt çubukta zaten var
+    grid.appendChild(clone);
+  }
+  const settings = document.createElement('a');
+  settings.href = '#/ayarlar';
+  settings.dataset.nav = '/ayarlar';
+  settings.innerHTML = '<svg class="ni" aria-hidden="true"><use href="#i-settings"/></svg><span>Ayarlar</span>';
+  grid.appendChild(settings);
+}
+
+function openMore() {
+  buildMoreGrid();
+  markNav(currentRoute?.nav);
+  moreSheet().hidden = false;
+  moreBtn().setAttribute('aria-expanded', 'true');
+  document.getElementById('moreGrid').querySelector('a.on, a')?.focus({ preventScroll: true });
+}
+
+function closeMore() {
+  if (moreSheet().hidden) return;
+  moreSheet().hidden = true;
+  moreBtn().setAttribute('aria-expanded', 'false');
 }
 
 // ---------- kabuk bilgileri (streak, kart rozeti, hedef halkası) ----------
@@ -252,6 +292,12 @@ export function applyKeepAwake() { syncStudy(); }
 window.addEventListener('hashchange', render);
 
 document.getElementById('backBtn').addEventListener('click', () => history.back());
+document.getElementById('moreBtn').addEventListener('click', () => (moreSheet().hidden ? openMore() : closeMore()));
+moreSheet().addEventListener('click', (e) => {
+  if (e.target.closest('[data-close]') || e.target.closest('a[href]')) closeMore();
+});
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeMore(); });
+window.addEventListener('hashchange', closeMore);
 document.getElementById('settingsBtn').addEventListener('click', () => go('/ayarlar'));
 document.getElementById('searchBtn').addEventListener('click', () => go('/ara'));
 document.getElementById('streakBox').addEventListener('click', () => go('/istatistik'));

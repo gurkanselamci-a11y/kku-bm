@@ -100,7 +100,7 @@ export default async function myCoursesView() {
           <div class="stat-grid">
             <div class="stat"><b>${mine.length}</b><small>ders</small></div>
             <div class="stat"><b>${totalAkts(cur)}</b><small>AKTS</small></div>
-            <div class="stat"><b>${hours ? hours.toFixed(hours % 1 ? 1 : 0) : '0'}</b><small>saat / hafta</small></div>
+            <div class="stat"><b>${hours ? hours.toLocaleString('tr-TR', { maximumFractionDigits: 1 }) : '0'}</b><small>saat / hafta</small></div>
             <div class="stat"><b>${mine.filter((c) => !c.slots.length).length}</b><small>saati girilmedi</small></div>
           </div>
           <p class="tiny muted" style="margin:10px 0 0">Seçtiğin dersler ders programını ve not ekranını doldurur.

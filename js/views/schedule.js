@@ -2,7 +2,7 @@
 //
 // Program artık kullanıcının seçtiği derslerden kurulur (bkz. plan.js): farklı
 // yarıyıllardan ders alınabildiği için tek bir yarıyılın tablosu yetmiyor.
-// Hiç ders seçilmemişse müfredatın resmî 1. yarıyıl programı örnek olarak gösterilir.
+// Hiç ders seçilmemişse etkin yarıyılın resmî programı örnek olarak gösterilir.
 
 import { getCurriculum } from '../data.js';
 import { escHtml, DAYS } from '../ui.js';
@@ -18,7 +18,7 @@ export default async function scheduleView() {
   const nowMin = now.getHours() * 60 + now.getMinutes();
   const week = currentWeek(store.settings);
 
-  const { official, slots, missing } = weekSlots(cur);
+  const { official, semester, slots, missing } = weekSlots(cur);
   const grouped = byDay(slots);
   const days = [1, 2, 3, 4, 5, 6, 0].filter((d) => grouped[d]?.length);
   const clash = conflicts(slots);
@@ -44,7 +44,7 @@ export default async function scheduleView() {
     sub: official ? `${cur.academicYear} · örnek program` : `${mine.length} ders${week ? ' · ' + week.label : ''}`,
     html: `<div class="stack">
       ${official ? `<div class="card" style="--c:var(--acc)">
-          <b>Bu, bölümün 1. yarıyıl programı</b>
+          <b>Bu, bölümün ${semester}. yarıyıl programı</b>
           <p class="small muted" style="margin:6px 0 0">Kendi programını görmek için bu dönem aldığın dersleri seç —
           hangi yarıyıldan olursa olsun. Resmî programda saati olan dersler hazır gelir.</p>
           <div class="btn-row" style="margin-top:10px">
@@ -54,7 +54,7 @@ export default async function scheduleView() {
       : `<div class="card">
           <div class="row spread">
             <div><b>${escHtml(cur.department)}</b>
-            <div class="tiny muted">${mine.length} ders · ${totalAkts(cur)} AKTS · haftada ${hours ? hours.toFixed(hours % 1 ? 1 : 0) : 0} saat</div></div>
+            <div class="tiny muted">${mine.length} ders · ${totalAkts(cur)} AKTS · haftada ${hours ? hours.toLocaleString('tr-TR', { maximumFractionDigits: 1 }) : 0} saat</div></div>
             <a class="btn ghost small" href="#/derslerim">Düzenle</a>
           </div>
         </div>`}

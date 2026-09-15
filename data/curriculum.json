@@ -2231,6 +2231,14 @@
   "schedule": [
     {
       "day": 1,
+      "start": "10:00",
+      "end": "11:45",
+      "code": "MUH2120",
+      "room": "A104",
+      "kind": "Teori"
+    },
+    {
+      "day": 1,
       "start": "13:00",
       "end": "14:00",
       "code": "KKU1019",
@@ -2239,10 +2247,18 @@
     },
     {
       "day": 1,
+      "start": "14:00",
+      "end": "16:45",
+      "code": "BIL2009",
+      "room": "B100",
+      "kind": "Teori"
+    },
+    {
+      "day": 1,
       "start": "15:00",
-      "end": "16:00",
+      "end": "16:45",
       "code": "BIL1003",
-      "room": "A-104",
+      "room": "A104",
       "kind": "Teori"
     },
     {
@@ -2255,10 +2271,26 @@
     },
     {
       "day": 2,
+      "start": "09:00",
+      "end": "11:45",
+      "code": "BIL2003",
+      "room": "BZ100",
+      "kind": "Teori"
+    },
+    {
+      "day": 2,
       "start": "13:00",
       "end": "14:00",
       "code": "MUH1003",
       "room": "A-104",
+      "kind": "Teori"
+    },
+    {
+      "day": 3,
+      "start": "09:00",
+      "end": "11:45",
+      "code": "BIL2005",
+      "room": "B100",
       "kind": "Teori"
     },
     {
@@ -2279,6 +2311,14 @@
     },
     {
       "day": 3,
+      "start": "13:00",
+      "end": "15:45",
+      "code": "BIL2001",
+      "room": "BZ100",
+      "kind": "Teori"
+    },
+    {
+      "day": 3,
       "start": "15:00",
       "end": "16:00",
       "code": "OZD0103",
@@ -2295,6 +2335,14 @@
     },
     {
       "day": 4,
+      "start": "10:00",
+      "end": "11:45",
+      "code": "MUH2120",
+      "room": "BZ101",
+      "kind": "Teori"
+    },
+    {
+      "day": 4,
       "start": "13:00",
       "end": "14:00",
       "code": "MUH1003",
@@ -2302,11 +2350,19 @@
       "kind": "Teori"
     },
     {
+      "day": 4,
+      "start": "13:00",
+      "end": "14:45",
+      "code": "BIL2007",
+      "room": "B-044",
+      "kind": "Uygulama"
+    },
+    {
       "day": 5,
       "start": "09:00",
-      "end": "10:00",
+      "end": "11:45",
       "code": "MUH0100",
-      "room": "A-111",
+      "room": "A111",
       "kind": "Teori"
     },
     {

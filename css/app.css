@@ -154,12 +154,42 @@ button, input, select, textarea { font: inherit; color: inherit; }
   backdrop-filter: saturate(1.6) blur(12px);
   border-top: 1px solid var(--line-soft);
 }
-.tabbar a {
+.tabbar a, .tabbar button {
   display: grid; place-content: center; justify-items: center; gap: 2px; position: relative;
   color: var(--txt-3); font-size: 19px; transition: color .15s;
+  background: none; border: 0; padding: 0; cursor: pointer; font-family: var(--ff-head);
 }
-.tabbar a small { font-size: 10px; font-weight: 600; }
-.tabbar a.on { color: var(--acc); }
+.tabbar a small, .tabbar button small { font-size: 10px; font-weight: 600; }
+.tabbar a.on, .tabbar button.on { color: var(--acc); }
+
+/* ---------- mobil "Menü" paneli ----------
+   Alt çubuğa en fazla 5 sekme sığıyor; geri kalan bölümler (Derslerim, Program, Notlar,
+   Ara, Yanlışlarım, Notlarım, İstatistik, Ayarlar) bu panelden açılır. Masaüstünde kenar
+   menü hepsini zaten gösterdiği için panel yalnızca dar ekranda anlamlı. */
+/* z-index alt çubuğun (40) bir altında: çubuk görünür kalır, "Menü"ye tekrar basınca panel kapanır. */
+.more { position: fixed; inset: 0; z-index: 39; }
+.more-backdrop { position: absolute; inset: 0; background: rgba(15, 21, 27, .38); animation: fade .18s ease; }
+.more-panel {
+  position: absolute; left: 0; right: 0; bottom: 0;
+  background: var(--surface); border-top: 1px solid var(--line);
+  border-radius: var(--r-lg) var(--r-lg) 0 0; box-shadow: 0 -8px 30px rgba(15, 21, 27, .16);
+  padding: 10px 14px calc(var(--nav-h) + 14px + env(safe-area-inset-bottom));
+  animation: sheet-up .22s ease;
+}
+.more-head { display: flex; align-items: center; justify-content: space-between; padding: 2px 2px 10px; }
+.more-head b { font-family: var(--fm); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--txt-3); font-weight: 500; }
+.more-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.more-grid a {
+  display: grid; justify-items: center; gap: 6px; padding: 13px 4px 11px; text-align: center;
+  border: 1px solid var(--line-soft); border-radius: var(--r); background: var(--surface-2);
+  color: var(--txt-2); font-family: var(--ff-head); font-size: 12.5px; font-weight: 600; line-height: 1.2;
+}
+.more-grid a .ni { width: 22px; height: 22px; }
+.more-grid a.on { color: var(--acc); border-color: color-mix(in srgb, var(--acc) 45%, var(--line)); background: color-mix(in srgb, var(--acc) 8%, var(--surface)); }
+.more-grid a:active { transform: scale(.98); }
+@keyframes sheet-up { from { transform: translateY(24px); opacity: 0; } }
+@keyframes fade { from { opacity: 0; } }
+@media (min-width: 900px) { .more { display: none !important; } }
 .sidenav { display: none; }
 
 .badge {
