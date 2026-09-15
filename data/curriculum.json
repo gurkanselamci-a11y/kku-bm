@@ -1,0 +1,2329 @@
+{
+  "university": "Kırıkkale Üniversitesi",
+  "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+  "department": "Bilgisayar Mühendisliği",
+  "academicYear": "2026-2027",
+  "activeSemester": 1,
+  "source": "Bologna Bilgi Paketi — obs.kku.edu.tr (curSunit=89461); haftalık program: 2026-2027 Güz",
+  "semesters": [
+    {
+      "n": 1,
+      "label": "1. Yarıyıl",
+      "term": "Güz",
+      "year": 1,
+      "verified": true,
+      "courses": [
+        "BIL1001",
+        "BIL1003",
+        "KKU1019",
+        "MUH0100",
+        "MUH1003",
+        "OZD0101",
+        "OZD0103",
+        "OZD1101"
+      ]
+    },
+    {
+      "n": 2,
+      "label": "2. Yarıyıl",
+      "term": "Bahar",
+      "year": 1,
+      "verified": true,
+      "courses": [
+        "BIL1002",
+        "BIL1004",
+        "BIL1008",
+        "MUH1002",
+        "MUH1006",
+        "OZD0102",
+        "OZD0104",
+        "OZD0106"
+      ]
+    },
+    {
+      "n": 3,
+      "label": "3. Yarıyıl",
+      "term": "Güz",
+      "year": 2,
+      "verified": true,
+      "courses": [
+        "BIL2001",
+        "BIL2003",
+        "BIL2005",
+        "BIL2007",
+        "BIL2009",
+        "KUG1020",
+        "MUH2007",
+        "MUH2120",
+        "BIL2011",
+        "BIL2013",
+        "BIL2015"
+      ]
+    },
+    {
+      "n": 4,
+      "label": "4. Yarıyıl",
+      "term": "Bahar",
+      "year": 2,
+      "verified": true,
+      "courses": [
+        "BIL2000",
+        "BIL2002",
+        "BIL2004",
+        "BIL2006",
+        "KUG1030",
+        "MUH0150",
+        "MUH2004",
+        "MUH2006",
+        "MUH2008"
+      ]
+    },
+    {
+      "n": 5,
+      "label": "5. Yarıyıl",
+      "term": "Güz",
+      "year": 3,
+      "verified": true,
+      "courses": [
+        "BIL3001",
+        "BIL3003",
+        "BIL3005",
+        "BIL3010",
+        "BIL3035",
+        "MUH3007",
+        "BIL3007",
+        "BIL3009",
+        "BIL3011",
+        "BIL3013",
+        "BIL3015",
+        "BIL3017",
+        "BIL3019",
+        "BIL3021",
+        "BIL3023",
+        "BIL3025",
+        "BIL3027",
+        "BIL3029",
+        "BIL3031",
+        "BIL3037",
+        "BIL3039",
+        "BIL3041",
+        "BIL3043",
+        "BIL3045",
+        "BIL3047",
+        "KUG1010",
+        "KUG1040",
+        "MUH0003",
+        "MUH3110"
+      ]
+    },
+    {
+      "n": 6,
+      "label": "6. Yarıyıl",
+      "term": "Bahar",
+      "year": 3,
+      "verified": true,
+      "courses": [
+        "BIL3000",
+        "BIL3002",
+        "BIL3004",
+        "BIL3006",
+        "BIL3020",
+        "MUH3008",
+        "BIL3008",
+        "BIL3012",
+        "BIL3014",
+        "BIL3016",
+        "BIL3018",
+        "BIL3022",
+        "BIL3024",
+        "BIL3026",
+        "BIL3028",
+        "BIL3032",
+        "BIL3034",
+        "BIL3038",
+        "BIL3040",
+        "BIL3042",
+        "BIL3044",
+        "BIL3046",
+        "BIL3048",
+        "BIL3050",
+        "BIL3052",
+        "KUG1050",
+        "MUH0002",
+        "MUH3100"
+      ]
+    },
+    {
+      "n": 7,
+      "label": "7. Yarıyıl",
+      "term": "Güz",
+      "year": 4,
+      "verified": true,
+      "courses": [
+        "BIL4000",
+        "BIL4001",
+        "BIL4003",
+        "BIL4013",
+        "MUH4007",
+        "BIL4005",
+        "BIL4007",
+        "BIL4009",
+        "BIL4011",
+        "BIL4015",
+        "BIL4017",
+        "BIL4019",
+        "BIL4021",
+        "BIL4023",
+        "BIL4025",
+        "BIL4027",
+        "BIL4029",
+        "BIL4031",
+        "BIL4033",
+        "BIL4035",
+        "BIL4037",
+        "BIL4039",
+        "BIL4041",
+        "BIL4043",
+        "MUH4001",
+        "MUH4100"
+      ]
+    },
+    {
+      "n": 8,
+      "label": "8. Yarıyıl",
+      "term": "Bahar",
+      "year": 4,
+      "verified": true,
+      "courses": [
+        "BIL4002",
+        "BIL4010",
+        "BIL4012",
+        "BIL4040",
+        "BIL4004",
+        "BIL4006",
+        "BIL4008",
+        "BIL4014",
+        "BIL4016",
+        "BIL4018",
+        "BIL4022",
+        "BIL4024",
+        "BIL4026",
+        "BIL4028",
+        "BIL4032",
+        "BIL4034",
+        "BIL4036",
+        "BIL4038",
+        "BIL4042",
+        "BIL4044",
+        "BIL4046",
+        "BIL4048",
+        "KKU0200",
+        "MUH0140",
+        "MUH4002"
+      ]
+    }
+  ],
+  "courseIndex": {
+    "BIL1001": {
+      "name": "Programlama Tekniklerine Giriş",
+      "shortName": "Programlama",
+      "icon": "code",
+      "color": "#2f5d8a",
+      "credits": {
+        "t": 3,
+        "u": 2,
+        "l": 0,
+        "kredi": 4,
+        "akts": 5
+      },
+      "instructor": "Erdal Erdal"
+    },
+    "BIL1003": {
+      "name": "Bilgisayar Mühendisliğine Giriş",
+      "shortName": "BM Giriş",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 2,
+        "u": 0,
+        "l": 0,
+        "kredi": 2,
+        "akts": 1
+      },
+      "instructor": "Fahrettin Horasan"
+    },
+    "KKU1019": {
+      "name": "Matematik 1",
+      "shortName": "Matematik 1",
+      "icon": "sigma",
+      "color": "#5b4a8a",
+      "credits": {
+        "t": 4,
+        "u": 0,
+        "l": 0,
+        "kredi": 4,
+        "akts": 6
+      },
+      "instructor": "İshak Altun"
+    },
+    "MUH0100": {
+      "name": "Lineer Cebir",
+      "shortName": "Lineer Cebir",
+      "icon": "sigma",
+      "color": "#5b4a8a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 6
+      },
+      "instructor": "Mehmet Yıldırım"
+    },
+    "MUH1003": {
+      "name": "Fizik 1",
+      "shortName": "Fizik 1",
+      "icon": "sigma",
+      "color": "#5b4a8a",
+      "credits": {
+        "t": 3,
+        "u": 1,
+        "l": 0,
+        "kredi": 4,
+        "akts": 6
+      },
+      "instructor": "Salih Demirci"
+    },
+    "OZD0101": {
+      "name": "Türk Dili 1",
+      "shortName": "Türk Dili 1",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 2,
+        "u": 0,
+        "l": 0,
+        "kredi": 2,
+        "akts": 2
+      },
+      "instructor": "Esra Emin Yaşar"
+    },
+    "OZD0103": {
+      "name": "Atatürk İlkeleri ve İnkılap Tarihi 1",
+      "shortName": "AİİT 1",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 2,
+        "u": 0,
+        "l": 0,
+        "kredi": 2,
+        "akts": 2
+      },
+      "instructor": "Orhan Avcı"
+    },
+    "OZD1101": {
+      "name": "İngilizce 1",
+      "shortName": "İngilizce 1",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 2,
+        "u": 0,
+        "l": 0,
+        "kredi": 2,
+        "akts": 2
+      },
+      "instructor": "Funda Dağabak"
+    },
+    "BIL1002": {
+      "name": "Yapısal Programlama",
+      "shortName": "Yapısal Prog.",
+      "icon": "code",
+      "color": "#2f5d8a",
+      "credits": {
+        "t": 3,
+        "u": 2,
+        "l": 0,
+        "kredi": 4,
+        "akts": 5
+      },
+      "instructor": "Erdal Erdal"
+    },
+    "BIL1004": {
+      "name": "Elektrik Devreleri",
+      "shortName": "Elektrik Devreleri",
+      "icon": "cpu",
+      "color": "#a9662a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      }
+    },
+    "BIL1008": {
+      "name": "Olasılık Teorisi",
+      "shortName": "Olasılık",
+      "icon": "sigma",
+      "color": "#5b4a8a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 3
+      },
+      "instructor": "Mehmet Pınarbaşı"
+    },
+    "MUH1002": {
+      "name": "Fizik 2",
+      "shortName": "Fizik 2",
+      "icon": "sigma",
+      "color": "#5b4a8a",
+      "credits": {
+        "t": 3,
+        "u": 1,
+        "l": 0,
+        "kredi": 4,
+        "akts": 6
+      },
+      "instructor": "Salih Demirci"
+    },
+    "MUH1006": {
+      "name": "Matematik 2",
+      "shortName": "Matematik 2",
+      "icon": "sigma",
+      "color": "#5b4a8a",
+      "credits": {
+        "t": 4,
+        "u": 0,
+        "l": 0,
+        "kredi": 4,
+        "akts": 6
+      },
+      "instructor": "İshak Altun"
+    },
+    "OZD0102": {
+      "name": "Türk Dili 2",
+      "shortName": "Türk Dili 2",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 2,
+        "u": 0,
+        "l": 0,
+        "kredi": 2,
+        "akts": 2
+      },
+      "instructor": "Esra Emin Yaşar"
+    },
+    "OZD0104": {
+      "name": "Atatürk İlkeleri ve İnkılap Tarihi 2",
+      "shortName": "AİİT 2",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 2,
+        "u": 0,
+        "l": 0,
+        "kredi": 2,
+        "akts": 2
+      },
+      "instructor": "Orhan Avcı"
+    },
+    "OZD0106": {
+      "name": "İngilizce 2",
+      "shortName": "İngilizce 2",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 2,
+        "u": 0,
+        "l": 0,
+        "kredi": 2,
+        "akts": 2
+      },
+      "instructor": "Funda Dağabak"
+    },
+    "BIL2001": {
+      "name": "Ayrık Matematik",
+      "shortName": "Ayrık Matematik",
+      "icon": "sigma",
+      "color": "#5b4a8a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 3
+      },
+      "instructor": "Fahrettin Horasan"
+    },
+    "BIL2003": {
+      "name": "Nesne Yönelimli Programlama",
+      "shortName": "OOP",
+      "icon": "code",
+      "color": "#2f5d8a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "instructor": "Bülent Gürsel Emiroğlu"
+    },
+    "BIL2005": {
+      "name": "Mantıksal Devre Tasarımı",
+      "shortName": "Mantıksal Devre",
+      "icon": "cpu",
+      "color": "#a9662a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "instructor": "Halil Murat Ünver"
+    },
+    "BIL2007": {
+      "name": "Mantıksal Devre Tasarımı Laboratuvarı",
+      "shortName": "Mantıksal Devre Lab",
+      "icon": "cpu",
+      "color": "#a9662a",
+      "credits": {
+        "t": 0,
+        "u": 2,
+        "l": 0,
+        "kredi": 1,
+        "akts": 2
+      }
+    },
+    "BIL2009": {
+      "name": "Veri Yapıları",
+      "shortName": "Veri Yapıları",
+      "icon": "database",
+      "color": "#2b6b4f",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 5
+      }
+    },
+    "KUG1020": {
+      "name": "İş Sağlığı ve Güvenliği 1",
+      "shortName": "İSG 1",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 2,
+        "u": 0,
+        "l": 0,
+        "kredi": 2,
+        "akts": 2
+      },
+      "instructor": "Halil Murat Ünver"
+    },
+    "MUH2007": {
+      "name": "Mesleki İngilizce 1",
+      "shortName": "Mesleki İng. 1",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 2,
+        "u": 0,
+        "l": 0,
+        "kredi": 2,
+        "akts": 3
+      },
+      "instructor": "Mustafa Yurdakul"
+    },
+    "MUH2120": {
+      "name": "Diferansiyel Denklemler",
+      "shortName": "Dif. Denklemler",
+      "icon": "sigma",
+      "color": "#5b4a8a",
+      "credits": {
+        "t": 4,
+        "u": 0,
+        "l": 0,
+        "kredi": 4,
+        "akts": 5
+      },
+      "instructor": "İlker Gençtürk"
+    },
+    "BIL2011": {
+      "name": "Teknoloji ve Etik",
+      "shortName": "Teknoloji ve Etik",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 2
+      },
+      "elective": true
+    },
+    "BIL2013": {
+      "name": "Kariyer Planlama ve Kişisel Gelişim",
+      "shortName": "Kariyer Planlama",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 2
+      },
+      "elective": true,
+      "instructor": "Muhammed Ali Erbir"
+    },
+    "BIL2015": {
+      "name": "Dijital Okuryazarlık ve Eleştirel Düşünme",
+      "shortName": "Dijital Okuryazarlık…",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 2
+      },
+      "elective": true
+    },
+    "BIL2000": {
+      "name": "Staj 1",
+      "shortName": "Staj 1",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 0,
+        "u": 2,
+        "l": 0,
+        "kredi": 1,
+        "akts": 2
+      }
+    },
+    "BIL2002": {
+      "name": "Bilgisayar Tasarımı ve Organizasyonu",
+      "shortName": "Bilg. Tasarımı",
+      "icon": "cpu",
+      "color": "#a9662a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "instructor": "Halil Murat Ünver"
+    },
+    "BIL2004": {
+      "name": "Algoritmalar",
+      "shortName": "Algoritmalar",
+      "icon": "sigma",
+      "color": "#5b4a8a",
+      "credits": {
+        "t": 3,
+        "u": 2,
+        "l": 0,
+        "kredi": 4,
+        "akts": 5
+      }
+    },
+    "BIL2006": {
+      "name": "Web Teknolojileri",
+      "shortName": "Web Teknolojileri",
+      "icon": "code",
+      "color": "#2f5d8a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 3
+      }
+    },
+    "KUG1030": {
+      "name": "İş Sağlığı ve Güvenliği 2",
+      "shortName": "İSG 2",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 2,
+        "u": 0,
+        "l": 0,
+        "kredi": 2,
+        "akts": 2
+      },
+      "instructor": "Halil Murat Ünver"
+    },
+    "MUH0150": {
+      "name": "Nümerik Analiz 1",
+      "shortName": "Nümerik Analiz 1",
+      "icon": "sigma",
+      "color": "#5b4a8a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      }
+    },
+    "MUH2004": {
+      "name": "Elektronik Devreleri Laboratuvarı 1",
+      "shortName": "Elektronik Dev. Lab",
+      "icon": "cpu",
+      "color": "#a9662a",
+      "credits": {
+        "t": 0,
+        "u": 2,
+        "l": 0,
+        "kredi": 1,
+        "akts": 2
+      }
+    },
+    "MUH2006": {
+      "name": "Elektronik Devreleri 1",
+      "shortName": "Elektronik Dev. 1",
+      "icon": "cpu",
+      "color": "#a9662a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 5
+      }
+    },
+    "MUH2008": {
+      "name": "Mesleki İngilizce 2",
+      "shortName": "Mesleki İng. 2",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 2,
+        "u": 0,
+        "l": 0,
+        "kredi": 2,
+        "akts": 3
+      }
+    },
+    "BIL3001": {
+      "name": "Bilgisayar Mimarisi",
+      "shortName": "Bilg. Mimarisi",
+      "icon": "cpu",
+      "color": "#a9662a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      "instructor": "Halil Murat Ünver"
+    },
+    "BIL3003": {
+      "name": "İşletim Sistemleri",
+      "shortName": "İşletim Sist.",
+      "icon": "network",
+      "color": "#1f6f78",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 6
+      },
+      "instructor": "Atilla Ergüzen"
+    },
+    "BIL3005": {
+      "name": "Veritabanı Sistemleri",
+      "shortName": "Veritabanı",
+      "icon": "database",
+      "color": "#2b6b4f",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      "instructor": "Enes Ayan"
+    },
+    "BIL3010": {
+      "name": "Proje 1",
+      "shortName": "Proje 1",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 2,
+        "u": 1,
+        "l": 0,
+        "kredi": 3,
+        "akts": 3
+      }
+    },
+    "BIL3035": {
+      "name": "İstatistik",
+      "shortName": "İstatistik",
+      "icon": "sigma",
+      "color": "#5b4a8a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 3
+      }
+    },
+    "MUH3007": {
+      "name": "Sunum Teknikleri ve Akademik İngilizce",
+      "shortName": "Sunum Teknikleri",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 2,
+        "u": 0,
+        "l": 0,
+        "kredi": 2,
+        "akts": 2
+      }
+    },
+    "BIL3007": {
+      "name": "Graf Teorisi",
+      "shortName": "Graf Teorisi",
+      "icon": "sigma",
+      "color": "#5b4a8a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL3009": {
+      "name": "İnsan Bilgisayar Etkileşimi",
+      "shortName": "İnsan Bilgisayar Etki…",
+      "icon": "code",
+      "color": "#2f5d8a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 2
+      },
+      "elective": true
+    },
+    "BIL3011": {
+      "name": "Yapay Sinir Ağları",
+      "shortName": "Yapay Sinir Ağları",
+      "icon": "database",
+      "color": "#2b6b4f",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true,
+      "instructor": "Enes Ayan"
+    },
+    "BIL3013": {
+      "name": "Kuyruk Teorisi",
+      "shortName": "Kuyruk Teorisi",
+      "icon": "sigma",
+      "color": "#5b4a8a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL3015": {
+      "name": "Ağ Teknolojilerinde Yönlendirme ve Anahtarlama",
+      "shortName": "Ağ Teknolojilerinde Y…",
+      "icon": "network",
+      "color": "#1f6f78",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL3017": {
+      "name": "Mobil Programlama",
+      "shortName": "Mobil Programlama",
+      "icon": "code",
+      "color": "#2f5d8a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL3019": {
+      "name": "Optimizasyon Algoritmaları",
+      "shortName": "Optimizasyon Algoritm…",
+      "icon": "sigma",
+      "color": "#5b4a8a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL3021": {
+      "name": "Oyun Programlama",
+      "shortName": "Oyun Programlama",
+      "icon": "cube",
+      "color": "#8c3f6b",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL3023": {
+      "name": "Bilgi Güvenliği",
+      "shortName": "Bilgi Güvenliği",
+      "icon": "shield",
+      "color": "#a8322a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 2
+      },
+      "elective": true,
+      "instructor": "Sakine Yalman"
+    },
+    "BIL3025": {
+      "name": "Python Programlama",
+      "shortName": "Python",
+      "icon": "code",
+      "color": "#2f5d8a",
+      "credits": {
+        "t": 3,
+        "u": 2,
+        "l": 1,
+        "kredi": 5,
+        "akts": 4
+      },
+      "elective": true,
+      "instructor": "Mustafa Yurdakul"
+    },
+    "BIL3027": {
+      "name": "Temiz ve Okunabilir Kod Geliştirme",
+      "shortName": "Temiz ve Okunabilir K…",
+      "icon": "code",
+      "color": "#2f5d8a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL3029": {
+      "name": "FPGA ve Verilog Donanım Tanımlama Diline Giriş",
+      "shortName": "FPGA ve Verilog Donan…",
+      "icon": "cpu",
+      "color": "#a9662a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL3031": {
+      "name": "E-Ticaret ve Uygulamaları",
+      "shortName": "E-Ticaret ve Uygulama…",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL3037": {
+      "name": "Bilişim Etiği 1",
+      "shortName": "Bilişim Etiği 1",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 3
+      },
+      "elective": true
+    },
+    "BIL3039": {
+      "name": "Tıbbi Cihaz Yasal Düzenlemeleri ve Süreçler",
+      "shortName": "Tıbbi Cihaz Yasal Düz…",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 2
+      },
+      "elective": true
+    },
+    "BIL3041": {
+      "name": "Biyomedikal Uygulamalar",
+      "shortName": "Biyomedikal Uygulamal…",
+      "icon": "cpu",
+      "color": "#a9662a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 2
+      },
+      "elective": true
+    },
+    "BIL3043": {
+      "name": "Robotik Uygulamaları",
+      "shortName": "Robotik",
+      "icon": "cpu",
+      "color": "#a9662a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true,
+      "instructor": "İrfan Atabaş"
+    },
+    "BIL3045": {
+      "name": "Çalışma Alan Semineri 1",
+      "shortName": "Çalışma Alan Semineri…",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 2
+      },
+      "elective": true
+    },
+    "BIL3047": {
+      "name": "Artırılmış ve Sanal Gerçeklik Uygulamaları 1",
+      "shortName": "Artırılmış ve Sanal G…",
+      "icon": "cube",
+      "color": "#8c3f6b",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "KUG1010": {
+      "name": "Gönüllülük Çalışmaları",
+      "shortName": "Gönüllülük Çalışmaları",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 1,
+        "u": 2,
+        "l": 0,
+        "kredi": 2,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "KUG1040": {
+      "name": "Girişimcilik 1",
+      "shortName": "Girişimcilik 1",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 2,
+        "u": 0,
+        "l": 0,
+        "kredi": 2,
+        "akts": 3
+      },
+      "elective": true
+    },
+    "MUH0003": {
+      "name": "Çevre ve Ekolojik Denge",
+      "shortName": "Çevre ve Ekolojik Den…",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 2,
+        "u": 0,
+        "l": 0,
+        "kredi": 2,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "MUH3110": {
+      "name": "Programlama Dilleri",
+      "shortName": "Prog. Dilleri",
+      "icon": "code",
+      "color": "#2f5d8a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      "elective": true,
+      "instructor": "Bülent Gürsel Emiroğlu"
+    },
+    "BIL3000": {
+      "name": "Staj 2",
+      "shortName": "Staj 2",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 0,
+        "u": 2,
+        "l": 0,
+        "kredi": 1,
+        "akts": 3
+      }
+    },
+    "BIL3002": {
+      "name": "Biçimsel Diller ve Otomata",
+      "shortName": "Biçimsel Diller",
+      "icon": "sigma",
+      "color": "#5b4a8a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      }
+    },
+    "BIL3004": {
+      "name": "Mikroişlemciler",
+      "shortName": "Mikroişlemciler",
+      "icon": "cpu",
+      "color": "#a9662a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 5
+      }
+    },
+    "BIL3006": {
+      "name": "Veritabanı Uygulamaları",
+      "shortName": "Veritabanı Uyg.",
+      "icon": "database",
+      "color": "#2b6b4f",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 3
+      }
+    },
+    "BIL3020": {
+      "name": "Proje 2",
+      "shortName": "Proje 2",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 2,
+        "u": 1,
+        "l": 0,
+        "kredi": 3,
+        "akts": 3
+      }
+    },
+    "MUH3008": {
+      "name": "Sürdürülebilirlik ve İklim Değişikliği",
+      "shortName": "Sürdürülebilirlik",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 2,
+        "u": 0,
+        "l": 0,
+        "kredi": 2,
+        "akts": 2
+      }
+    },
+    "BIL3008": {
+      "name": "Derleyici ve Kod Üretimi",
+      "shortName": "Derleyici Tasarımı",
+      "icon": "code",
+      "color": "#2f5d8a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL3012": {
+      "name": "Bilgisayar Mühendisliğinde Özel Konular",
+      "shortName": "Bilgisayar Mühendisli…",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL3014": {
+      "name": "Genetik Algoritmalar ve Programlama",
+      "shortName": "Genetik Algoritmalar…",
+      "icon": "database",
+      "color": "#2b6b4f",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL3016": {
+      "name": "Bilgisayar Mühendisliğinde Özel Konular (SS)",
+      "shortName": "Bilgisayar Mühendisli…",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 2
+      },
+      "elective": true
+    },
+    "BIL3018": {
+      "name": "Web Programlama",
+      "shortName": "Web Programlama",
+      "icon": "code",
+      "color": "#2f5d8a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL3022": {
+      "name": "Benzetim",
+      "shortName": "Benzetim",
+      "icon": "sigma",
+      "color": "#5b4a8a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL3024": {
+      "name": "Programlanabilir Mantık Denetleyicileri (PLC)",
+      "shortName": "Programlanabilir Mant…",
+      "icon": "cpu",
+      "color": "#a9662a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL3026": {
+      "name": "Java Programlama",
+      "shortName": "Java Programlama",
+      "icon": "code",
+      "color": "#2f5d8a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL3028": {
+      "name": "Bilişim Hukuku",
+      "shortName": "Bilişim Hukuku",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 2
+      },
+      "elective": true
+    },
+    "BIL3032": {
+      "name": "Bilişim Etiği 2",
+      "shortName": "Bilişim Etiği 2",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 2
+      },
+      "elective": true
+    },
+    "BIL3034": {
+      "name": "Tasarım Örüntüleri ve Mimarileri",
+      "shortName": "Tasarım Örüntüleri ve…",
+      "icon": "code",
+      "color": "#2f5d8a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL3038": {
+      "name": "Yazılım Sistemleri ve Güvenliği",
+      "shortName": "Yazılım Sistemleri ve…",
+      "icon": "shield",
+      "color": "#a8322a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL3040": {
+      "name": "Veri Yönetimi ve Dosya Yapıları",
+      "shortName": "Veri Yönetimi ve Dosy…",
+      "icon": "database",
+      "color": "#2b6b4f",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL3042": {
+      "name": "Yazılım Kalite Güvencesi",
+      "shortName": "Yazılım Kalite Güvenc…",
+      "icon": "code",
+      "color": "#2f5d8a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 2
+      },
+      "elective": true
+    },
+    "BIL3044": {
+      "name": "Tıbbi Cihazlarda Kalite Yönetim Sisteminin Kurulması",
+      "shortName": "Tıbbi Cihazlarda Kali…",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 2
+      },
+      "elective": true
+    },
+    "BIL3046": {
+      "name": "GPU Programlama",
+      "shortName": "GPU Programlama",
+      "icon": "code",
+      "color": "#2f5d8a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL3048": {
+      "name": "Çalışma Alan Semineri 2",
+      "shortName": "Çalışma Alan Semineri…",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 2
+      },
+      "elective": true
+    },
+    "BIL3050": {
+      "name": "Tıp Bilişimi",
+      "shortName": "Tıp Bilişimi",
+      "icon": "database",
+      "color": "#2b6b4f",
+      "credits": {
+        "t": 2,
+        "u": 0,
+        "l": 0,
+        "kredi": 2,
+        "akts": 2
+      },
+      "elective": true
+    },
+    "BIL3052": {
+      "name": "Artırılmış ve Sanal Gerçeklik Uygulamaları 2",
+      "shortName": "Artırılmış ve Sanal G…",
+      "icon": "cube",
+      "color": "#8c3f6b",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "KUG1050": {
+      "name": "Girişimcilik 2",
+      "shortName": "Girişimcilik 2",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 2,
+        "u": 0,
+        "l": 0,
+        "kredi": 2,
+        "akts": 3
+      },
+      "elective": true
+    },
+    "MUH0002": {
+      "name": "Bulanık Mantık",
+      "shortName": "Bulanık Mantık",
+      "icon": "database",
+      "color": "#2b6b4f",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      "elective": true
+    },
+    "MUH3100": {
+      "name": "Sinyaller ve Sistemler",
+      "shortName": "Sinyaller ve Sistemler",
+      "icon": "cpu",
+      "color": "#a9662a",
+      "credits": {
+        "t": 4,
+        "u": 0,
+        "l": 0,
+        "kredi": 4,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL4000": {
+      "name": "Bitirme Projesi 1",
+      "shortName": "Bitirme Projesi 1",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 2,
+        "u": 1,
+        "l": 0,
+        "kredi": 3,
+        "akts": 3
+      }
+    },
+    "BIL4001": {
+      "name": "Veri İletişimi",
+      "shortName": "Veri İletişimi",
+      "icon": "network",
+      "color": "#1f6f78",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      "instructor": "Bülent Gürsel Emiroğlu"
+    },
+    "BIL4003": {
+      "name": "Yazılım Mühendisliği",
+      "shortName": "Yazılım Müh.",
+      "icon": "code",
+      "color": "#2f5d8a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      "instructor": "Serkan Savaş"
+    },
+    "BIL4013": {
+      "name": "Sunucu ve Güvenlik Sistemleri",
+      "shortName": "Sunucu + Güvenlik",
+      "icon": "shield",
+      "color": "#a8322a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 3
+      },
+      "instructor": "Erdal Erdal"
+    },
+    "MUH4007": {
+      "name": "Çok Disiplinli Mühendislik Tasarım Projesi",
+      "shortName": "Çok Disiplinli Mühend…",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 0,
+        "u": 2,
+        "l": 0,
+        "kredi": 1,
+        "akts": 2
+      }
+    },
+    "BIL4005": {
+      "name": "Kriptografiye Giriş",
+      "shortName": "Kriptografi",
+      "icon": "shield",
+      "color": "#a8322a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true,
+      "instructor": "Sakine Yalman"
+    },
+    "BIL4007": {
+      "name": "Nesne Yönelimli Tasarım ve Analiz",
+      "shortName": "Nesne Yönelimli Tasar…",
+      "icon": "code",
+      "color": "#2f5d8a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL4009": {
+      "name": "İleri Bilgisayar Mimarisi",
+      "shortName": "İleri Bilgisayar Mima…",
+      "icon": "cpu",
+      "color": "#a9662a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL4011": {
+      "name": "Ağ Optimizasyonu",
+      "shortName": "Ağ Optimizasyonu",
+      "icon": "network",
+      "color": "#1f6f78",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL4015": {
+      "name": "Doğal Dil İşleme",
+      "shortName": "Doğal Dil İşleme",
+      "icon": "database",
+      "color": "#2b6b4f",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL4017": {
+      "name": "Bulut Bilişim ve Uygulamaları",
+      "shortName": "Bulut Bilişim ve Uygu…",
+      "icon": "network",
+      "color": "#1f6f78",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL4019": {
+      "name": "Nesnelerin İnterneti",
+      "shortName": "IoT",
+      "icon": "cpu",
+      "color": "#a9662a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true,
+      "instructor": "Muhammed Ali Erbir"
+    },
+    "BIL4021": {
+      "name": "Veri Madenciliği",
+      "shortName": "Veri Madenciliği",
+      "icon": "database",
+      "color": "#2b6b4f",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL4023": {
+      "name": "Makina Öğrenmesi",
+      "shortName": "Makine Öğrenmesi",
+      "icon": "database",
+      "color": "#2b6b4f",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true,
+      "instructor": "Serkan Savaş"
+    },
+    "BIL4025": {
+      "name": "Uzaktan Eğitim ve E-Öğrenme",
+      "shortName": "Uzaktan Eğitim ve E-Ö…",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL4027": {
+      "name": "Algoritma Analizi 1",
+      "shortName": "Algoritma Analizi 1",
+      "icon": "sigma",
+      "color": "#5b4a8a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL4029": {
+      "name": "Endüstriyel Bilgisayarlar",
+      "shortName": "Endüstriyel Bilgisaya…",
+      "icon": "cpu",
+      "color": "#a9662a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL4031": {
+      "name": "Bilgisayar Mühendisliği Akademik Bilgi Yönetimi",
+      "shortName": "Bilgisayar Mühendisli…",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 1,
+        "u": 2,
+        "l": 0,
+        "kredi": 2,
+        "akts": 2
+      },
+      "elective": true
+    },
+    "BIL4033": {
+      "name": "Bilgisayar Mühendisliğinde Akademik Çalışmalar 1",
+      "shortName": "Bilgisayar Mühendisli…",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL4035": {
+      "name": "Paralel Ve Dağıtık Sistemler",
+      "shortName": "Paralel Ve Dağıtık Si…",
+      "icon": "network",
+      "color": "#1f6f78",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL4037": {
+      "name": "Unity İle Oyun Geliştirme",
+      "shortName": "Unity İle Oyun Gelişt…",
+      "icon": "cube",
+      "color": "#8c3f6b",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL4039": {
+      "name": "Tıbbi Görüntü İşleme",
+      "shortName": "Tıbbi Görüntü İşleme",
+      "icon": "cube",
+      "color": "#8c3f6b",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL4041": {
+      "name": "Modelleme ve Simülasyon",
+      "shortName": "Modelleme ve Simülasy…",
+      "icon": "sigma",
+      "color": "#5b4a8a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL4043": {
+      "name": "Büyük Dil Modelleri",
+      "shortName": "Büyük Dil Modelleri",
+      "icon": "database",
+      "color": "#2b6b4f",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true,
+      "instructor": "Mustafa Yurdakul"
+    },
+    "MUH4001": {
+      "name": "Gömülü Sistemler",
+      "shortName": "Gömülü Sistemler",
+      "icon": "cpu",
+      "color": "#a9662a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      "elective": true,
+      "instructor": "İrfan Atabaş"
+    },
+    "MUH4100": {
+      "name": "Yapay Zeka",
+      "shortName": "Yapay Zeka",
+      "icon": "database",
+      "color": "#2b6b4f",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      "elective": true,
+      "instructor": "Enes Ayan"
+    },
+    "BIL4002": {
+      "name": "Bilgisayar Ağları",
+      "shortName": "Bilgisayar Ağları",
+      "icon": "network",
+      "color": "#1f6f78",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 5
+      }
+    },
+    "BIL4010": {
+      "name": "Bitirme Projesi 2",
+      "shortName": "Bitirme Projesi 2",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 2,
+        "u": 1,
+        "l": 0,
+        "kredi": 3,
+        "akts": 3
+      }
+    },
+    "BIL4012": {
+      "name": "Yazılım Mühendisliği ve Uygulamaları",
+      "shortName": "Yazılım Müh. Uyg.",
+      "icon": "code",
+      "color": "#2f5d8a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 3
+      }
+    },
+    "BIL4040": {
+      "name": "Mühendislik Ekonomisi",
+      "shortName": "Mühendislik Ekonomisi",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 3
+      }
+    },
+    "BIL4004": {
+      "name": "Sistem Programlama",
+      "shortName": "Sistem Programlama",
+      "icon": "network",
+      "color": "#1f6f78",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL4006": {
+      "name": "Kablosuz Mobil Ağlara Giriş",
+      "shortName": "Kablosuz Mobil Ağlar",
+      "icon": "network",
+      "color": "#1f6f78",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL4008": {
+      "name": "Kontrol Sistemleri",
+      "shortName": "Kontrol Sistemleri",
+      "icon": "cpu",
+      "color": "#a9662a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL4014": {
+      "name": "Mikrodenetleyiciler",
+      "shortName": "Mikrodenetleyiciler",
+      "icon": "cpu",
+      "color": "#a9662a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL4016": {
+      "name": "Derin Öğrenme",
+      "shortName": "Derin Öğrenme",
+      "icon": "database",
+      "color": "#2b6b4f",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL4018": {
+      "name": "İleri Programlama",
+      "shortName": "İleri Programlama",
+      "icon": "code",
+      "color": "#2f5d8a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL4022": {
+      "name": "Mikroişlemciler Uygulamaları",
+      "shortName": "Mikroişlemciler Uygul…",
+      "icon": "cpu",
+      "color": "#a9662a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL4024": {
+      "name": "Siber Güvenlik",
+      "shortName": "Siber Güvenlik",
+      "icon": "shield",
+      "color": "#a8322a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL4026": {
+      "name": "Büyük Veri",
+      "shortName": "Büyük Veri",
+      "icon": "database",
+      "color": "#2b6b4f",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 3
+      },
+      "elective": true
+    },
+    "BIL4028": {
+      "name": "Metin Madenciliği",
+      "shortName": "Metin Madenciliği",
+      "icon": "database",
+      "color": "#2b6b4f",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL4032": {
+      "name": "Bilgisayarlı Grafik ve Animasyon",
+      "shortName": "Bilgisayarlı Grafik v…",
+      "icon": "cube",
+      "color": "#8c3f6b",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL4034": {
+      "name": "Yazılım Geçerleme ve Sınama",
+      "shortName": "Yazılım Geçerleme ve…",
+      "icon": "code",
+      "color": "#2f5d8a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL4036": {
+      "name": "Algoritma Analizi 2",
+      "shortName": "Algoritma Analizi 2",
+      "icon": "sigma",
+      "color": "#5b4a8a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL4038": {
+      "name": "Veri Gizleme",
+      "shortName": "Veri Gizleme",
+      "icon": "shield",
+      "color": "#a8322a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL4042": {
+      "name": "Büyük Ölçekli Yazılım Geliştirme ve Mimarileri",
+      "shortName": "Büyük Ölçekli Yazılım…",
+      "icon": "code",
+      "color": "#2f5d8a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL4044": {
+      "name": "Bilgisayar Mühendisliği Sektör Analizi",
+      "shortName": "Bilgisayar Mühendisli…",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 1,
+        "u": 2,
+        "l": 0,
+        "kredi": 2,
+        "akts": 2
+      },
+      "elective": true
+    },
+    "BIL4046": {
+      "name": "Bilgisayar Mühendisliğinde Akademik Çalışmalar 2",
+      "shortName": "Bilgisayar Mühendisli…",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "BIL4048": {
+      "name": "Sızma Testleri ve Güvenlik Önlemleri",
+      "shortName": "Sızma Testleri ve Güv…",
+      "icon": "shield",
+      "color": "#a8322a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "KKU0200": {
+      "name": "Yöneylem Araştırması 1",
+      "shortName": "Yöneylem Araştırması 1",
+      "icon": "sigma",
+      "color": "#5b4a8a",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      "elective": true
+    },
+    "MUH0140": {
+      "name": "Nanoteknolojiler",
+      "shortName": "Nanoteknolojiler",
+      "icon": "book",
+      "color": "#5a6470",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      "elective": true
+    },
+    "MUH4002": {
+      "name": "Görüntü İşleme",
+      "shortName": "Görüntü İşleme",
+      "icon": "cube",
+      "color": "#8c3f6b",
+      "credits": {
+        "t": 3,
+        "u": 0,
+        "l": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      "elective": true
+    }
+  },
+  "schedule": [
+    {
+      "day": 1,
+      "start": "13:00",
+      "end": "14:00",
+      "code": "KKU1019",
+      "room": "A-104",
+      "kind": "Teori"
+    },
+    {
+      "day": 1,
+      "start": "15:00",
+      "end": "16:00",
+      "code": "BIL1003",
+      "room": "A-104",
+      "kind": "Teori"
+    },
+    {
+      "day": 2,
+      "start": "09:00",
+      "end": "10:00",
+      "code": "BIL1001",
+      "room": "A-100",
+      "kind": "Teori"
+    },
+    {
+      "day": 2,
+      "start": "13:00",
+      "end": "14:00",
+      "code": "MUH1003",
+      "room": "A-104",
+      "kind": "Teori"
+    },
+    {
+      "day": 3,
+      "start": "10:00",
+      "end": "11:00",
+      "code": "OZD0101",
+      "room": "A-109",
+      "kind": "Teori"
+    },
+    {
+      "day": 3,
+      "start": "13:00",
+      "end": "14:00",
+      "code": "OZD1101",
+      "room": "A-106",
+      "kind": "Teori"
+    },
+    {
+      "day": 3,
+      "start": "15:00",
+      "end": "16:00",
+      "code": "OZD0103",
+      "room": "A-111",
+      "kind": "Teori"
+    },
+    {
+      "day": 4,
+      "start": "10:00",
+      "end": "11:00",
+      "code": "KKU1019",
+      "room": "A-108",
+      "kind": "Teori"
+    },
+    {
+      "day": 4,
+      "start": "13:00",
+      "end": "14:00",
+      "code": "MUH1003",
+      "room": "A-111",
+      "kind": "Teori"
+    },
+    {
+      "day": 5,
+      "start": "09:00",
+      "end": "10:00",
+      "code": "MUH0100",
+      "room": "A-111",
+      "kind": "Teori"
+    },
+    {
+      "day": 5,
+      "start": "14:00",
+      "end": "15:00",
+      "code": "BIL1001",
+      "room": "AZ01",
+      "kind": "Uygulama"
+    },
+    {
+      "day": 5,
+      "start": "16:00",
+      "end": "17:00",
+      "code": "KIG1020",
+      "room": "BZ100",
+      "kind": "Teori"
+    }
+  ]
+}

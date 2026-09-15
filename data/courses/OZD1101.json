@@ -1,0 +1,2985 @@
+{
+  "code": "OZD1101",
+  "name": "İngilizce 1",
+  "shortName": "İngilizce 1",
+  "semester": 1,
+  "icon": "book",
+  "color": "#5a6470",
+  "instructor": "Funda Dağabak",
+  "credits": {
+    "t": 2,
+    "u": 0,
+    "kredi": 2,
+    "akts": 2
+  },
+  "description": "Ortak zorunlu İngilizce dersinin ilk yarıyılı; A1-A2 seviyesinde temel dilbilgisi yapılarını, günlük iletişim kalıplarını ve üniversite-teknoloji alanına ait temel kelime dağarcığını kazandırır. Amaç, öğrencinin kendini tanıtabilmesi, çevresini betimleyebilmesi ve basit metinleri anlayıp üretebilmesidir. Bilgisayar mühendisliği literatürünün büyük bölümü İngilizce olduğu için bu ders mesleki okuma becerisinin de temelini atar.",
+  "outcomes": [
+    "Kendini, ailesini ve günlük yaşamını basit cümlelerle tanıtabilir.",
+    "\"to be\", Present Simple, Present Continuous ve Past Simple yapılarını doğru kurabilir.",
+    "Tanımlıkları, çoğul isimleri ve miktar belirteçlerini kurallara uygun kullanabilir.",
+    "Bir odayı, laboratuvarı veya kampüsü yer edatlarıyla betimleyebilir.",
+    "Sıfatların karşılaştırma ve en üstünlük derecelerini kullanarak kıyaslama yapabilir.",
+    "Gelecek planlarını \"be going to\" ve \"will\" yapılarıyla ifade edebilir.",
+    "Bilgisayar ve üniversite hayatına ilişkin temel İngilizce kelime dağarcığını tanır ve kullanır."
+  ],
+  "resources": [
+    {
+      "title": "English File Elementary (Student's Book & Workbook)",
+      "note": "Oxford University Press - A1-A2 seviyesi için en yaygın kullanılan ders kitabı"
+    },
+    {
+      "title": "Essential Grammar in Use",
+      "note": "Raymond Murphy, Cambridge - başlangıç seviyesi dilbilgisi başvuru kitabı"
+    },
+    {
+      "title": "Oxford Learner's Dictionaries (online)",
+      "note": "Kelime anlamı, telaffuz ve örnek cümleler için ücretsiz sözlük"
+    },
+    {
+      "title": "British Council LearnEnglish",
+      "note": "Seviye seviye dinleme, okuma ve dilbilgisi alıştırmaları"
+    },
+    {
+      "title": "Kırıkkale Üniversitesi Yabancı Diller Yüksekokulu ders izlencesi",
+      "note": "Haftalık konu planı, vize-final kapsamı ve devam zorunluluğu"
+    }
+  ],
+  "topics": [
+    {
+      "id": "w1",
+      "week": 1,
+      "title": "Greetings, Introductions, Alphabet & Numbers - Verb \"to be\"",
+      "summary": "Tanışma kalıpları, İngiliz alfabesi ve sayılarla birlikte İngilizcenin bel kemiği olan \"to be\" (am/is/are) fiilinin olumlu kullanımı.",
+      "notes": "## 1. Selamlaşma ve Tanışma (Greetings & Introductions)\n\nİngilizcede ilk öğrenilen şey kalıplardır. Bunları ezberleme, **kullanım yerini** öğren.\n\n| İngilizce | Türkçe | Ne zaman? |\n|---|---|---|\n| Hello / Hi | Merhaba / Selam | Hi daha samimi |\n| Good morning | Günaydın | 12:00'a kadar |\n| Good afternoon | İyi günler | 12:00-18:00 |\n| Good evening | İyi akşamlar | 18:00 sonrası |\n| Good night | İyi geceler | Sadece **ayrılırken** |\n| How are you? | Nasılsın? | Cevap: I'm fine, thanks. And you? |\n| Nice to meet you. | Tanıştığımıza memnun oldum. | İlk tanışmada |\n\n> [!dikkat]\n> **Good night** selamlaşma değil, vedalaşmadır. Akşam bir yere girerken *Good evening*, çıkarken *Good night* dersin.\n\nKendini tanıtırken kullanacağın temel bilgi seti:\n\n```text\nHello! My name is Gürkan. / I'm Gürkan.\nI am nineteen years old.\nI am from Kırıkkale.\nI am a student at Kırıkkale University.\nI am a computer engineering student.\n```\n\n## 2. The Alphabet - Harfleri Okumak\n\nBir kelimeyi harf harf söylemeye **spelling** denir. Sınavda \"How do you spell your name?\" sorusu çıkar; cevap harfleri tek tek okumaktır.\n\n**A** /ey/, **B** /bi/, **C** /si/, **D** /di/, **E** /i/, **F** /ef/, **G** /ci/, **H** /eyç/, **I** /ay/, **J** /cey/, **K** /key/, **L** /el/, **M** /em/, **N** /en/, **O** /ou/, **P** /pi/, **Q** /kyu/, **R** /ar/, **S** /es/, **T** /ti/, **U** /yu/, **V** /vi/, **W** /dabılyu/, **X** /eks/, **Y** /vay/, **Z** /zi/ (İngiliz İngilizcesinde /zed/)\n\n> [!ipucu]\n> En büyük tuzak: **C = /si/**, **G = /ci/**, **I = /ay/**, **E = /i/**, **J = /cey/**. Türk öğrenciler e-posta adresi yazdırırken sürekli C ile G'yi karıştırır.\n\n## 3. Numbers - Sayılar\n\n- 0 zero, 1 one, 2 two, 3 three, 4 four, 5 five, 6 six, 7 seven, 8 eight, 9 nine, 10 ten\n- 11 eleven, 12 twelve, 13 thirteen, 14 fourteen, 15 fifteen, 16 sixteen, 17 seventeen, 18 eighteen, 19 nineteen, 20 twenty\n- 30 thirty, 40 forty (dikkat: **fourty değil**), 50 fifty, 60 sixty, 70 seventy, 80 eighty, 90 ninety, 100 a hundred\n\nAra sayılarda tire kullanılır: 21 → **twenty-one**, 47 → **forty-seven**, 99 → **ninety-nine**.\n\n## 4. Verb \"to be\" - am / is / are\n\nTürkçede \"Ben öğrenciyim\" derken fiil yokmuş gibi görünür, bir ek vardır (-im). İngilizcede bu ek **ayrı bir kelimedir**: am/is/are ve cümlede **mutlaka** bulunmak zorundadır.\n\n| Özne | to be | Kısaltma | Örnek |\n|---|---|---|---|\n| I | am | I'm | I am a student. |\n| You | are | you're | You are late. |\n| He / She / It | is | he's / she's / it's | She is my teacher. |\n| We | are | we're | We are in class. |\n| They | are | they're | They are engineers. |\n\nÇeviri örnekleri:\n\n- **I am a computer engineering student.** → Ben bilgisayar mühendisliği öğrencisiyim.\n- **The laboratory is on the second floor.** → Laboratuvar ikinci kattadır.\n- **My friends are from Ankara.** → Arkadaşlarım Ankara'dandır.\n\n> [!sınav]\n> Klasik boşluk doldurma: \"My name ___ Ayşe and I ___ 19 years old.\" → **is / am**. Özneye bak, fiili ona göre seç. Bu tek kural bile vizedeki soruların önemli bir kısmını çözer.\n\n## 5. VOCABULARY - Kelime Listesi\n\n| English | Türkçe |\n|---|---|\n| student | öğrenci |\n| teacher / lecturer | öğretmen / öğretim görevlisi |\n| university | üniversite |\n| department | bölüm |\n| engineering | mühendislik |\n| computer | bilgisayar |\n| classroom | derslik, sınıf |\n| laboratory (lab) | laboratuvar |\n| timetable / schedule | ders programı |\n| dormitory (dorm) | yurt |\n| keyboard | klavye |\n| screen / monitor | ekran |\n| software | yazılım |\n| hardware | donanım |\n| homework / assignment | ödev |\n",
+      "keyPoints": [
+        "\"to be\" fiili cümleden atılamaz: \"I student\" YANLIŞ, \"I am a student\" DOĞRU.",
+        "I ile am, He/She/It ile is, You/We/They ile are kullanılır.",
+        "Kısaltmalar: I'm, you're, he's, she's, it's, we're, they're - konuşma dilinde neredeyse zorunludur.",
+        "Good night vedalaşmadır; akşam karşılamada Good evening kullanılır.",
+        "Yaş \"I am 19 years old\" ile söylenir; \"I have 19 years\" yanlıştır.",
+        "Nereli olduğun \"I am from + şehir/ülke\" kalıbıyla söylenir.",
+        "40 = forty (fourty yazılmaz), ara sayılar tire ile yazılır: twenty-one."
+      ],
+      "pitfalls": [
+        "\"I am agree\" demek - agree zaten fiildir, doğrusu \"I agree\".",
+        "to be fiilini düşürmek: \"She teacher.\" yerine \"She is a teacher.\" olmalı.",
+        "Yaş için have kullanmak: \"I have 20 years\" yerine \"I am 20 years old\".",
+        "Alfabede C'yi /ce/, G'yi /ge/ okumak; İngilizcede C = /si/, G = /ci/."
+      ],
+      "flashcards": [
+        {
+          "q": "student",
+          "a": "öğrenci - I am a first-year student. (Ben birinci sınıf öğrencisiyim.)"
+        },
+        {
+          "q": "department",
+          "a": "bölüm - My department is Computer Engineering. (Bölümüm Bilgisayar Mühendisliği.)"
+        },
+        {
+          "q": "laboratory (lab)",
+          "a": "laboratuvar - The computer lab is open. (Bilgisayar laboratuvarı açık.)"
+        },
+        {
+          "q": "software",
+          "a": "yazılım - This software is free. (Bu yazılım ücretsiz.)"
+        },
+        {
+          "q": "hardware",
+          "a": "donanım - The hardware is very old. (Donanım çok eski.)"
+        },
+        {
+          "q": "timetable",
+          "a": "ders programı - Our timetable is on the board. (Ders programımız panoda.)"
+        },
+        {
+          "q": "dormitory (dorm)",
+          "a": "yurt - I am in the dormitory now. (Şu an yurttayım.)"
+        },
+        {
+          "q": "How do you spell it?",
+          "a": "Nasıl yazılıyor? - Cevap harf harf verilir: G-U-R-K-A-N."
+        },
+        {
+          "q": "Nice to meet you.",
+          "a": "Tanıştığımıza memnun oldum. - Cevabı: Nice to meet you, too."
+        },
+        {
+          "q": "am / is / are",
+          "a": "\"to be\" fiilinin geniş zaman halleri: I am, he/she/it is, you/we/they are."
+        }
+      ],
+      "questions": [
+        {
+          "id": "w1q1",
+          "type": "mcq",
+          "difficulty": 1,
+          "q": "Fill in the blank: My sister ___ a computer engineer.",
+          "choices": [
+            "is",
+            "be",
+            "are",
+            "am"
+          ],
+          "answer": 0,
+          "explain": "Özne \"my sister\" = she (üçüncü tekil şahıs) olduğu için **is** gelir. \"am\" sadece I ile, \"are\" you/we/they ile kullanılır; \"be\" fiilin yalın halidir, cümlede tek başına duramaz."
+        },
+        {
+          "id": "w1q2",
+          "type": "mcq",
+          "difficulty": 1,
+          "q": "Fill in the blank: Ali and Mehmet ___ my classmates.",
+          "choices": [
+            "am",
+            "are",
+            "is",
+            "be"
+          ],
+          "answer": 1,
+          "explain": "İki kişi = çoğul özne = they, dolayısıyla **are** gelir. Öğrenciler cümledeki son ismin tekil olmasına aldanıp \"is\" der; oysa \"and\" ile bağlanan iki özne çoğuldur."
+        },
+        {
+          "id": "w1q3",
+          "type": "mcq",
+          "difficulty": 1,
+          "q": "It is 9 a.m. and you enter the classroom. What do you say to your teacher?",
+          "choices": [
+            "Good night.",
+            "Good evening.",
+            "Good morning.",
+            "Goodbye."
+          ],
+          "answer": 2,
+          "explain": "Öğleden önce **Good morning** kullanılır. Good evening akşam karşılaşmada, Good night ayrılırken söylenir; Goodbye ise vedadır, içeri girerken kullanılmaz."
+        },
+        {
+          "id": "w1q4",
+          "type": "short",
+          "difficulty": 1,
+          "q": "Write the number 40 in words.",
+          "accept": [
+            "forty"
+          ],
+          "explain": "Doğru yazım **forty**'dir. \"four\" kelimesindeki u harfi 40'ta düşer; \"fourty\" yaygın bir yazım hatasıdır. Karşılaştır: four → fourteen (u var), four → forty (u yok)."
+        },
+        {
+          "id": "w1q5",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Translate into English: Ben Kırıkkale'denim.",
+          "accept": [
+            "i am from kirikkale",
+            "im from kirikkale"
+          ],
+          "explain": "Nereli olduğunu söylerken **be from** kalıbı kullanılır: I am from Kırıkkale. \"I am Kırıkkale\" dersen \"Ben Kırıkkale'yim\" demiş olursun; \"from\" edatı şarttır."
+        },
+        {
+          "id": "w1q6",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Correct the mistake: \"He are my roommate.\" Write the correct sentence.",
+          "accept": [
+            "he is my roommate",
+            "he's my roommate"
+          ],
+          "explain": "He üçüncü tekil şahıstır ve **is** alır: He is my roommate. \"are\" yalnızca you, we ve they özneleriyle kullanılır."
+        },
+        {
+          "id": "w1q7",
+          "type": "tf",
+          "difficulty": 1,
+          "q": "\"Good night\" is used when you are leaving or going to bed, not when you arrive in the evening.",
+          "answer": true,
+          "explain": "Doğru. Good night bir **veda** ifadesidir; ayrılırken ya da yatarken söylenir. Akşam biriyle karşılaştığında doğru kalıp **Good evening**'dir. Öğrencinin yaygın yanlışı Türkçedeki \"iyi akşamlar\" selamını doğrudan *good night* ile karşılamaktır."
+        },
+        {
+          "id": "w1q8",
+          "type": "mcq",
+          "difficulty": 2,
+          "q": "Read the text and answer.\n\n*\"Hi! I'm Elif. I'm 19 years old. I'm from İzmir, but now I am in Kırıkkale. I am a computer engineering student. My favourite class is programming.\"*\n\nWhere is Elif from?",
+          "choices": [
+            "Kırıkkale",
+            "Ankara",
+            "The text does not say",
+            "İzmir"
+          ],
+          "answer": 3,
+          "explain": "Metinde \"I'm from İzmir\" diyor; **be from** kalıbı memleketi gösterir. Kırıkkale ise şu an bulunduğu yerdir (\"now I am in Kırıkkale\"). *from* ile *in* farkı okuma sorularında sık ölçülür."
+        },
+        {
+          "id": "w1q9",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Fill in the blank with the correct form of \"to be\": The keyboard and the screen ___ on the desk.",
+          "accept": [
+            "are"
+          ],
+          "explain": "\"The keyboard and the screen\" iki nesnedir, yani çoğul özne → **are**. Tek nesne olsaydı (\"The keyboard is on the desk\") is gelirdi."
+        },
+        {
+          "id": "w1q10",
+          "type": "mcq",
+          "difficulty": 2,
+          "q": "Which sentence is grammatically CORRECT?",
+          "choices": [
+            "I am 19 years old.",
+            "I am 19 years.",
+            "I has 19 years old.",
+            "I have 19 years old."
+          ],
+          "answer": 0,
+          "explain": "İngilizcede yaş **be + sayı + years old** kalıbıyla söylenir: I am 19 years old. Türkçe/Fransızca mantığındaki *have* kullanımı hatalıdır; \"I am 19 years\" ise eksiktir - ya \"I am 19\" ya da \"I am 19 years old\" denir."
+        },
+        {
+          "id": "w1q11",
+          "type": "open",
+          "difficulty": 2,
+          "q": "Introduce yourself in English in 4-5 sentences (name, age, city, department, university).",
+          "rubric": [
+            "My name is ... / I'm ... kalıbıyla isim vermeli",
+            "I am ... years old ile yaş belirtmeli",
+            "I am from ... ile şehir söylemeli",
+            "I am a ... student / My department is ... ile bölüm belirtmeli",
+            "Her cümlede am/is/are doğru kullanılmalı"
+          ],
+          "explain": "Örnek tam cevap: *Hello! My name is Gürkan. I am 19 years old. I am from Kırıkkale. I am a computer engineering student at Kırıkkale University. Nice to meet you!* Beş cümlede de \"to be\" fiili var ve özneye göre doğru çekilmiş."
+        }
+      ]
+    },
+    {
+      "id": "w2",
+      "week": 2,
+      "title": "Subject Pronouns, Possessive Adjectives & \"to be\" Negative/Questions",
+      "summary": "Özne zamirleri ile iyelik sıfatlarının farkı ve \"to be\" fiilinin olumsuz ile soru yapıları.",
+      "notes": "## 1. Subject Pronouns - Özne Zamirleri\n\n| Zamir | Türkçe | Kullanım |\n|---|---|---|\n| I | ben | her zaman büyük **I** |\n| you | sen / siz | tekil ve çoğul aynı |\n| he | o (erkek) | insan, erkek |\n| she | o (kadın) | insan, kadın |\n| it | o (cansız/hayvan) | nesne, kavram, hayvan |\n| we | biz | |\n| they | onlar | insan da nesne de olabilir |\n\n> [!dikkat]\n> Türkçede \"o\" tek kelimedir; İngilizcede **üçe ayrılır**: he (erkek), she (kadın), it (cansız). Türk öğrencilerin bir numaralı hatası budur: \"My mother... he is a doctor\" YANLIŞ → **she is a doctor** DOĞRU.\n\n## 2. Possessive Adjectives - İyelik Sıfatları\n\nİyelik sıfatı **bir ismin önüne gelir** ve o ismin kime ait olduğunu söyler.\n\n| Subject | Possessive | Örnek |\n|---|---|---|\n| I | my | This is **my** laptop. |\n| you | your | Is this **your** notebook? |\n| he | his | **His** password is wrong. |\n| she | her | **Her** project is ready. |\n| it | its | The program has **its** own folder. |\n| we | our | **Our** classroom is big. |\n| they | their | **Their** exam is on Monday. |\n\n> [!ipucu]\n> **its** ve **it's** karıştırılmaz: *its* = onun (iyelik), *it's* = it is kısaltması. \"It's a bug.\" (Bu bir hata.) / \"Its name is Python.\" (Onun adı Python.)\n\nCümlede fark:\n\n- **She is a student.** (özne zamiri) → O bir öğrenci.\n- **Her department is engineering.** (iyelik sıfatı + isim) → Onun bölümü mühendislik.\n\nİyelik sıfatı **tek başına duramaz**, arkasından mutlaka isim gelir: \"This is my.\" YANLIŞ → \"This is my book.\" DOĞRU\n\n## 3. \"to be\" - Negative (Olumsuz)\n\nOlumsuz yapmak için be fiilinden hemen sonra **not** gelir.\n\n| Uzun | Kısa |\n|---|---|\n| I am not | I'm not |\n| you are not | you aren't / you're not |\n| he is not | he isn't / he's not |\n| we are not | we aren't |\n| they are not | they aren't |\n\n- **I am not tired.** → Yorgun değilim.\n- **The lab is not open on Sunday.** → Laboratuvar pazar günü açık değil.\n- **They aren't in the classroom.** → Onlar sınıfta değiller.\n\n> [!dikkat]\n> \"amn't\" diye bir kısaltma **yoktur**. I am not → I'm not.\n\n## 4. \"to be\" - Questions (Soru)\n\nSoru yapmak için özne ile fiilin yeri değişir (**inversion**):\n\n```text\nYou are a student.   ->  Are you a student?\nShe is your teacher. ->  Is she your teacher?\nThey are ready.      ->  Are they ready?\n```\n\n**Kısa cevaplar (short answers)** kalıptır:\n\n- Are you a student? → **Yes, I am. / No, I'm not.**\n- Is he in the lab? → **Yes, he is. / No, he isn't.**\n- Are they engineers? → **Yes, they are. / No, they aren't.**\n\n> [!sınav]\n> Kısa cevapta kısaltma kuralı: olumlu kısa cevapta kısaltma YAPILMAZ. \"Yes, I'm.\" YANLIŞ → \"Yes, I am.\" DOĞRU. Olumsuzda ise serbesttir: \"No, I'm not.\"\n\n**Wh- soruları** (soru kelimesi + be + özne):\n\n| Soru kelimesi | Anlam | Örnek |\n|---|---|---|\n| What | ne | What is your name? |\n| Where | nerede | Where is the library? |\n| Who | kim | Who is your lecturer? |\n| How old | kaç yaşında | How old are you? |\n| Why | neden | Why are you late? |\n| When | ne zaman | When is the exam? |\n\n## 5. VOCABULARY - Kelime Listesi\n\n| English | Türkçe |\n|---|---|\n| classmate | sınıf arkadaşı |\n| roommate | oda arkadaşı |\n| laptop | dizüstü bilgisayar |\n| notebook | defter |\n| password | şifre |\n| username | kullanıcı adı |\n| file | dosya |\n| folder | klasör |\n| project | proje |\n| exam / midterm | sınav / vize |\n| library | kütüphane |\n| canteen / cafeteria | kantin / yemekhane |\n| lecturer | öğretim görevlisi |\n| attendance | yoklama, devam |\n| grade / mark | not |\n",
+      "keyPoints": [
+        "he = erkek, she = kadın, it = cansız/hayvan; Türkçedeki tek \"o\" üçe ayrılır.",
+        "İyelik sıfatı (my, your, his, her, its, our, their) mutlaka bir ismin önünde kullanılır.",
+        "Olumsuz: be + not. \"amn't\" yoktur, I'm not denir.",
+        "Soru: be fiili başa gelir - Are you...? Is she...?",
+        "Olumlu kısa cevapta kısaltma yapılmaz: Yes, I am (Yes, I'm yanlış).",
+        "Wh- soru sırası: Wh- + be + özne (Where is the lab?).",
+        "its = onun (iyelik), it's = it is; kesme işareti anlamı tamamen değiştirir."
+      ],
+      "pitfalls": [
+        "Anne/kız kardeş için \"he\", baba/erkek kardeş için \"she\" demek - cinsiyet karıştırması.",
+        "its (onun) ile it's (it is) karıştırmak.",
+        "Soruda özne-fiil yer değiştirmeyi unutmak: \"You are a student?\" yerine \"Are you a student?\".",
+        "Kısa cevabı \"Yes, I'm.\" şeklinde kısaltmak."
+      ],
+      "flashcards": [
+        {
+          "q": "classmate",
+          "a": "sınıf arkadaşı - She is my classmate. (O benim sınıf arkadaşım.)"
+        },
+        {
+          "q": "password",
+          "a": "şifre - His password is not correct. (Onun şifresi doğru değil.)"
+        },
+        {
+          "q": "folder",
+          "a": "klasör - Your files are in that folder. (Dosyaların o klasörde.)"
+        },
+        {
+          "q": "lecturer",
+          "a": "öğretim görevlisi - Our lecturer is very kind. (Öğretim görevlimiz çok kibar.)"
+        },
+        {
+          "q": "attendance",
+          "a": "yoklama, devam zorunluluğu - Attendance is compulsory. (Devam zorunludur.)"
+        },
+        {
+          "q": "library",
+          "a": "kütüphane - Is the library open now? (Kütüphane şu an açık mı?)"
+        },
+        {
+          "q": "its vs it's",
+          "a": "its = onun (iyelik), it's = it is. Its screen is broken. / It's a good laptop."
+        },
+        {
+          "q": "Are you ...? kısa cevabı",
+          "a": "Yes, I am. / No, I'm not. Olumluda kısaltma yapılmaz."
+        },
+        {
+          "q": "midterm",
+          "a": "vize sınavı - Our midterm is next week. (Vizemiz gelecek hafta.)"
+        },
+        {
+          "q": "username",
+          "a": "kullanıcı adı - What is your username? (Kullanıcı adın ne?)"
+        }
+      ],
+      "questions": [
+        {
+          "id": "w2q1",
+          "type": "mcq",
+          "difficulty": 1,
+          "q": "Fill in the blank: My mother is a doctor. ___ works at the hospital in Kırıkkale.",
+          "choices": [
+            "He",
+            "She",
+            "It",
+            "They"
+          ],
+          "answer": 1,
+          "explain": "\"My mother\" bir kadın olduğu için zamiri **She**'dir. Türkçede tek bir \"o\" bulunduğundan he/she karıştırılır; İngilizcede cinsiyete uygun zamir seçmek zorunludur."
+        },
+        {
+          "id": "w2q2",
+          "type": "mcq",
+          "difficulty": 1,
+          "q": "Fill in the blank: This is Ahmet. ___ laptop is new.",
+          "choices": [
+            "He",
+            "Him",
+            "His",
+            "He's"
+          ],
+          "answer": 2,
+          "explain": "Boşluktan sonra \"laptop\" ismi geliyor; ismin önüne **iyelik sıfatı** gelir → **His**. \"He\" özne zamiridir; \"He's\" = he is olur ve \"He is laptop\" anlamsız olurdu."
+        },
+        {
+          "id": "w2q3",
+          "type": "mcq",
+          "difficulty": 2,
+          "q": "Make it a question: \"They are in the computer lab.\"",
+          "choices": [
+            "They are in the computer lab?",
+            "Do they in the computer lab?",
+            "Is they in the computer lab?",
+            "Are they in the computer lab?"
+          ],
+          "answer": 3,
+          "explain": "\"to be\" ile soru kurarken özne ve fiil yer değiştirir: They are → **Are they...?** Cümlede zaten be fiili olduğu için \"do\" yardımcı fiiline gerek yoktur; \"is\" ise çoğul özne they ile uyumsuzdur."
+        },
+        {
+          "id": "w2q4",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Give the correct short answer to \"Are you a student?\" (Answer: Yes). Do not use a contraction.",
+          "accept": [
+            "yes i am"
+          ],
+          "explain": "Olumlu kısa cevaplarda **kısaltma kullanılmaz**: Yes, I am. Kısaltma cümle sonunda vurgulu konumda duramaz. Olumsuzda ise kısaltma serbesttir: No, I'm not."
+        },
+        {
+          "id": "w2q5",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Translate into English: Onların sınavı yarın değil.",
+          "accept": [
+            "their exam is not tomorrow",
+            "their exam isnt tomorrow"
+          ],
+          "explain": "\"Onların sınavı\" = **their exam** (iyelik sıfatı + isim). Olumsuz için be + not: is not / isn't. Tam cümle: Their exam is not tomorrow."
+        },
+        {
+          "id": "w2q6",
+          "type": "mcq",
+          "difficulty": 2,
+          "q": "Fill in the blank: ___ is your username?",
+          "choices": [
+            "What",
+            "Who",
+            "How old",
+            "Where"
+          ],
+          "answer": 0,
+          "explain": "Kullanıcı adı bir *şey* olduğu için **What** kullanılır. Where yer, Who kişi, How old yaş sorar. Wh- sorularının sırası: soru kelimesi + be + özne."
+        },
+        {
+          "id": "w2q7",
+          "type": "tf",
+          "difficulty": 1,
+          "q": "The contraction \"amn't\" is correct English.",
+          "answer": false,
+          "explain": "Yanlış. İngilizcede **amn't** diye standart bir kısaltma yoktur. \"I am not\" ya olduğu gibi kalır ya da **I'm not** şeklinde kısaltılır."
+        },
+        {
+          "id": "w2q8",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Fill in the blank with a possessive adjective: We are engineering students. ___ classes start at 9 a.m.",
+          "accept": [
+            "our"
+          ],
+          "explain": "Özne \"we\" olduğu için iyelik sıfatı **our**'dur. \"We classes\" denemez; ismin önüne özne zamiri değil iyelik sıfatı gelir."
+        },
+        {
+          "id": "w2q9",
+          "type": "mcq",
+          "difficulty": 3,
+          "q": "Read the text and answer.\n\n*\"Hello, we are Deniz and Kaan. We are roommates in the dormitory. Deniz is from Konya and I am from Sivas. Our room is small but it is clean. Its window is very big.\"*\n\nWhich statement is TRUE?",
+          "choices": [
+            "Kaan is from Konya.",
+            "Their room is small but clean.",
+            "Their room is big and dirty.",
+            "They are not roommates."
+          ],
+          "answer": 1,
+          "explain": "Metinde \"Our room is small but it is clean\" yazıyor - oda küçük ama temiz. Konya'dan olan Deniz'dir; konuşan Kaan Sivaslıdır. \"but\" bağlacı zıtlık kurar ve okuma sorularında doğru cevabın anahtarıdır."
+        },
+        {
+          "id": "w2q10",
+          "type": "short",
+          "difficulty": 3,
+          "q": "Correct the mistake: \"Its a very useful program.\" Write the correct sentence.",
+          "accept": [
+            "it's a very useful program",
+            "it is a very useful program"
+          ],
+          "explain": "Burada \"it is\" anlamı vardır, yani kesme işaretli **It's** gerekir: It's a very useful program. Kesme işaretsiz *its* iyelik sıfatıdır ve arkasından isim ister (its program)."
+        },
+        {
+          "id": "w2q11",
+          "type": "open",
+          "difficulty": 2,
+          "q": "Write 4 sentences about your best friend: use he/she, his/her, one negative sentence and one question.",
+          "rubric": [
+            "Arkadaşın cinsiyetine uygun he veya she kullanmalı",
+            "En az bir kez his/her iyelik sıfatı kullanmalı",
+            "Bir olumsuz cümle kurmalı (is not / isn't)",
+            "Bir soru cümlesi kurmalı (Is he/she ...?)"
+          ],
+          "explain": "Örnek tam cevap: *My best friend is Emre. He is a computer engineering student. His laptop is very fast. He isn't from Kırıkkale. Is he your classmate, too?* - he (özne), his (iyelik), isn't (olumsuz) ve Is he...? (soru) yapılarının hepsi doğru kullanılmış."
+        }
+      ]
+    },
+    {
+      "id": "w3",
+      "week": 3,
+      "title": "Articles (a/an/the), Plural Nouns, This/That/These/Those",
+      "summary": "Belirsiz ve belirli tanımlıklar, isimlerin çoğul yapılması ve işaret sıfatlarının yakın-uzak, tekil-çoğul mantığı.",
+      "notes": "## 1. Indefinite Articles: a / an\n\n**a** ve **an** = \"bir\". Sadece **tekil sayılabilir** isimlerle kullanılır.\n\n- Sessiz **sesle** başlıyorsa → **a**: a computer, a file, a student, a university\n- Sesli **sesle** başlıyorsa → **an**: an engineer, an exam, an apple, an hour\n\n> [!dikkat]\n> Kural harfe değil, **sese** bakar.\n> - **a university** (yu- sesi, sessiz gibi davranır) DOĞRU, *an university* YANLIŞ\n> - **an hour** (h okunmaz, sesli sesle başlar) DOĞRU, *a hour* YANLIŞ\n> - **an MP3 player** (em- diye okunur) DOĞRU\n\n## 2. Definite Article: the\n\n**the** = belirli, ikimizin de bildiği şey. Türkçede tam karşılığı yoktur ama \"o bahsettiğimiz\" hissini verir.\n\n| a/an kullan | the kullan |\n|---|---|\n| İlk kez bahsediyorsan | İkinci kez bahsediyorsan |\n| I have **a** laptop. | **The** laptop is very fast. |\n| Meslek: She is **a** lecturer. | Tek olan şey: **the** sun, **the** internet |\n| Genel bir birim | Bilinen bina/yer: **the** library, **the** lab |\n\n> [!ipucu]\n> Çoğul ve sayılamayan isimlerle **a/an kullanılmaz**: \"a books\" YANLIŞ, \"a water\" YANLIŞ. Ama **the** her türle kullanılabilir: the books, the water.\n\nSıfır tanımlık (no article): dil, öğün, spor ve genel çoğul isimler.\n- I speak **English**. / We have **lunch** at 12. / I like **computers**.\n\n## 3. Plural Nouns - Çoğul İsimler\n\nTemel kural: **+ s**\n\n| Kural | Örnek |\n|---|---|\n| Genel | file → file**s**, laptop → laptop**s** |\n| -s, -ss, -sh, -ch, -x, -o → **+es** | class → class**es**, box → box**es**, watch → watch**es** |\n| Sessiz + y → y düşer, **+ies** | city → cit**ies**, library → librar**ies** |\n| Sesli + y → sadece **+s** | day → day**s**, key → key**s** |\n| -f/-fe → **+ves** | shelf → shel**ves**, life → li**ves** |\n\n**Düzensiz çoğullar (irregular)** ezberlenir:\n\n| Tekil | Çoğul |\n|---|---|\n| man | men |\n| woman | women |\n| child | children |\n| person | people |\n| foot | feet |\n| tooth | teeth |\n| mouse | mice (fare / bilgisayar faresi) |\n\n## 4. This / That / These / Those\n\n|  | Tekil | Çoğul |\n|---|---|---|\n| **Yakın** (burada) | this | these |\n| **Uzak** (orada) | that | those |\n\n- **This** is my laptop. → Bu benim dizüstü bilgisayarım.\n- **These** are my books. → Bunlar benim kitaplarım.\n- **That** is the engineering building. → Şu, mühendislik binası.\n- **Those** students are from my class. → Şu öğrenciler benim sınıfımdan.\n\n> [!sınav]\n> Çoğul işaret sıfatından sonra fiil de çoğul olur: \"These **is** my friends\" YANLIŞ → \"These **are** my friends\" DOĞRU. Sınavda en sık kırılan yer burasıdır.\n\nTelefonda özel kullanım: **This is Ayşe.** (Ben Ayşe.) - telefonda \"I am Ayşe\" denmez.\n\n## 5. VOCABULARY - Kelime Listesi\n\n| English | Türkçe |\n|---|---|\n| mouse (mice) | fare (bilgisayar faresi) |\n| printer | yazıcı |\n| desk | sıra, çalışma masası |\n| shelf (shelves) | raf |\n| textbook | ders kitabı |\n| pen / pencil | tükenmez kalem / kurşun kalem |\n| device | cihaz |\n| engineer | mühendis |\n| building / faculty | bina / fakülte |\n| box | kutu |\n| watch | kol saati |\n| person (people) | kişi (insanlar) |\n| campus | kampüs |\n| screen | ekran |\n| cable | kablo |\n",
+      "keyPoints": [
+        "a/an sadece tekil sayılabilir isimlerle kullanılır; çoğulla ve sayılamayanla kullanılmaz.",
+        "a/an seçimi harfe değil sese göre yapılır: a university, an hour, an MP3.",
+        "the = ikimizin de bildiği, daha önce bahsedilen ya da tek olan şey.",
+        "-ch, -sh, -ss, -x, -o ile biten isimler +es alır: boxes, watches, classes.",
+        "Sessiz + y ile bitenlerde y düşer, +ies gelir: city → cities.",
+        "Düzensiz çoğullar: man-men, woman-women, child-children, person-people, mouse-mice.",
+        "this/that tekil, these/those çoğuldur; these/those ile fiil are olur."
+      ],
+      "pitfalls": [
+        "Çoğul isme a/an eklemek: \"a books\" yanlıştır.",
+        "\"an university\" demek - university /yu/ sesiyle başlar, doğrusu \"a university\".",
+        "\"These is\" demek; çoğul işaret sıfatından sonra fiil \"are\" olmalı.",
+        "Düzensiz çoğula bir de -s eklemek: \"childrens\", \"peoples\" yanlıştır."
+      ],
+      "flashcards": [
+        {
+          "q": "mouse (plural: mice)",
+          "a": "fare / bilgisayar faresi - These mice are wireless. (Bu fareler kablosuz.)"
+        },
+        {
+          "q": "printer",
+          "a": "yazıcı - The printer is out of paper. (Yazıcının kağıdı bitmiş.)"
+        },
+        {
+          "q": "shelf (plural: shelves)",
+          "a": "raf - The shelves in the library are full. (Kütüphanedeki raflar dolu.)"
+        },
+        {
+          "q": "device",
+          "a": "cihaz - This device is very useful. (Bu cihaz çok kullanışlı.)"
+        },
+        {
+          "q": "person (plural: people)",
+          "a": "kişi / insanlar - Ten people are in the lab. (Laboratuvarda on kişi var.)"
+        },
+        {
+          "q": "campus",
+          "a": "kampüs - Our campus is very big. (Kampüsümüz çok büyük.)"
+        },
+        {
+          "q": "cable",
+          "a": "kablo - Those cables are not mine. (Şu kablolar benim değil.)"
+        },
+        {
+          "q": "a vs an",
+          "a": "Sesli sesle başlayanda an: an engineer, an hour. Sessiz seste a: a university, a computer."
+        },
+        {
+          "q": "these / those",
+          "a": "Çoğul işaret sıfatları: these = bunlar (yakın), those = şunlar (uzak). Fiilleri are olur."
+        },
+        {
+          "q": "faculty",
+          "a": "fakülte - The Faculty of Engineering is on the campus. (Mühendislik Fakültesi kampüste.)"
+        }
+      ],
+      "questions": [
+        {
+          "id": "w3q1",
+          "type": "mcq",
+          "difficulty": 1,
+          "q": "Fill in the blank: My father is ___ engineer.",
+          "choices": [
+            "a",
+            "the",
+            "an",
+            "-"
+          ],
+          "answer": 2,
+          "explain": "\"engineer\" sesli bir sesle (/e/) başladığı için **an** gelir. Meslek belirtirken tekil isimden önce a/an kullanmak zorunludur; \"He is engineer\" eksiktir."
+        },
+        {
+          "id": "w3q2",
+          "type": "mcq",
+          "difficulty": 2,
+          "q": "Fill in the blank: Kırıkkale University is ___ big university.",
+          "choices": [
+            "an",
+            "the",
+            "some",
+            "a"
+          ],
+          "answer": 3,
+          "explain": "Kural harfe değil **sese** bakar: \"university\" /yuniversiti/ diye okunur, yani sessiz bir sesle başlar → **a university**. Aynı mantıkla \"an hour\" doğrudur, çünkü h okunmaz."
+        },
+        {
+          "id": "w3q3",
+          "type": "short",
+          "difficulty": 1,
+          "q": "Write the plural of: \"box\".",
+          "accept": [
+            "boxes"
+          ],
+          "explain": "-x ile biten isimler çoğulda **+es** alır: box → boxes. Aynı kural -s, -ss, -sh, -ch ve -o için de geçerlidir (class→classes, watch→watches)."
+        },
+        {
+          "id": "w3q4",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Write the plural of: \"library\".",
+          "accept": [
+            "libraries"
+          ],
+          "explain": "Sessiz harf + y ile biten isimlerde y düşer ve **-ies** gelir: library → libraries. Sesli + y olsaydı sadece -s alırdı (day → days)."
+        },
+        {
+          "id": "w3q5",
+          "type": "mcq",
+          "difficulty": 2,
+          "q": "Fill in the blank: ___ are my classmates, and that is our lecturer.",
+          "choices": [
+            "These",
+            "That",
+            "It",
+            "This"
+          ],
+          "answer": 0,
+          "explain": "Fiil **are** ve isim \"classmates\" çoğul olduğu için çoğul-yakın işaret sıfatı **These** gelir. This ve That tekildir; It ise işaret sıfatı değil, zamirdir."
+        },
+        {
+          "id": "w3q6",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Correct the mistake: \"These is my books.\" Write the correct sentence.",
+          "accept": [
+            "these are my books"
+          ],
+          "explain": "These çoğuldur, dolayısıyla fiil de çoğul olmalı: **These are my books.** Türkçede fiil çoğullaşmadığı için bu uyum sık atlanır."
+        },
+        {
+          "id": "w3q7",
+          "type": "tf",
+          "difficulty": 2,
+          "q": "The articles \"a\" and \"an\" are used only with singular countable nouns, so \"a computers\" is wrong.",
+          "answer": true,
+          "explain": "Doğru. a/an \"bir\" demektir ve yalnızca **tekil sayılabilir** isimlerle kullanılır. Çoğulda ya tanımlık kullanılmaz (computers) ya da the/some gelir (the computers, some computers). Öğrencinin yaygın yanlışı aynı tanımlığı sayılamayan isimlerle de kullanmaktır: *an information* değil, **some information**."
+        },
+        {
+          "id": "w3q8",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Write the plural of: \"child\".",
+          "accept": [
+            "children"
+          ],
+          "explain": "**child → children** düzensiz bir çoğuldur ve -s almaz. \"childs\" ya da \"childrens\" ikisi de yanlıştır; aynı grupta man→men, woman→women, person→people vardır."
+        },
+        {
+          "id": "w3q9",
+          "type": "mcq",
+          "difficulty": 3,
+          "q": "Read the text and answer.\n\n*\"There is a new computer lab in our faculty. The lab has 30 computers, two printers and a big screen. The computers are fast, but the printers are old.\"*\n\nWhat is old in the lab?",
+          "choices": [
+            "The screen",
+            "The printers",
+            "The computers",
+            "The lab"
+          ],
+          "answer": 1,
+          "explain": "Son cümle \"the printers are old\" diyor. Dikkat et: ilk bahsedilişte \"two printers\" (belirsiz), ikinci bahsedilişte \"the printers\" (belirli) kullanılmış - a/an'dan the'ya geçiş İngilizce metinlerin tipik özelliğidir."
+        },
+        {
+          "id": "w3q10",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Translate into English: Şu kablolar benim değil.",
+          "accept": [
+            "those cables are not mine",
+            "those cables arent mine"
+          ],
+          "explain": "\"Şu ...-lar\" uzak + çoğul → **those**. Çoğul özne ile fiil are, olumsuzu are not/aren't. Tam cümle: Those cables are not mine."
+        },
+        {
+          "id": "w3q11",
+          "type": "mcq",
+          "difficulty": 2,
+          "q": "Fill in the blank: I have a new laptop. ___ laptop is very light.",
+          "choices": [
+            "A",
+            "An",
+            "The",
+            "Some"
+          ],
+          "answer": 2,
+          "explain": "İlk cümlede laptop'tan **ilk kez** bahsedildiği için \"a\" kullanılmış; ikinci cümlede aynı laptop kastedildiği için artık belirli tanımlık **the** gelir. Bu \"a → the\" zinciri tanımlık sorularının temel mantığıdır."
+        }
+      ]
+    },
+    {
+      "id": "w4",
+      "week": 4,
+      "title": "There is / There are, Prepositions of Place, Describing a Room",
+      "summary": "Bir yerde bir şeyin var olduğunu anlatan there is/are yapısı ve yer edatlarıyla oda veya laboratuvar tarifi.",
+      "notes": "## 1. There is / There are - \"Var\"\n\nTürkçede \"masada bir bilgisayar **var**\" deriz. İngilizcede bu \"var\" cümlenin **başında** durur: **There is / There are**.\n\n| Yapı | Kullanım | Örnek |\n|---|---|---|\n| There is (There's) | tekil + sayılamayan | There is a printer in the lab. |\n| There are | çoğul | There are 30 computers in the lab. |\n\n> [!dikkat]\n> Fiil, there'e değil, arkasından gelen **ilk isme** göre seçilir.\n> There **is** a book and two pens on the desk. (ilk isim tekil)\n> There **are** two pens and a book on the desk. (ilk isim çoğul)\n\n**Olumsuz:**\n- There **is not / isn't** a projector in this classroom. → Bu sınıfta projeksiyon yok.\n- There **are not / aren't** any chairs here. → Burada hiç sandalye yok.\n\n> [!ipucu]\n> Olumsuz ve soru cümlelerinde çoğul isimden önce **any** kullanılır: There aren't **any** students. / Are there **any** questions?\n\n**Soru ve kısa cevap:**\n\n```text\nIs there a laboratory on this floor?     -> Yes, there is. / No, there isn't.\nAre there any sockets in the room?       -> Yes, there are. / No, there aren't.\nHow many computers are there in the lab? -> There are thirty.\n```\n\n## 2. Prepositions of Place - Yer Edatları\n\n| Edat | Türkçe | Örnek |\n|---|---|---|\n| in | içinde | The cable is **in** the box. |\n| on | üstünde (temas) | The laptop is **on** the desk. |\n| under | altında | My bag is **under** the chair. |\n| next to / beside | yanında | The printer is **next to** the door. |\n| between | arasında (iki şey) | The lab is **between** the library and the canteen. |\n| behind | arkasında | The board is **behind** the teacher. |\n| in front of | önünde | There is a desk **in front of** the board. |\n| opposite | karşısında | The canteen is **opposite** the library. |\n| near | yakınında | The dorm is **near** the campus. |\n| at | -de (nokta/kurum) | I am **at** the university. |\n\n> [!sınav]\n> **in / on / at** üçlüsü sürekli sorulur:\n> - **in** → kapalı hacim: in the room, in Kırıkkale, in the drawer\n> - **on** → yüzey/temas: on the table, on the wall, on the second floor\n> - **at** → nokta veya kurum: at home, at school, at the bus stop\n\n## 3. Describing a Room - Oda Tarif Etmek\n\nÖrnek paragraf ve çevirisi:\n\n> **This is my room in the dormitory. It is small but comfortable. There is a bed next to the window and there is a desk in front of it. My laptop is on the desk. There are two shelves on the wall, and there are many books on the shelves. There isn't a television, but there is a small refrigerator behind the door.**\n\n*Bu, yurttaki odam. Küçük ama rahat. Pencerenin yanında bir yatak, onun önünde bir masa var. Dizüstü bilgisayarım masanın üstünde. Duvarda iki raf var ve raflarda çok kitap var. Televizyon yok ama kapının arkasında küçük bir buzdolabı var.*\n\nOda tarif ederken izlenecek sıra: **genel görünüm → büyük eşyalar → küçük detaylar → olmayan şeyler (There isn't...)**.\n\n## 4. VOCABULARY - Kelime Listesi\n\n| English | Türkçe |\n|---|---|\n| desk | çalışma masası |\n| drawer | çekmece |\n| socket / plug | priz / fiş |\n| wall | duvar |\n| floor | zemin, kat |\n| ceiling | tavan |\n| corner | köşe |\n| window | pencere |\n| projector | projeksiyon cihazı |\n| whiteboard | beyaz tahta |\n| chair | sandalye |\n| bookcase | kitaplık |\n| wardrobe | gardırop |\n| power cable | güç kablosu |\n| router | yönlendirici (modem) |\n",
+      "keyPoints": [
+        "There is = tekil/sayılamayan var, There are = çoğul var.",
+        "Fiil, there'den sonra gelen ilk isme göre seçilir.",
+        "Olumsuz ve sorularda çoğul isimden önce any kullanılır.",
+        "Kısa cevap: Yes, there is. / No, there aren't. - \"Yes, it is\" değil.",
+        "How many + çoğul isim + are there ...? sayı sorar.",
+        "in = içinde, on = üstünde/temas, at = nokta veya kurum.",
+        "in front of (önünde) ile opposite (karşısında) farklıdır; opposite karşılıklı duruşu anlatır."
+      ],
+      "pitfalls": [
+        "Türkçe düşünüp there is/are yerine have/has kullanmak: \"My room has\" yerine doğal yapı \"There is ... in my room\".",
+        "Çoğul isimle \"There is\" demek: \"There is three chairs\" yanlıştır.",
+        "Kısa cevabı \"Yes, it is\" diye vermek; doğrusu \"Yes, there is\".",
+        "on/in karıştırmak: \"in the wall\" yerine \"on the wall\" olmalı."
+      ],
+      "flashcards": [
+        {
+          "q": "socket",
+          "a": "priz - There is a socket next to the desk. (Masanın yanında bir priz var.)"
+        },
+        {
+          "q": "drawer",
+          "a": "çekmece - My notebooks are in the drawer. (Defterlerim çekmecede.)"
+        },
+        {
+          "q": "whiteboard",
+          "a": "beyaz tahta - There is a whiteboard in front of the class. (Sınıfın önünde beyaz tahta var.)"
+        },
+        {
+          "q": "projector",
+          "a": "projeksiyon cihazı - Is there a projector in this room? (Bu odada projeksiyon var mı?)"
+        },
+        {
+          "q": "router",
+          "a": "modem, yönlendirici - The router is behind the television. (Modem televizyonun arkasında.)"
+        },
+        {
+          "q": "between",
+          "a": "arasında (iki şey) - The lab is between the library and the canteen."
+        },
+        {
+          "q": "opposite",
+          "a": "karşısında - My dorm is opposite the faculty. (Yurdum fakültenin karşısında.)"
+        },
+        {
+          "q": "There are ...",
+          "a": "Çoğul \"var\" yapısı - There are twenty students in the class."
+        },
+        {
+          "q": "How many ... are there?",
+          "a": "Kaç tane ... var? - How many computers are there in the lab?"
+        },
+        {
+          "q": "ceiling",
+          "a": "tavan - There is a lamp on the ceiling. (Tavanda bir lamba var.)"
+        }
+      ],
+      "questions": [
+        {
+          "id": "w4q1",
+          "type": "mcq",
+          "difficulty": 1,
+          "q": "Fill in the blank: ___ twenty students in our classroom.",
+          "choices": [
+            "There is",
+            "It is",
+            "They are",
+            "There are"
+          ],
+          "answer": 3,
+          "explain": "\"twenty students\" çoğul olduğu için **There are** gelir. \"It is\" ve \"They are\" varlık bildirmez, bir şeyi tanımlar; Türkçedeki \"var\" karşılığı yalnızca there is/there are'dir."
+        },
+        {
+          "id": "w4q2",
+          "type": "mcq",
+          "difficulty": 2,
+          "q": "Fill in the blank: There ___ a keyboard and two mice on the table.",
+          "choices": [
+            "is",
+            "are",
+            "have",
+            "has"
+          ],
+          "answer": 0,
+          "explain": "Fiil, there'den hemen sonra gelen **ilk isme** göre seçilir. İlk isim \"a keyboard\" tekil olduğu için **is** gelir. Sıra tersine dönseydi (\"two mice and a keyboard\") \"are\" olurdu."
+        },
+        {
+          "id": "w4q3",
+          "type": "mcq",
+          "difficulty": 1,
+          "q": "Fill in the blank: The poster is ___ the wall.",
+          "choices": [
+            "in",
+            "on",
+            "at",
+            "under"
+          ],
+          "answer": 1,
+          "explain": "Bir yüzeye temas eden şeyler için **on** kullanılır: on the wall, on the table, on the floor. \"in the wall\" duvarın içine gömülü olmak demektir; Türkçedeki \"duvarda\" ifadesi yanıltıcıdır."
+        },
+        {
+          "id": "w4q4",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Give the correct short answer: \"Is there a projector in the classroom?\" (Answer: No)",
+          "accept": [
+            "no there isnt",
+            "no there is not"
+          ],
+          "explain": "there is/are yapısında kısa cevap da **there** ile verilir: No, there isn't. \"No, it isn't\" demek yaygın bir hatadır, çünkü özne \"it\" değil there yapısıdır."
+        },
+        {
+          "id": "w4q5",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Fill in the blank: There aren't ___ sockets in this room.",
+          "accept": [
+            "any"
+          ],
+          "explain": "Olumsuz cümlelerde çoğul isimden önce **any** kullanılır. Olumluda \"some\" gelirdi: There are some sockets in this room."
+        },
+        {
+          "id": "w4q6",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Correct the mistake: \"There is three chairs in the room.\" Write the correct sentence.",
+          "accept": [
+            "there are three chairs in the room"
+          ],
+          "explain": "\"three chairs\" çoğuldur, bu yüzden **There are** olmalıdır. Sayı 1'den büyük olduğu anda are'ye geçilir."
+        },
+        {
+          "id": "w4q7",
+          "type": "tf",
+          "difficulty": 2,
+          "q": "\"My room has a big window\" and \"There is a big window in my room\" give the same information.",
+          "answer": true,
+          "explain": "Doğru. İkisi de aynı bilgiyi verir; fark bakış açısıdır. **have/has** sahipliği vurgular, **there is** ise varlığı bildirir. Türkçe \"var\" cümlelerini çevirirken doğal olan yapı there is/are'dir."
+        },
+        {
+          "id": "w4q8",
+          "type": "mcq",
+          "difficulty": 2,
+          "q": "Read the description: *\"The library is between the canteen and the sports hall.\"* Which is TRUE?",
+          "choices": [
+            "The canteen is inside the library.",
+            "The sports hall is opposite the canteen.",
+            "The library is next to both the canteen and the sports hall.",
+            "There is no library on the campus."
+          ],
+          "answer": 2,
+          "explain": "**between** iki şeyin ortasında olmak demektir; dolayısıyla kütüphane hem kantinin hem spor salonunun yanındadır. \"opposite\" (karşısında) bilgisi metinde verilmediği için o çıkarım yapılamaz."
+        },
+        {
+          "id": "w4q9",
+          "type": "short",
+          "difficulty": 3,
+          "q": "Translate into English: Odamda bir bilgisayar masası var ama televizyon yok.",
+          "accept": [
+            "there is a computer desk in my room but there isnt a television",
+            "there is a computer desk in my room but there is not a television",
+            "there is a computer desk in my room but there isn't a tv",
+            "there's a computer desk in my room but there isn't a television",
+            "there's a computer desk in my room but there isn't a tv"
+          ],
+          "explain": "İki bölümlü \"var / yok\" cümlesi: olumlu kısım **There is a computer desk in my room**, olumsuz kısım **but there isn't a television**. Türkçede \"yok\" tek kelimeyken İngilizcede be + not yapısıyla kurulur."
+        },
+        {
+          "id": "w4q10",
+          "type": "mcq",
+          "difficulty": 2,
+          "q": "Fill in the blank: ___ computers are there in the laboratory?",
+          "choices": [
+            "How much",
+            "How old",
+            "What",
+            "How many"
+          ],
+          "answer": 3,
+          "explain": "\"computers\" sayılabilir çoğul bir isim olduğu için **How many** kullanılır. How much sayılamayanlar içindir (How much water...?). Sıra da önemlidir: How many + isim + are there?"
+        },
+        {
+          "id": "w4q11",
+          "type": "open",
+          "difficulty": 3,
+          "q": "Describe your room or the computer lab in 5 sentences. Use there is/there are and at least three different prepositions of place.",
+          "rubric": [
+            "En az bir There is ve bir There are cümlesi kurmalı",
+            "En az üç farklı yer edatı kullanmalı (on, in, under, next to, between, behind...)",
+            "Bir olumsuz cümle içermeli (There isn't / There aren't)",
+            "Cümleler anlamlı ve dilbilgisel olarak doğru olmalı"
+          ],
+          "explain": "Örnek tam cevap: *There are twenty computers in our lab. There is a whiteboard in front of the room. The projector is on the ceiling. There is a printer next to the door. There aren't any windows behind the desks.* - beş cümlede there is/are ile on, in front of, next to ve behind edatları ve bir olumsuz yapı kullanılmış."
+        }
+      ]
+    },
+    {
+      "id": "w5",
+      "week": 5,
+      "title": "Present Simple: Affirmative, Third Person -s, Daily Routines",
+      "summary": "Geniş zamanın olumlu yapısı, üçüncü tekil şahısta fiile eklenen -s kuralı ve günlük rutinlerin anlatımı.",
+      "notes": "## 1. Present Simple Ne Zaman Kullanılır?\n\nGeniş zaman (Present Simple) üç şey için kullanılır:\n\n1. **Alışkanlıklar ve rutinler**: I get up at seven every morning.\n2. **Genel gerçekler**: Water boils at 100 degrees. / A computer needs electricity.\n3. **Kalıcı durumlar**: I live in Kırıkkale. / She works at a software company.\n\n> [!ipucu]\n> Cümlede *every day, always, usually, on Mondays, at weekends* gibi ifadeler varsa neredeyse kesin Present Simple kullanılır.\n\n## 2. Olumlu Yapı\n\n**Özne + fiil (+s)**\n\n| Özne | Fiil | Örnek |\n|---|---|---|\n| I / You / We / They | yalın fiil | I **study** computer engineering. |\n| He / She / It | fiil **+ s** | She **studies** computer engineering. |\n\nKarşılaştır:\n\n- I **write** code every day. → Her gün kod yazarım.\n- My friend **writes** code every day. → Arkadaşım her gün kod yazar.\n- We **use** Python in the lab. → Laboratuvarda Python kullanırız.\n- The program **uses** a lot of memory. → Program çok bellek kullanır.\n\n> [!dikkat]\n> Türk öğrencilerin en klasik hatası: **üçüncü tekil şahısta -s unutmak**. \"He study hard\" YANLIŞ → \"He studies hard\" DOĞRU. Sınavda en çok puan kaybettiren tek kural budur.\n\n## 3. Üçüncü Tekil Şahısta -s Yazım Kuralları\n\n| Kural | Örnek |\n|---|---|\n| Genel: **+s** | work → work**s**, read → read**s** |\n| -s, -sh, -ch, -x, -o → **+es** | watch → watch**es**, go → go**es**, do → do**es**, fix → fix**es** |\n| Sessiz + y → y düşer **+ies** | study → stud**ies**, try → tr**ies** |\n| Sesli + y → sadece **+s** | play → play**s**, buy → buy**s** |\n| Düzensiz | have → **has** |\n\n> [!sınav]\n> **have → has** özel bir durumdur. \"He have a laptop\" YANLIŞ → \"He **has** a laptop\" DOĞRU.\n\n## 4. Daily Routine - Günlük Rutin Anlatmak\n\nSıklık ve zaman ifadeleri:\n\n- **at** + saat: at 7 o'clock, at half past eight\n- **in** + gün bölümü: in the morning, in the afternoon, in the evening\n- **at night** (istisna: in the night değil)\n- **on** + gün: on Monday, on Fridays, on weekdays\n- **every** + zaman: every day, every week\n\nÖrnek paragraf:\n\n> **I get up at 7 a.m. on weekdays. I have breakfast and then I go to the university by bus. My first class starts at 9 o'clock. I study in the library in the afternoon. My roommate finishes his lessons at 5 p.m. In the evening we do our homework together. I usually go to bed at midnight.**\n\n*Hafta içi sabah 7'de kalkarım. Kahvaltı yapar sonra üniversiteye otobüsle giderim. İlk dersim saat 9'da başlar. Öğleden sonra kütüphanede çalışırım. Oda arkadaşım derslerini 17:00'de bitirir. Akşam ödevlerimizi birlikte yaparız. Genelde gece yarısı yatarım.*\n\nDikkat: paragrafta **my roommate finishes** (üçüncü tekil, -es var) ile **I finish** farkına bak.\n\n## 5. Sık Kullanılan Rutin Fiilleri\n\nget up (kalkmak), wake up (uyanmak), have breakfast (kahvaltı yapmak), take a shower (duş almak), go to class (derse gitmek), start (başlamak), finish (bitirmek), study (çalışmak), do homework (ödev yapmak), check e-mail (e-posta kontrol etmek), go to bed (yatmak), sleep (uyumak).\n\n## 6. VOCABULARY - Kelime Listesi\n\n| English | Türkçe |\n|---|---|\n| routine | rutin, günlük düzen |\n| lesson / class | ders |\n| break | ara, teneffüs |\n| to attend | derse katılmak |\n| to submit | teslim etmek (ödev) |\n| deadline | son teslim tarihi |\n| code | kod |\n| to program | programlamak |\n| to compile | derlemek |\n| to run (a program) | programı çalıştırmak |\n| algorithm | algoritma |\n| database | veritabanı |\n| network | ağ |\n| to download | indirmek |\n| to upload | yüklemek |\n",
+      "keyPoints": [
+        "Present Simple alışkanlık, genel gerçek ve kalıcı durum anlatır.",
+        "He/She/It ile fiil -s alır; diğer öznelerde fiil yalın kalır.",
+        "-sh, -ch, -x, -s, -o ile biten fiiller -es alır: watches, goes, does, fixes.",
+        "Sessiz + y ile biten fiiller -ies alır: study → studies.",
+        "have fiilinin üçüncü tekil hali has'tır.",
+        "Saatte at, gün bölümünde in, günlerde on kullanılır; ama at night istisnadır.",
+        "every day, always, usually gibi ifadeler Present Simple'ın işaretidir."
+      ],
+      "pitfalls": [
+        "Üçüncü tekil şahısta -s unutmak: \"He study\" yerine \"He studies\".",
+        "\"He have\" demek; doğrusu \"He has\".",
+        "Çoğul öznede gereksiz -s eklemek: \"They works\" yerine \"They work\".",
+        "\"in the night\" demek; doğrusu \"at night\"."
+      ],
+      "flashcards": [
+        {
+          "q": "to attend",
+          "a": "katılmak, derse devam etmek - She attends every lecture. (O her derse katılır.)"
+        },
+        {
+          "q": "to submit",
+          "a": "teslim etmek - We submit our homework online. (Ödevimizi çevrimiçi teslim ederiz.)"
+        },
+        {
+          "q": "deadline",
+          "a": "son teslim tarihi - The deadline is on Friday. (Son teslim tarihi cuma.)"
+        },
+        {
+          "q": "to compile",
+          "a": "derlemek - The compiler compiles the code. (Derleyici kodu derler.)"
+        },
+        {
+          "q": "algorithm",
+          "a": "algoritma - An algorithm solves a problem step by step. (Algoritma bir problemi adım adım çözer.)"
+        },
+        {
+          "q": "database",
+          "a": "veritabanı - This database stores student records. (Bu veritabanı öğrenci kayıtlarını tutar.)"
+        },
+        {
+          "q": "network",
+          "a": "ağ - The campus network works very fast. (Kampüs ağı çok hızlı çalışır.)"
+        },
+        {
+          "q": "to download / to upload",
+          "a": "indirmek / yüklemek - He downloads the file and uploads his project."
+        },
+        {
+          "q": "have → has",
+          "a": "Üçüncü tekil şahısta have, has olur: She has two laptops."
+        },
+        {
+          "q": "study → studies",
+          "a": "Sessiz harf + y ile biten fiiller -ies alır: study/studies, try/tries."
+        }
+      ],
+      "questions": [
+        {
+          "id": "w5q1",
+          "type": "mcq",
+          "difficulty": 1,
+          "q": "Fill in the blank: My brother ___ computer engineering at Kırıkkale University.",
+          "choices": [
+            "studies",
+            "studing",
+            "studys",
+            "study"
+          ],
+          "answer": 0,
+          "explain": "Özne \"my brother\" = he olduğu için fiil -s alır. \"study\" sessiz harf + y ile bittiğinden y düşer ve **-ies** gelir: **studies**. \"studys\" yazımı yanlıştır."
+        },
+        {
+          "id": "w5q2",
+          "type": "mcq",
+          "difficulty": 1,
+          "q": "Fill in the blank: We ___ our homework in the evening.",
+          "choices": [
+            "does",
+            "do",
+            "doing",
+            "dos"
+          ],
+          "answer": 1,
+          "explain": "Özne \"we\" çoğuldur, bu yüzden fiil yalın kalır: **do**. \"does\" yalnızca he/she/it ile kullanılır; öğrenciler çoğul öznede de -s ekleyerek sık hata yapar."
+        },
+        {
+          "id": "w5q3",
+          "type": "short",
+          "difficulty": 1,
+          "q": "Write the third person singular (he/she/it) form of the verb \"watch\".",
+          "accept": [
+            "watches"
+          ],
+          "explain": "-ch ile biten fiiller üçüncü tekilde **-es** alır: watch → **watches**. Aynı grup: wash → washes, fix → fixes, go → goes."
+        },
+        {
+          "id": "w5q4",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Correct the mistake: \"He have two laptops.\" Write the correct sentence.",
+          "accept": [
+            "he has two laptops"
+          ],
+          "explain": "have fiilinin üçüncü tekil hali düzensizdir: **has**. Doğru cümle: He has two laptops. \"He haves\" da yanlıştır, böyle bir biçim yoktur."
+        },
+        {
+          "id": "w5q5",
+          "type": "mcq",
+          "difficulty": 2,
+          "q": "Fill in the blank: The program ___ a lot of memory when it runs.",
+          "choices": [
+            "use",
+            "using",
+            "uses",
+            "useing"
+          ],
+          "answer": 2,
+          "explain": "Özne \"the program\" = it (üçüncü tekil) olduğu için fiil **uses** olur. Cansız özneler de he/she gibi -s kuralına tabidir; öğrenciler bunu genelde sadece insanlar için sanır."
+        },
+        {
+          "id": "w5q6",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Translate into English: Kardeşim her gün kod yazar.",
+          "accept": [
+            "my brother writes code every day",
+            "my sister writes code every day",
+            "my brother writes code everyday",
+            "my sister writes code everyday"
+          ],
+          "explain": "\"Kardeşim\" üçüncü tekil şahıstır → fiil -s alır: **writes**. \"Her gün\" = every day, cümlenin sonuna gelir. Tam cümle: My brother writes code every day."
+        },
+        {
+          "id": "w5q7",
+          "type": "tf",
+          "difficulty": 1,
+          "q": "In the Present Simple, the verb takes -s only with he, she and it.",
+          "answer": true,
+          "explain": "Doğru. -s eki yalnızca üçüncü **tekil** şahıslarla (he, she, it ve bunların yerini tutan tekil isimler) gelir. I, you, we, they ile fiil yalın kalır."
+        },
+        {
+          "id": "w5q8",
+          "type": "mcq",
+          "difficulty": 2,
+          "q": "Fill in the blank: I always check my e-mails ___ the morning.",
+          "choices": [
+            "at",
+            "on",
+            "by",
+            "in"
+          ],
+          "answer": 3,
+          "explain": "Günün bölümleriyle **in** kullanılır: in the morning, in the afternoon, in the evening. Saatle at (at 7), günlerle on (on Monday) gelir; tek istisna **at night**'tır."
+        },
+        {
+          "id": "w5q9",
+          "type": "mcq",
+          "difficulty": 3,
+          "q": "Read the text and answer.\n\n*\"Emre is a first-year student. He gets up at 6.30 and takes the shuttle to the campus. His first lesson starts at 8.40. He has lunch at the canteen with his classmates. In the afternoon he goes to the computer lab and writes his programming homework.\"*\n\nWhat does Emre do in the afternoon?",
+          "choices": [
+            "He goes to the lab and writes his homework.",
+            "He has lunch at the canteen.",
+            "He sleeps in the dormitory.",
+            "He gets up and takes the shuttle."
+          ],
+          "answer": 0,
+          "explain": "Metnin son cümlesi \"In the afternoon he goes to the computer lab and writes his programming homework\" diyor. Diğer eylemler farklı zaman dilimlerine aittir: kalkmak sabah, öğle yemeği öğlen. Bu tip sorularda zaman ifadesini bulup cümleyi eşleştirmek gerekir."
+        },
+        {
+          "id": "w5q10",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Fill in the blank with the correct form: My roommate ___ (go) to the gym on Fridays.",
+          "accept": [
+            "goes"
+          ],
+          "explain": "\"My roommate\" üçüncü tekil şahıstır ve go fiili -o ile bittiği için **-es** alır: **goes**. Aynı kural do → does için de geçerlidir."
+        },
+        {
+          "id": "w5q11",
+          "type": "open",
+          "difficulty": 3,
+          "q": "Write your daily routine in 5 sentences using the Present Simple. Include at least one sentence about a friend or family member (third person).",
+          "rubric": [
+            "En az 5 cümle kurmalı ve hepsi Present Simple olmalı",
+            "Zaman ifadeleri kullanmalı (at ..., in the morning, every day)",
+            "Üçüncü tekil şahıs cümlesinde fiile -s eklemeli",
+            "Rutin fiilleri kullanmalı (get up, have breakfast, study, go to bed)"
+          ],
+          "explain": "Örnek tam cevap: *I get up at 7 o'clock every morning. I have breakfast in the dormitory. My first class starts at 9 a.m. My roommate studies in the library in the afternoon. I go to bed at midnight.* - Burada \"my roommate studies\" cümlesi üçüncü tekil -s kuralını doğru uygular; diğer cümlelerde özne I olduğu için fiiller yalındır."
+        }
+      ]
+    },
+    {
+      "id": "w6",
+      "week": 6,
+      "title": "Present Simple: Negative & Questions, Adverbs of Frequency",
+      "summary": "Geniş zamanda do/does yardımcı fiiliyle olumsuz ve soru cümleleri ile sıklık zarflarının cümledeki yeri.",
+      "notes": "## 1. Olumsuz: don't / doesn't\n\nPresent Simple'da olumsuzluk için **do/does + not** yardımcı fiili kullanılır.\n\n| Özne | Yardımcı | Örnek |\n|---|---|---|\n| I / You / We / They | do not (don't) | I **don't** like coffee. |\n| He / She / It | does not (doesn't) | He **doesn't** like coffee. |\n\n> [!dikkat]\n> **En kritik kural:** does/doesn't kullandığında ana fiil **yalın** kalır, -s eki yardımcı fiile geçer.\n> \"He doesn't **studies**\" YANLIŞ → \"He doesn't **study**\" DOĞRU\n> Mantık: -s eki cümlede sadece bir kez görünür; does zaten o -s'yi taşıyor.\n\nÖrnekler:\n\n- I **don't** understand this algorithm. → Bu algoritmayı anlamıyorum.\n- She **doesn't** use Windows; she uses Linux. → O Windows kullanmaz, Linux kullanır.\n- Our lecturer **doesn't** accept late homework. → Hocamız geç ödev kabul etmez.\n\n## 2. Soru: Do / Does\n\n**Do/Does + özne + yalın fiil + ...?**\n\n```text\nDo you live in the dormitory?      -> Yes, I do. / No, I don't.\nDoes he speak English?             -> Yes, he does. / No, he doesn't.\nDo they have a programming class?  -> Yes, they do. / No, they don't.\n```\n\n> [!sınav]\n> Soruda da fiil yalındır: \"Does she **studies**?\" YANLIŞ → \"Does she **study**?\" DOĞRU\n\n**Wh- soruları**: Wh- + do/does + özne + yalın fiil\n\n| Soru | Anlam |\n|---|---|\n| **What** do you study? | Ne okuyorsun? |\n| **Where** does she live? | Nerede yaşıyor? |\n| **When** do the classes start? | Dersler ne zaman başlar? |\n| **How** do you go to school? | Okula nasıl gidersin? |\n| **Why** doesn't he come to class? | Neden derse gelmiyor? |\n\nİstisna: soru kelimesi **öznenin kendisiyse** do/does kullanılmaz.\n- **Who teaches** this course? (Bu dersi kim veriyor?) - \"Who does teach\" değil.\n\n## 3. Adverbs of Frequency - Sıklık Zarfları\n\n| Zarf | Yaklaşık oran | Türkçe |\n|---|---|---|\n| always | %100 | her zaman |\n| usually | %80 | genellikle |\n| often | %60 | sık sık |\n| sometimes | %40 | bazen |\n| rarely / seldom | %10 | nadiren |\n| never | %0 | asla |\n\n**Cümledeki yeri - altın kural:**\n\n1. Normal fiilden **önce**: I **usually** get up at seven.\n2. \"be\" fiilinden **sonra**: I am **usually** tired in the evening.\n3. Yardımcı fiil ile ana fiil **arasında**: I **don't usually** drink coffee.\n\n> [!ipucu]\n> Kısa hatırlatma: **be'den sonra, diğer fiillerden önce.**\n\n> [!dikkat]\n> **never** kelimesi zaten olumsuzdur, ikinci bir olumsuzluk almaz: \"I don't never smoke\" YANLIŞ → \"I **never** smoke\" DOĞRU\n\nSıklık ifadeleri (adverbial phrases) cümlenin sonuna gelir: every day, once a week, twice a month, three times a year.\n- I go to the library **twice a week**. → Haftada iki kez kütüphaneye giderim.\n\n## 4. VOCABULARY - Kelime Listesi\n\n| English | Türkçe |\n|---|---|\n| always / never | her zaman / asla |\n| usually / sometimes | genellikle / bazen |\n| twice a week | haftada iki kez |\n| to understand | anlamak |\n| to prefer | tercih etmek |\n| to need | ihtiyaç duymak |\n| to fail (an exam) | sınavdan kalmak |\n| to pass (an exam) | sınavı geçmek |\n| to practise | pratik yapmak |\n| operating system | işletim sistemi |\n| browser | tarayıcı |\n| to install | kurmak (program) |\n| to update | güncellemek |\n| bug / error | hata |\n| to fix | düzeltmek, onarmak |\n",
+      "keyPoints": [
+        "Olumsuz: I/you/we/they don't + yalın fiil; he/she/it doesn't + yalın fiil.",
+        "does/doesn't varsa ana fiil asla -s almaz.",
+        "Soru: Do/Does + özne + yalın fiil? Kısa cevap: Yes, I do. / No, he doesn't.",
+        "Wh- soru sırası: Wh- + do/does + özne + yalın fiil.",
+        "Soru kelimesi öznenin kendisiyse do/does kullanılmaz: Who teaches this course?",
+        "Sıklık zarfı be fiilinden sonra, diğer fiillerden önce gelir.",
+        "never zaten olumsuzdur, don't ile birlikte kullanılmaz."
+      ],
+      "pitfalls": [
+        "\"He doesn't studies\" demek - does varken fiil yalın kalmalı.",
+        "\"Does she has a car?\" demek - doğrusu \"Does she have a car?\".",
+        "Sıklık zarfını yanlış yere koymak: \"I go always\" yerine \"I always go\".",
+        "Çift olumsuz kurmak: \"I don't never drink tea\" yerine \"I never drink tea\"."
+      ],
+      "flashcards": [
+        {
+          "q": "doesn't + verb",
+          "a": "Üçüncü tekil olumsuz - He doesn't use Windows. Ana fiil yalın kalır (uses değil, use)."
+        },
+        {
+          "q": "to prefer",
+          "a": "tercih etmek - I prefer Linux to Windows. (Linux'u Windows'a tercih ederim.)"
+        },
+        {
+          "q": "operating system",
+          "a": "işletim sistemi - Which operating system do you use? (Hangi işletim sistemini kullanırsın?)"
+        },
+        {
+          "q": "to install",
+          "a": "kurmak - She installs the software on her laptop. (Yazılımı dizüstüne kurar.)"
+        },
+        {
+          "q": "bug",
+          "a": "yazılım hatası - This program has a bug. (Bu programda bir hata var.)"
+        },
+        {
+          "q": "to fix",
+          "a": "düzeltmek, onarmak - He fixes the error quickly. (Hatayı hızlıca düzeltir.)"
+        },
+        {
+          "q": "twice a week",
+          "a": "haftada iki kez - I go to the gym twice a week. (Haftada iki kez spora giderim.)"
+        },
+        {
+          "q": "rarely / seldom",
+          "a": "nadiren - I rarely watch television. (Nadiren televizyon izlerim.)"
+        },
+        {
+          "q": "to pass / to fail an exam",
+          "a": "sınavı geçmek / sınavdan kalmak - She passes all her exams."
+        },
+        {
+          "q": "Who teaches this course?",
+          "a": "Bu dersi kim veriyor? - Soru kelimesi özne olunca does kullanılmaz."
+        }
+      ],
+      "questions": [
+        {
+          "id": "w6q1",
+          "type": "mcq",
+          "difficulty": 1,
+          "q": "Fill in the blank: My sister ___ like horror films.",
+          "choices": [
+            "don't",
+            "doesn't",
+            "isn't",
+            "not"
+          ],
+          "answer": 1,
+          "explain": "\"My sister\" = she (üçüncü tekil) olduğu için olumsuz yardımcı fiil **doesn't**'tir. \"isn't\" be fiilinin olumsuzudur ve \"like\" gibi bir ana fiille birlikte kullanılmaz."
+        },
+        {
+          "id": "w6q2",
+          "type": "mcq",
+          "difficulty": 2,
+          "q": "Which sentence is CORRECT?",
+          "choices": [
+            "He doesn't studies at weekends.",
+            "He don't studies at weekends.",
+            "He doesn't study at weekends.",
+            "He not study at weekends."
+          ],
+          "answer": 2,
+          "explain": "**doesn't** zaten üçüncü tekil eki -s'yi taşır, bu yüzden ana fiil yalın kalır: **doesn't study**. Bir cümlede -s eki iki kez görünmez; \"don't\" ise üçüncü tekille kullanılmaz."
+        },
+        {
+          "id": "w6q3",
+          "type": "mcq",
+          "difficulty": 2,
+          "q": "Make it a question: \"She lives in the dormitory.\"",
+          "choices": [
+            "Does she lives in the dormitory?",
+            "Do she live in the dormitory?",
+            "Is she live in the dormitory?",
+            "Does she live in the dormitory?"
+          ],
+          "answer": 3,
+          "explain": "Üçüncü tekil şahısla soru **Does** ile kurulur ve ana fiil yalın olur: **Does she live...?** \"Does she lives\" ikinci kez -s eklediği için yanlıştır."
+        },
+        {
+          "id": "w6q4",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Correct the mistake: \"Does he has a car?\" Write the correct question.",
+          "accept": [
+            "does he have a car"
+          ],
+          "explain": "Yardımcı fiil **does** cümledeki tekillik bilgisini taşır, dolayısıyla ana fiil yalın halde kalır: **Does he have a car?** \"has\" burada kullanılamaz."
+        },
+        {
+          "id": "w6q5",
+          "type": "mcq",
+          "difficulty": 2,
+          "q": "Where does the adverb go? Choose the correct sentence with \"never\".",
+          "choices": [
+            "I never get up before 8 o'clock.",
+            "I get up never before 8 o'clock.",
+            "Never I get up before 8 o'clock.",
+            "I get never up before 8 o'clock."
+          ],
+          "answer": 0,
+          "explain": "Sıklık zarfları normal fiillerden **önce** gelir: I **never get up** before 8 o'clock. Fiilden sonra ya da cümle başına koymak İngilizcede doğal değildir; zarf yalnızca be fiilinden sonra gelirdi."
+        },
+        {
+          "id": "w6q6",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Fill in the blank with an adverb of frequency meaning \"her zaman, %100\": She is ___ late for the first class.",
+          "accept": [
+            "always"
+          ],
+          "explain": "%100 sıklık = **always**. Dikkat: burada be fiili (is) olduğu için zarf fiilden **sonra** gelir: She is always late. Normal bir fiil olsaydı fiilden önce gelirdi."
+        },
+        {
+          "id": "w6q7",
+          "type": "tf",
+          "difficulty": 2,
+          "q": "The sentence \"I don't never use social media\" is correct English.",
+          "answer": false,
+          "explain": "Yanlış. **never** kendi başına olumsuz bir kelimedir; don't ile birlikte kullanılırsa çift olumsuz olur. Doğrusu: \"I never use social media\" ya da \"I don't use social media\"."
+        },
+        {
+          "id": "w6q8",
+          "type": "short",
+          "difficulty": 3,
+          "q": "Translate into English: Hocamız geç ödev kabul etmez.",
+          "accept": [
+            "our lecturer doesnt accept late homework",
+            "our teacher doesn't accept late homework"
+          ],
+          "explain": "\"Hocamız\" üçüncü tekildir → **doesn't** + yalın fiil **accept**. Tam cümle: Our lecturer doesn't accept late homework. Fiile -s eklemek (accepts) doesn't ile birlikte hatalı olur."
+        },
+        {
+          "id": "w6q9",
+          "type": "mcq",
+          "difficulty": 3,
+          "q": "Read the text and answer.\n\n*\"Zeynep usually studies in the library, but she never studies at weekends. She often goes to the cinema on Saturdays. She doesn't like crowded places, so she rarely goes to the canteen at lunchtime.\"*\n\nHow often does Zeynep go to the canteen at lunchtime?",
+          "choices": [
+            "Often",
+            "Rarely",
+            "Always",
+            "Never"
+          ],
+          "answer": 1,
+          "explain": "Metinde \"she rarely goes to the canteen at lunchtime\" yazıyor - **rarely** = nadiren. \"never\" hafta sonu ders çalışmakla, \"often\" ise sinemayla ilgilidir; sıklık zarfını doğru cümleyle eşleştirmek gerekir."
+        },
+        {
+          "id": "w6q10",
+          "type": "mcq",
+          "difficulty": 3,
+          "q": "Fill in the blank: ___ teaches the programming course this term?",
+          "choices": [
+            "Who does",
+            "Who do",
+            "Who",
+            "Whom does"
+          ],
+          "answer": 2,
+          "explain": "Soru kelimesi **öznenin kendisi** olduğunda do/does kullanılmaz ve fiil üçüncü tekil gibi çekilir: **Who teaches...?** \"Who does teach\" yalnızca özel vurgu için kullanılır, standart soru biçimi değildir."
+        },
+        {
+          "id": "w6q11",
+          "type": "open",
+          "difficulty": 3,
+          "q": "Write 5 sentences about your habits: two affirmative, one negative, one question, and use at least three different adverbs of frequency.",
+          "rubric": [
+            "İki olumlu Present Simple cümlesi kurmalı",
+            "Bir olumsuz cümle kurmalı (don't/doesn't + yalın fiil)",
+            "Bir soru cümlesi kurmalı (Do/Does ...?)",
+            "En az üç farklı sıklık zarfı kullanmalı ve doğru yere koymalı"
+          ],
+          "explain": "Örnek tam cevap: *I always check my e-mails in the morning. I usually study in the library after class. I don't often watch television. I am never late for the first lesson. Do you sometimes study with your classmates?* - always/usually/often normal fiilden önce, never ise be fiilinden sonra doğru konumlanmış; olumsuzda fiil yalın kalmış."
+        }
+      ]
+    },
+    {
+      "id": "w7",
+      "week": 7,
+      "title": "Can / Can't for Ability and Permission, Imperatives",
+      "summary": "Yetenek, izin ve rica bildiren can/can't modal fiili ile emir kipinin (imperative) kullanımı.",
+      "notes": "## 1. Can - Yetenek (Ability)\n\n**can** bir *modal* (kip) fiildir. Kuralları basit ama katıdır:\n\n1. Özneye göre **değişmez**: I can, he can, they can (\"he cans\" YANLIŞ)\n2. Arkasından **her zaman yalın fiil** gelir: can **swim** (\"can to swim\" YANLIŞ)\n3. Olumsuzu **cannot / can't**\n4. Soruda başa gelir: **Can** you...?\n\n| Yapı | Örnek | Türkçe |\n|---|---|---|\n| Olumlu | I **can** write code in Python. | Python'da kod yazabilirim. |\n| Olumsuz | She **can't** speak German. | Almanca konuşamaz. |\n| Soru | **Can** you use Excel? | Excel kullanabilir misin? |\n| Kısa cevap | Yes, I can. / No, I can't. | |\n\n> [!dikkat]\n> **cannot** tek kelime yazılır; kısaltması **can't**'tir.\n\n## 2. Can - İzin ve Rica (Permission & Request)\n\n| Kullanım | Örnek | Türkçe |\n|---|---|---|\n| İzin isteme | **Can I** come in? | İçeri girebilir miyim? |\n| İzin verme | You **can** use my laptop. | Dizüstümü kullanabilirsin. |\n| İzin vermeme | You **can't** eat in the laboratory. | Laboratuvarda yemek yiyemezsin. |\n| Rica | **Can you** help me, please? | Bana yardım edebilir misin lütfen? |\n\n> [!ipucu]\n> Daha kibar olmak için **could** kullanılır: *Could you repeat that, please?* (Tekrar eder misiniz lütfen?) Sınıf içinde en çok işine yarayacak kalıp budur.\n\n## 3. Sınıf İçi Faydalı Can Kalıpları\n\n```text\nCan you repeat that, please?       Tekrarlayabilir misiniz?\nCan I ask a question?              Bir soru sorabilir miyim?\nCan you speak more slowly?         Daha yavaş konuşabilir misiniz?\nI can't hear you.                  Sizi duyamıyorum.\nHow do you say \"kalem\" in English? \"Kalem\" İngilizcede nasıl denir?\nWhat does \"device\" mean?           \"Device\" ne demek?\n```\n\n## 4. Imperatives - Emir Kipi\n\nEmir cümlesinde **özne yoktur**, fiil yalın haliyle başa gelir.\n\n| Tür | Yapı | Örnek |\n|---|---|---|\n| Olumlu | Fiil + ... | **Open** your books. / **Press** the enter key. |\n| Olumsuz | Don't + fiil | **Don't** talk during the exam. / **Don't** forget the deadline. |\n| Kibar | Please + emir | **Please** close the door. / Close the door, **please**. |\n| Öneri | Let's + fiil | **Let's** start the lesson. (Hadi derse başlayalım.) |\n\nBilgisayar ve laboratuvar talimatları emir kipiyle yazılır; kullanım kılavuzları bu yüzden hep imperative'dir:\n\n> **Install the program. Open the terminal. Type your username and press Enter. Do not close the window during the update.**\n\n*Programı kur. Terminali aç. Kullanıcı adını yaz ve Enter'a bas. Güncelleme sırasında pencereyi kapatma.*\n\n> [!sınav]\n> Emir cümlesinde **you yazılmaz**: \"You open the door\" bir emir değil, bilgi cümlesidir. Emir: \"Open the door.\"\n\n## 5. VOCABULARY - Kelime Listesi\n\n| English | Türkçe |\n|---|---|\n| ability | yetenek |\n| permission | izin |\n| to allow | izin vermek |\n| to be able to | yapabilmek |\n| to press (a key) | (tuşa) basmak |\n| to type | yazmak (klavyeyle) |\n| to click | tıklamak |\n| to save | kaydetmek |\n| to delete | silmek |\n| to repeat | tekrarlamak |\n| to translate | çevirmek |\n| skill | beceri |\n| to solve (a problem) | problem çözmek |\n| to switch on / off | açmak / kapatmak (cihaz) |\n| forbidden | yasak |\n",
+      "keyPoints": [
+        "can özneye göre değişmez; \"he cans\" diye bir biçim yoktur.",
+        "can'den sonra fiil daima yalındır: can go, can write (can to go yanlış).",
+        "Olumsuz cannot / can't; soruda can başa gelir.",
+        "Kısa cevap: Yes, I can. / No, I can't.",
+        "can hem yetenek hem izin hem rica bildirir; could daha kibardır.",
+        "Emir cümlesinde özne kullanılmaz, fiil yalın halde başa gelir.",
+        "Olumsuz emir: Don't + yalın fiil (Don't press that button)."
+      ],
+      "pitfalls": [
+        "\"He cans swim\" demek - modal fiiller -s almaz.",
+        "\"I can to play\" demek - can'den sonra to kullanılmaz.",
+        "Emir cümlesine özne eklemek: \"You open the window\" yerine \"Open the window\".",
+        "Olumsuz emirde doesn't kullanmak: \"Doesn't talk\" yerine \"Don't talk\"."
+      ],
+      "flashcards": [
+        {
+          "q": "can + verb",
+          "a": "yapabilmek - I can write code in Python. Fiil daima yalındır (can write; can to write DEĞİL)."
+        },
+        {
+          "q": "to press (a key)",
+          "a": "tuşa basmak - Press the Enter key. (Enter tuşuna bas.)"
+        },
+        {
+          "q": "to type",
+          "a": "klavyeyle yazmak - Can you type quickly? (Hızlı yazabilir misin?)"
+        },
+        {
+          "q": "to delete",
+          "a": "silmek - Don't delete that file! (O dosyayı silme!)"
+        },
+        {
+          "q": "to save",
+          "a": "kaydetmek - Save your work every ten minutes. (Çalışmanı on dakikada bir kaydet.)"
+        },
+        {
+          "q": "skill",
+          "a": "beceri - Programming is an important skill. (Programlama önemli bir beceridir.)"
+        },
+        {
+          "q": "Could you repeat that, please?",
+          "a": "Tekrar eder misiniz lütfen? - can'in daha kibar hali could'dur."
+        },
+        {
+          "q": "to switch on / off",
+          "a": "açmak / kapatmak - Switch off the projector, please. (Projeksiyonu kapat lütfen.)"
+        },
+        {
+          "q": "Don't + verb",
+          "a": "Olumsuz emir - Don't talk during the exam. (Sınav sırasında konuşma.)"
+        },
+        {
+          "q": "forbidden",
+          "a": "yasak - Food is forbidden in the laboratory. (Laboratuvarda yiyecek yasaktır.)"
+        }
+      ],
+      "questions": [
+        {
+          "id": "w7q1",
+          "type": "mcq",
+          "difficulty": 1,
+          "q": "Fill in the blank: My friend ___ speak three languages.",
+          "choices": [
+            "cans",
+            "can to",
+            "is can",
+            "can"
+          ],
+          "answer": 3,
+          "explain": "**can** bir modal fiildir ve özneye göre değişmez; üçüncü tekilde bile -s almaz. Ayrıca arkasından to gelmez, doğrudan yalın fiil gelir: can speak."
+        },
+        {
+          "id": "w7q2",
+          "type": "mcq",
+          "difficulty": 1,
+          "q": "Fill in the blank: I ___ use this program; it is too difficult for me.",
+          "choices": [
+            "can't",
+            "not can",
+            "don't can",
+            "can"
+          ],
+          "answer": 0,
+          "explain": "Cümlenin ikinci kısmı \"çok zor\" dediği için olumsuz gerekir: **can't**. Modal fiiller olumsuzluk için don't almaz; not doğrudan can'e eklenir (cannot / can't)."
+        },
+        {
+          "id": "w7q3",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Correct the mistake: \"She cans play the guitar.\" Write the correct sentence.",
+          "accept": [
+            "she can play the guitar"
+          ],
+          "explain": "Modal fiiller üçüncü tekilde -s almaz: **She can play the guitar.** Bu, Present Simple'daki -s kuralının modal fiillerde geçerli olmadığını gösterir."
+        },
+        {
+          "id": "w7q4",
+          "type": "mcq",
+          "difficulty": 2,
+          "q": "Which sentence is a correct IMPERATIVE?",
+          "choices": [
+            "You press the Enter key.",
+            "Press the Enter key.",
+            "To press the Enter key.",
+            "Pressing the Enter key."
+          ],
+          "answer": 1,
+          "explain": "Emir cümlesinde özne kullanılmaz ve fiil yalın haliyle başa gelir: **Press the Enter key.** \"You press...\" bir bilgi cümlesidir; to press ve pressing ise fiilin diğer biçimleridir, emir değildir."
+        },
+        {
+          "id": "w7q5",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Make this imperative negative: \"Close the window during the update.\"",
+          "accept": [
+            "dont close the window during the update",
+            "do not close the window during the update"
+          ],
+          "explain": "Olumsuz emir **Don't + yalın fiil** ile kurulur: Don't close the window during the update. Emirde özne olmadığı için doesn't asla kullanılmaz."
+        },
+        {
+          "id": "w7q6",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Translate into English: Laboratuvarda yemek yiyemezsin.",
+          "accept": [
+            "you cant eat in the laboratory",
+            "you cannot eat in the laboratory",
+            "you can't eat in the lab"
+          ],
+          "explain": "Burada can izin anlamındadır ve olumsuzu yasak bildirir: **You can't eat in the laboratory.** can't yetenek dışında izin vermeme anlamı da taşır."
+        },
+        {
+          "id": "w7q7",
+          "type": "tf",
+          "difficulty": 1,
+          "q": "After \"can\" the main verb is used in its bare form without \"to\", as in \"I can swim\".",
+          "answer": true,
+          "explain": "Doğru. can bir modal fiildir ve arkasından **to'suz yalın fiil** gelir: I can swim. \"to\" yalnızca be able to gibi yapılarda görülür: I am able to swim. Öğrencinin yaygın yanlışı Türkçedeki \"-ebilmek\" yapısını *I can to swim* biçiminde kurmaktır; aynı kural must, should ve will için de geçerlidir."
+        },
+        {
+          "id": "w7q8",
+          "type": "mcq",
+          "difficulty": 2,
+          "q": "You want your lecturer to speak more slowly. What is the most polite sentence?",
+          "choices": [
+            "Speak slowly!",
+            "You can speak slowly.",
+            "Could you speak more slowly, please?",
+            "Why you speak fast?"
+          ],
+          "answer": 2,
+          "explain": "**Could you ... , please?** en kibar rica kalıbıdır. Emir kipi (\"Speak slowly!\") bir hocaya karşı kaba durur; \"You can speak slowly\" izin verir gibi olur, rica değildir."
+        },
+        {
+          "id": "w7q9",
+          "type": "mcq",
+          "difficulty": 3,
+          "q": "Read the instructions and answer.\n\n*\"Switch on the computer. Type your username and password. Click the icon on the desktop. Don't install any programs without permission. If you have a problem, ask the lab assistant.\"*\n\nWhat can students NOT do?",
+          "choices": [
+            "Switch on the computer",
+            "Type their password",
+            "Ask the lab assistant",
+            "Install programs without permission"
+          ],
+          "answer": 3,
+          "explain": "\"Don't install any programs without permission\" olumsuz emirdir, yani yasak olan eylem budur. Diğer üçü olumlu emir cümleleriyle serbest bırakılmıştır; talimat metinlerinde Don't ile başlayan cümleyi bulmak sorunun anahtarıdır."
+        },
+        {
+          "id": "w7q10",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Give a short answer: \"Can you swim?\" (Answer: No)",
+          "accept": [
+            "no i cant",
+            "no i cannot"
+          ],
+          "explain": "Modal fiillerle kısa cevap modalin kendisiyle verilir: **No, I can't.** \"No, I don't\" yanlıştır, çünkü soruda do yardımcı fiili yoktur."
+        },
+        {
+          "id": "w7q11",
+          "type": "open",
+          "difficulty": 3,
+          "q": "Write 5 sentences about your abilities: two things you can do, two things you can't do, and one polite request with \"Could you...?\".",
+          "rubric": [
+            "İki olumlu can cümlesi kurmalı",
+            "İki olumsuz can't cümlesi kurmalı",
+            "can'den sonra yalın fiil kullanmalı, to eklememeli",
+            "Bir kibar rica cümlesi kurmalı (Could you ..., please?)"
+          ],
+          "explain": "Örnek tam cevap: *I can write simple programs in C. I can ride a bicycle. I can't play the piano. I can't speak German very well. Could you help me with my homework, please?* - Tüm modal cümlelerde fiil yalın halde ve can/can't özneye göre değişmemiş."
+        }
+      ]
+    },
+    {
+      "id": "w8",
+      "week": 8,
+      "title": "MIDTERM REVIEW - Weeks 1-7 Comprehensive Revision",
+      "summary": "Vize kapsamındaki tüm konuların (to be, tanımlıklar, çoğullar, there is/are, Present Simple, can, imperatives) toplu tekrarı ve karma alıştırmalar.",
+      "notes": "## Vize Kapsamı - 7 Haftanın Özeti\n\nBu hafta yeni konu yok; **1-7. haftaların tamamı** vize kapsamındadır. Aşağıdaki tablolar tüm yapıları tek sayfada topluyor.\n\n## 1. Verb \"to be\" (Hafta 1-2)\n\n| Özne | Olumlu | Olumsuz | Soru |\n|---|---|---|---|\n| I | I am (I'm) | I'm not | Am I...? |\n| He/She/It | he is (he's) | he isn't | Is he...? |\n| You/We/They | they are (they're) | they aren't | Are they...? |\n\nKısa cevap: Yes, I **am**. (kısaltma yok) / No, I'm not.\n\n## 2. Zamirler ve İyelik Sıfatları (Hafta 2)\n\n| I - my | you - your | he - his | she - her |\n|---|---|---|---|\n| **it - its** | **we - our** | **they - their** | |\n\n*it's = it is* / *its = onun*. Bu ayrımı vizede mutlaka soruyorlar.\n\n## 3. Tanımlıklar ve Çoğullar (Hafta 3)\n\n- **a** + sessiz ses (a university), **an** + sesli ses (an hour, an engineer)\n- **the** = belirli, ikinci kez bahsedilen\n- Çoğul: +s / +es (boxes, watches) / y→ies (libraries) / f→ves (shelves)\n- Düzensiz: man-men, woman-women, child-children, person-people, mouse-mice\n- this/that (tekil) - these/those (çoğul)\n\n## 4. There is / There are (Hafta 4)\n\n| Tekil | Çoğul |\n|---|---|\n| There is a printer. | There are two printers. |\n| There isn't a printer. | There aren't any printers. |\n| Is there...? Yes, there is. | Are there...? Yes, there are. |\n\nYer edatları: in, on, under, next to, between, behind, in front of, opposite, near.\n\n## 5. Present Simple (Hafta 5-6)\n\n| | I/You/We/They | He/She/It |\n|---|---|---|\n| Olumlu | I work | He work**s** |\n| Olumsuz | I **don't** work | He **doesn't** work |\n| Soru | **Do** you work? | **Does** he work? |\n\n> [!sınav]\n> Vizedeki bir numaralı tuzak: **does/doesn't varken ana fiile -s eklemek.**\n> \"Does he works?\" YANLIŞ - \"Does he work?\" DOĞRU\n\nSıklık zarfları: **be'den sonra, diğer fiillerden önce.**\n- She **is always** busy. / She **always studies** at night.\n\n## 6. Can & Imperatives (Hafta 7)\n\n- can + yalın fiil, özneye göre değişmez, olumsuzu can't\n- Emir: Open the door. / Don't open the door. / Let's start.\n\n## 7. Vize Öncesi Kontrol Listesi\n\nAşağıdaki 6 sorunun cevabını bir bakışta verebiliyorsan hazırsın:\n\n1. \"My sister ___ a doctor.\" → **is**\n2. \"He ___ (study) every night.\" → **studies**\n3. \"He doesn't ___ (study) at weekends.\" → **study**\n4. \"___ there any students in the class?\" → **Are**\n5. \"She ___ (can) speak Japanese.\" → **can**\n6. \"I ___ get up early.\" (always) → **always get up**\n\n> [!ipucu]\n> Sınavda önce **özneyi** bul, sonra **yapıyı/zamanı** belirle, en son fiili çek. Bu üç adımlı refleks çoğu soruyu tek okuyuşta çözer.\n\n## 8. VOCABULARY - Vize Kelime Tekrarı\n\n| English | Türkçe |\n|---|---|\n| department / faculty | bölüm / fakülte |\n| lecturer | öğretim görevlisi |\n| dormitory | yurt |\n| timetable | ders programı |\n| assignment / deadline | ödev / son teslim tarihi |\n| laboratory | laboratuvar |\n| software / hardware | yazılım / donanım |\n| keyboard / screen | klavye / ekran |\n| file / folder | dosya / klasör |\n| to install / to update | kurmak / güncellemek |\n| to download / to upload | indirmek / yüklemek |\n| algorithm / database | algoritma / veritabanı |\n| to submit | teslim etmek |\n| attendance | devam, yoklama |\n| to pass / to fail | geçmek / kalmak |\n",
+      "keyPoints": [
+        "to be (am/is/are) ile Present Simple (do/does) yardımcı fiilleri asla karıştırılmaz: \"Is he study?\" yanlıştır.",
+        "Üçüncü tekilde olumlu cümlede -s vardır; don't/doesn't ya da do/does varken fiil yalındır.",
+        "There is/are Türkçedeki \"var\" karşılığıdır; have/has ile karıştırılmamalıdır.",
+        "a/an seçimi sese göre yapılır; çoğul ve sayılamayanlarla kullanılmaz.",
+        "these/those çoğuldur ve are ile kullanılır.",
+        "can özneye göre değişmez, arkasından yalın fiil gelir.",
+        "Sıklık zarfı be'den sonra, diğer fiillerden önce; never ikinci bir olumsuzluk almaz.",
+        "Emir cümlesinde özne yoktur; olumsuzu Don't + yalın fiildir."
+      ],
+      "pitfalls": [
+        "be ve do yardımcılarını karıştırmak: \"Is she works?\" yerine \"Does she work?\".",
+        "Üçüncü tekil -s'yi unutmak veya doesn't'ten sonra fazladan eklemek.",
+        "he/she cinsiyet karışıklığı ve its/it's hatası.",
+        "\"I am agree\" gibi be + fiil hatası; doğrusu \"I agree\"."
+      ],
+      "flashcards": [
+        {
+          "q": "is / does farkı",
+          "a": "be fiiliyle soru: Is he a student? Normal fiille soru: Does he study? İkisi bir cümlede birlikte olmaz."
+        },
+        {
+          "q": "doesn't + yalın fiil",
+          "a": "She doesn't work here. (doesn't works DEĞİL) - -s eki yardımcı fiile geçmiştir."
+        },
+        {
+          "q": "There are ... any",
+          "a": "Olumsuz ve soruda çoğulla any: Are there any questions? / There aren't any chairs."
+        },
+        {
+          "q": "an hour, a university",
+          "a": "Kural sese bakar: hour'da h okunmaz (an), university /yu/ sesiyle başlar (a)."
+        },
+        {
+          "q": "person → people",
+          "a": "Düzensiz çoğul - Twenty people are in the lab. (peoples yazılmaz.)"
+        },
+        {
+          "q": "always / never yeri",
+          "a": "be'den sonra: He is always late. Diğer fiillerden önce: He always comes late."
+        },
+        {
+          "q": "can't",
+          "a": "cannot'ın kısaltması - She can't come to class today. Modal olumsuzunda don't kullanılmaz."
+        },
+        {
+          "q": "Don't + verb",
+          "a": "Olumsuz emir - Don't forget the deadline. (Son teslim tarihini unutma.)"
+        },
+        {
+          "q": "to submit",
+          "a": "teslim etmek - Submit your assignment before Friday. (Ödevini cumadan önce teslim et.)"
+        },
+        {
+          "q": "attendance",
+          "a": "devam, yoklama - Attendance is compulsory in this course. (Bu derste devam zorunludur.)"
+        }
+      ],
+      "questions": [
+        {
+          "id": "w8q1",
+          "type": "mcq",
+          "difficulty": 1,
+          "q": "Fill in the blank: My parents ___ from Kırşehir, but I ___ a student in Kırıkkale now.",
+          "choices": [
+            "are / am",
+            "are / is",
+            "am / is",
+            "is / am"
+          ],
+          "answer": 0,
+          "explain": "\"My parents\" çoğul olduğu için **are**; \"I\" ile daima **am** kullanılır. Özne-fiil uyumu vizenin en temel sorusudur: önce özneye bak, sonra fiili seç."
+        },
+        {
+          "id": "w8q2",
+          "type": "mcq",
+          "difficulty": 2,
+          "q": "Fill in the blank: ___ your roommate study engineering, too?",
+          "choices": [
+            "Is",
+            "Does",
+            "Do",
+            "Are"
+          ],
+          "answer": 1,
+          "explain": "Ana fiil \"study\" olduğu için be değil, **do/does** yardımcı fiili gerekir; özne \"your roommate\" tekil olduğundan **Does**. \"Is your roommate study?\" iki farklı yardımcı yapıyı karıştırmaktır ve klasik bir vize tuzağıdır."
+        },
+        {
+          "id": "w8q3",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Correct the mistake: \"She don't have any classes on Friday.\" Write the correct sentence.",
+          "accept": [
+            "she doesnt have any classes on friday",
+            "she does not have any classes on friday"
+          ],
+          "explain": "Üçüncü tekil şahısla olumsuz yardımcı **doesn't**'tir: She doesn't have any classes on Friday. Ana fiil have yalın kalır (has olmaz), çünkü tekillik bilgisi doesn't üzerindedir."
+        },
+        {
+          "id": "w8q4",
+          "type": "mcq",
+          "difficulty": 2,
+          "q": "Fill in the blank: There ___ a whiteboard and three computers in the room.",
+          "choices": [
+            "are",
+            "have",
+            "is",
+            "has"
+          ],
+          "answer": 2,
+          "explain": "there is/are yapısında fiil, hemen ardından gelen **ilk isme** göre seçilir: \"a whiteboard\" tekil → **is**. Türkçedeki \"var\" için have/has kullanılmaz."
+        },
+        {
+          "id": "w8q5",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Write the plurals of \"person\", \"box\" and \"city\" (separate them with commas).",
+          "accept": [
+            "people, boxes, cities"
+          ],
+          "explain": "person → **people** (düzensiz), box → **boxes** (-x sonrası +es), city → **cities** (sessiz + y, y düşer +ies). Üç farklı çoğul kuralı tek soruda ölçülüyor."
+        },
+        {
+          "id": "w8q6",
+          "type": "mcq",
+          "difficulty": 2,
+          "q": "Fill in the blank: My laptop is very old, but ___ screen is still good.",
+          "choices": [
+            "it's",
+            "his",
+            "their",
+            "its"
+          ],
+          "answer": 3,
+          "explain": "Boşluktan sonra \"screen\" ismi geliyor, yani iyelik sıfatı gerekir: **its**. Kesme işaretli \"it's\" = it is olur ve \"it is screen\" anlamsızdır; laptop cansız olduğu için his de kullanılmaz."
+        },
+        {
+          "id": "w8q7",
+          "type": "mcq",
+          "difficulty": 2,
+          "q": "Fill in the blank: I need ___ hour to finish ___ homework for tomorrow.",
+          "choices": [
+            "an / the",
+            "a / the",
+            "an / a",
+            "a / a"
+          ],
+          "answer": 0,
+          "explain": "\"hour\" kelimesinde h okunmaz, sesli sesle başlar → **an hour**. \"homework\" sayılamayan bir isimdir, a/an almaz; belirli bir ödevden bahsedildiği için **the** uygundur."
+        },
+        {
+          "id": "w8q8",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Put the adverb in the correct place and write the full sentence: \"He is late for class.\" (never)",
+          "accept": [
+            "he is never late for class"
+          ],
+          "explain": "Sıklık zarfı **be fiilinden sonra** gelir: He is never late for class. Normal bir fiil olsaydı fiilden önce gelirdi (He never comes late)."
+        },
+        {
+          "id": "w8q9",
+          "type": "tf",
+          "difficulty": 2,
+          "q": "The sentence \"I am agree with you\" is correct English.",
+          "answer": false,
+          "explain": "Yanlış. **agree** zaten bir fiildir, yanına be fiili almaz. Doğrusu: **I agree with you.** Türk öğrencilerin en bilinen hatalarından biridir, çünkü Türkçede \"katılıyorum\" bir durum gibi düşünülür."
+        },
+        {
+          "id": "w8q10",
+          "type": "mcq",
+          "difficulty": 3,
+          "q": "Which sentence is CORRECT?",
+          "choices": [
+            "This are my friend from the dormitory.",
+            "These are my friends from the dormitory.",
+            "These is my friends from the dormitory.",
+            "This is my friends from the dormitory."
+          ],
+          "answer": 1,
+          "explain": "**These** çoğuldur; hem fiil (**are**) hem isim (**friends**) çoğul olmalıdır. Diğer seçeneklerin hepsinde tekil-çoğul uyumsuzluğu vardır - işaret sıfatı, fiil ve isim üçünün de aynı sayıda olması gerekir."
+        },
+        {
+          "id": "w8q11",
+          "type": "short",
+          "difficulty": 3,
+          "q": "Translate into English: Kız kardeşim hafta sonları ders çalışmaz.",
+          "accept": [
+            "my sister doesnt study at weekends",
+            "my sister doesn't study on weekends"
+          ],
+          "explain": "Üçüncü tekil olumsuz → **doesn't** + yalın fiil **study**. \"Hafta sonları\" için İngiliz İngilizcesinde at weekends, Amerikan İngilizcesinde on weekends kullanılır; ikisi de kabul edilir."
+        },
+        {
+          "id": "w8q12",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Correct the mistake: \"Can you to help me with this exercise?\" Write the correct question.",
+          "accept": [
+            "can you help me with this exercise"
+          ],
+          "explain": "Modal fiil can'den sonra **to kullanılmaz**: Can you help me with this exercise? \"to\" yalnızca be able to, want to, need to gibi yapılarda gelir."
+        },
+        {
+          "id": "w8q13",
+          "type": "mcq",
+          "difficulty": 3,
+          "q": "Read the text and answer.\n\n*\"Merve is a first-year student at Kırıkkale University. She lives in the dormitory with two roommates. She doesn't have a car, so she goes to the campus on foot. She can speak English and a little German. There is a small desk in her room, but there isn't a bookcase. She always studies in the library in the evening.\"*\n\nWhich statement is FALSE?",
+          "choices": [
+            "Merve lives in a dormitory.",
+            "Merve walks to the campus.",
+            "There is a bookcase in her room.",
+            "Merve can speak two foreign languages."
+          ],
+          "answer": 2,
+          "explain": "Metinde \"there isn't a bookcase\" deniyor, yani odasında kitaplık **yoktur**; bu yüzden C yanlış ifadedir. Diğerleri metinle uyumludur: yurtta kalıyor, yürüyerek gidiyor (on foot), İngilizce ve biraz Almanca konuşabiliyor."
+        },
+        {
+          "id": "w8q14",
+          "type": "mcq",
+          "difficulty": 3,
+          "q": "Read the same text again. Why does Merve go to the campus on foot?",
+          "choices": [
+            "Because the campus is very far.",
+            "Because she can't walk.",
+            "Because there is no bus.",
+            "Because she doesn't have a car."
+          ],
+          "answer": 3,
+          "explain": "Metinde \"She doesn't have a car, **so** she goes to the campus on foot\" yazıyor. **so** bağlacı sonuç bildirir; sebep ondan önceki kısımdır. Okuma sorularında so/because bağlaçlarını takip etmek sebep-sonuç sorularını çözer."
+        },
+        {
+          "id": "w8q15",
+          "type": "short",
+          "difficulty": 3,
+          "q": "Fill in the blanks with the correct forms: \"My roommate ___ (get) up at six, but he ___ (not / have) breakfast.\"",
+          "accept": [
+            "gets, doesnt have",
+            "gets and doesnt have"
+          ],
+          "explain": "İlk boşluk olumlu ve üçüncü tekil → **gets** (-s var). İkinci boşluk olumsuz → **doesn't have** (yardımcı fiil -s'yi aldığı için ana fiil yalın kalır). Aynı cümlede iki kuralın nasıl birlikte çalıştığını gösteren tipik bir vize sorusu."
+        },
+        {
+          "id": "w8q16",
+          "type": "open",
+          "difficulty": 3,
+          "q": "Write a short paragraph (6-8 sentences) about yourself and your student life. Use: to be, there is/there are, Present Simple (affirmative + negative), can, and at least two adverbs of frequency.",
+          "rubric": [
+            "to be fiiliyle en az bir cümle kurmalı (I am ...)",
+            "There is / There are ile en az bir cümle kurmalı",
+            "Present Simple olumlu ve olumsuz cümle içermeli (üçüncü tekilde -s doğru olmalı)",
+            "can veya can't ile bir yetenek cümlesi kurmalı",
+            "En az iki sıklık zarfını doğru yere koymalı"
+          ],
+          "explain": "Örnek tam cevap: *I am a first-year computer engineering student at Kırıkkale University. I live in the dormitory with my roommate. There are two desks and one bookcase in our room. I usually get up at seven o'clock. I don't have classes on Friday afternoon. My roommate always studies in the library, but I prefer my room. I can write simple programs in C, but I can't design web pages yet.* - Paragrafta to be, there are, olumlu/olumsuz Present Simple, üçüncü tekil -s (studies), can/can't ve usually/always zarfları doğru kullanılmış."
+        }
+      ]
+    },
+    {
+      "id": "w9",
+      "week": 9,
+      "title": "Present Continuous; Present Simple vs Present Continuous",
+      "summary": "Şu anda olan eylemleri anlatan şimdiki zaman yapısı ve geniş zamanla arasındaki kullanım farkı.",
+      "notes": "## 1. Present Continuous - Yapı\n\n**am / is / are + fiil-ing**\n\n| Özne | Yapı | Örnek |\n|---|---|---|\n| I | am + V-ing | I **am writing** an e-mail. |\n| He/She/It | is + V-ing | She **is studying** for the exam. |\n| You/We/They | are + V-ing | They **are working** in the lab. |\n\n**Olumsuz:** am/is/are + **not** + V-ing → I'm not working. / He isn't listening.\n**Soru:** am/is/are + özne + V-ing? → **Are you listening?** Yes, I am. / No, I'm not.\n\n> [!dikkat]\n> be fiili **düşmez**. \"I working now\" YANLIŞ → \"I **am** working now\" DOĞRU. Türk öğrencilerin şimdiki zamanda en sık hatası be'yi unutmaktır.\n\n## 2. -ing Yazım Kuralları\n\n| Kural | Örnek |\n|---|---|\n| Genel: + ing | work → work**ing**, study → study**ing** |\n| Sessiz -e ile bitiyorsa e düşer | write → writ**ing**, use → us**ing**, come → com**ing** |\n| Tek heceli, sessiz-sesli-sessiz → son harf çiftlenir | run → ru**nn**ing, sit → si**tt**ing, stop → sto**pp**ing |\n| -ie ile bitiyorsa → -ying | lie → l**ying**, die → d**ying** |\n\n> [!ipucu]\n> **study → studying** (y düşmez!). y kuralı sadece üçüncü tekil -s'de vardır (studies), -ing'de yoktur.\n\n## 3. Ne Zaman Kullanılır?\n\n1. **Tam şu anda** olan eylem: *Look! The printer is working.*\n2. **Bu aralar** süren geçici durum: *This term I am taking five courses.*\n3. **Yakın gelecek plan**: *I am meeting my friends tomorrow.*\n\nZaman ifadeleri: **now, right now, at the moment, today, this week, currently, Look!, Listen!**\n\n## 4. Present Simple vs Present Continuous - Ana Fark\n\n| Present Simple | Present Continuous |\n|---|---|\n| Her zaman / genelde olan | Şu anda olan |\n| I **study** English every day. | I **am studying** English now. |\n| Alışkanlık, rutin, genel gerçek | Geçici, o anki durum |\n| Zaman ifadeleri: always, usually, every day, on Mondays | now, at the moment, today, Look! |\n\nKarşılaştırma cümleleri:\n\n- She usually **works** in the office, but today she **is working** at home.\n  *(Genelde ofiste çalışır ama bugün evden çalışıyor.)*\n- The program normally **runs** in two seconds, but now it **is running** very slowly.\n  *(Program normalde iki saniyede çalışır ama şu an çok yavaş çalışıyor.)*\n\n## 5. Stative Verbs - Durum Fiilleri\n\nBazı fiiller eylem değil **durum** bildirir ve Present Continuous ile **kullanılmaz**:\n\n**like, love, hate, want, need, know, understand, believe, remember, have (sahiplik), see, hear, prefer, mean, belong**\n\n- \"I am knowing the answer\" YANLIŞ → \"I **know** the answer\" DOĞRU\n- \"I am wanting a coffee\" YANLIŞ → \"I **want** a coffee\" DOĞRU\n\n> [!sınav]\n> Klasik sınav sorusu: \"I ___ (not understand) this question.\" Cevap **don't understand**, \"am not understanding\" değil.\n\nNot: **have** eylem anlamında kullanılırsa continuous olabilir: *I am having lunch.* (Yemek yiyorum.) Ama sahiplik anlamında olmaz: *I have a laptop.*\n\n## 6. VOCABULARY - Kelime Listesi\n\n| English | Türkçe |\n|---|---|\n| at the moment | şu anda |\n| currently | halihazırda |\n| to work on (a project) | bir proje üzerinde çalışmak |\n| to prepare | hazırlamak |\n| presentation | sunum |\n| to debug | hata ayıklamak |\n| loading | yükleniyor |\n| processing | işleniyor |\n| to search | aramak |\n| screen freeze | ekran donması |\n| to restart | yeniden başlatmak |\n| server | sunucu |\n| to connect | bağlanmak |\n| wireless | kablosuz |\n| to type / typing | yazmak / yazıyor |\n",
+      "keyPoints": [
+        "Present Continuous = am/is/are + fiil-ing; be fiili asla düşmez.",
+        "Olumsuz: am/is/are + not + V-ing; Soru: am/is/are + özne + V-ing?",
+        "Sessiz -e düşer (write → writing); tek heceli sessiz-sesli-sessiz fiillerde son harf çiftlenir (run → running).",
+        "study → studying: -ing'de y düşmez.",
+        "now, at the moment, today, Look! ifadeleri Present Continuous'un işaretidir.",
+        "Present Simple alışkanlık, Present Continuous o anki eylemi anlatır.",
+        "Stative verbs (know, want, like, understand, need) continuous ile kullanılmaz."
+      ],
+      "pitfalls": [
+        "be fiilini unutmak: \"I working now\" yerine \"I am working now\".",
+        "Durum fiillerini continuous yapmak: \"I am knowing\" yerine \"I know\".",
+        "studying yerine \"studing\" ya da \"studiing\" yazmak.",
+        "Şu an olan bir eylemi Present Simple ile anlatmak: \"Look! He runs\" yerine \"Look! He is running\"."
+      ],
+      "flashcards": [
+        {
+          "q": "at the moment",
+          "a": "şu anda - She is coding at the moment. (Şu anda kod yazıyor.)"
+        },
+        {
+          "q": "to debug",
+          "a": "hata ayıklamak - He is debugging the program now. (Şimdi programın hatasını ayıklıyor.)"
+        },
+        {
+          "q": "presentation",
+          "a": "sunum - We are preparing a presentation. (Bir sunum hazırlıyoruz.)"
+        },
+        {
+          "q": "to restart",
+          "a": "yeniden başlatmak - The computer is restarting. (Bilgisayar yeniden başlıyor.)"
+        },
+        {
+          "q": "server",
+          "a": "sunucu - The server isn't working today. (Sunucu bugün çalışmıyor.)"
+        },
+        {
+          "q": "to connect",
+          "a": "bağlanmak - I am connecting to the campus network. (Kampüs ağına bağlanıyorum.)"
+        },
+        {
+          "q": "write → writing",
+          "a": "Sessiz -e ile biten fiillerde e düşer: write/writing, use/using, come/coming."
+        },
+        {
+          "q": "run → running",
+          "a": "Tek heceli sessiz-sesli-sessiz fiillerde son harf çiftlenir: run/running, sit/sitting."
+        },
+        {
+          "q": "stative verbs",
+          "a": "Durum fiilleri (know, want, like, need, understand) -ing almaz: I know it. (I am knowing DEĞİL)"
+        },
+        {
+          "q": "currently",
+          "a": "halihazırda, şu sıralar - I am currently taking five courses. (Şu sıralar beş ders alıyorum.)"
+        }
+      ],
+      "questions": [
+        {
+          "id": "w9q1",
+          "type": "mcq",
+          "difficulty": 1,
+          "q": "Fill in the blank: Look! The lecturer ___ something on the whiteboard.",
+          "choices": [
+            "is writing",
+            "writing",
+            "write",
+            "writes"
+          ],
+          "answer": 0,
+          "explain": "\"Look!\" kelimesi tam şu an olan bir eylemi işaret eder → Present Continuous: **is writing**. \"writes\" alışkanlık bildirir; \"writing\" tek başına be fiili olmadan cümle kuramaz."
+        },
+        {
+          "id": "w9q2",
+          "type": "mcq",
+          "difficulty": 2,
+          "q": "Fill in the blank: My roommate usually ___ in the library, but today he ___ in his room.",
+          "choices": [
+            "is studying / studies",
+            "studies / is studying",
+            "studies / studies",
+            "study / is studying"
+          ],
+          "answer": 1,
+          "explain": "\"usually\" alışkanlık bildirir → Present Simple **studies** (üçüncü tekil -s). \"today\" ise o günkü geçici durumu anlatır → Present Continuous **is studying**. İki zamanın zıtlığı bu cümlede net görülür."
+        },
+        {
+          "id": "w9q3",
+          "type": "short",
+          "difficulty": 1,
+          "q": "Write the -ing form of the verb \"run\".",
+          "accept": [
+            "running"
+          ],
+          "explain": "**run** tek heceli ve sessiz-sesli-sessiz (r-u-n) yapısındadır, bu yüzden son harf çiftlenir: **running**. Aynı kural sit → sitting, stop → stopping için de geçerlidir."
+        },
+        {
+          "id": "w9q4",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Write the -ing form of the verb \"write\".",
+          "accept": [
+            "writing"
+          ],
+          "explain": "Sessiz harf + **-e** ile biten fiillerde e düşer ve -ing eklenir: write → **writing**. \"writeing\" yazımı yanlıştır; aynı kural use → using, make → making için geçerlidir."
+        },
+        {
+          "id": "w9q5",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Correct the mistake: \"I working on my project now.\" Write the correct sentence.",
+          "accept": [
+            "i am working on my project now",
+            "im working on my project now"
+          ],
+          "explain": "Present Continuous'ta **be fiili zorunludur**: I **am** working on my project now. Türkçede \"çalışıyorum\" tek kelime olduğu için be fiili sık unutulur."
+        },
+        {
+          "id": "w9q6",
+          "type": "mcq",
+          "difficulty": 3,
+          "q": "Fill in the blank: I ___ this question; can you explain it again?",
+          "choices": [
+            "am not understanding",
+            "not understand",
+            "don't understand",
+            "doesn't understand"
+          ],
+          "answer": 2,
+          "explain": "**understand** bir stative verb'dür (durum fiili) ve continuous ile kullanılmaz. Doğru yapı Present Simple olumsuzdur: **don't understand**. Aynı gruptaki know, want, like, need fiilleri de -ing almaz."
+        },
+        {
+          "id": "w9q7",
+          "type": "tf",
+          "difficulty": 2,
+          "q": "The sentence \"I am knowing the answer\" is correct English.",
+          "answer": false,
+          "explain": "Yanlış. **know** bir durum fiilidir, -ing halinde kullanılmaz. Doğrusu: **I know the answer.** Bir eylem değil, zihinsel bir durum anlatıldığı için Present Simple gerekir."
+        },
+        {
+          "id": "w9q8",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Translate into English: Şu anda bir sunum hazırlıyoruz.",
+          "accept": [
+            "we are preparing a presentation at the moment",
+            "we are preparing a presentation now",
+            "were preparing a presentation at the moment",
+            "we are preparing a presentation right now"
+          ],
+          "explain": "\"Şu anda\" ifadesi Present Continuous gerektirir: **We are preparing a presentation at the moment.** be fiili (are) + V-ing (preparing) yapısı eksiksiz kurulmalıdır."
+        },
+        {
+          "id": "w9q9",
+          "type": "mcq",
+          "difficulty": 2,
+          "q": "Make it a question: \"They are working in the computer lab.\"",
+          "choices": [
+            "Do they working in the computer lab?",
+            "They are working in the computer lab?",
+            "Does they work in the computer lab?",
+            "Are they working in the computer lab?"
+          ],
+          "answer": 3,
+          "explain": "Present Continuous'ta soru be fiilinin başa alınmasıyla kurulur: **Are they working...?** Cümlede zaten be fiili olduğu için do/does kullanılmaz."
+        },
+        {
+          "id": "w9q10",
+          "type": "mcq",
+          "difficulty": 3,
+          "q": "Read the text and answer.\n\n*\"It is 10 p.m. in the dormitory. Kerem is sitting at his desk and writing his C homework. His roommate Berk is not studying; he is watching a football match on his laptop. They usually study together, but tonight Berk isn't in the mood.\"*\n\nWhat is Berk doing at 10 p.m.?",
+          "choices": [
+            "He is watching a football match.",
+            "He is studying with Kerem.",
+            "He is sleeping.",
+            "He is writing his homework."
+          ],
+          "answer": 0,
+          "explain": "Metinde \"he is watching a football match on his laptop\" yazıyor. Ödev yazan Kerem'dir. \"They usually study together\" cümlesi genel alışkanlığı anlatır (Present Simple), ancak \"tonight\" o geceki farklı durumu belirtir - iki zamanın anlam farkı burada devrededir."
+        },
+        {
+          "id": "w9q11",
+          "type": "open",
+          "difficulty": 3,
+          "q": "Write 5 sentences describing what different people are doing in the computer lab right now. Use Present Continuous, including one negative and one question.",
+          "rubric": [
+            "Tüm cümlelerde am/is/are + V-ing yapısı doğru kurulmalı",
+            "Farklı özneler kullanmalı (I, he/she, they)",
+            "Bir olumsuz cümle içermeli (isn't / aren't + V-ing)",
+            "Bir soru cümlesi içermeli (Are you ...? / Is he ...?)",
+            "-ing yazım kurallarını doğru uygulamalı"
+          ],
+          "explain": "Örnek tam cevap: *I am writing my programming homework. My friend Ali is debugging his code. Two students are printing their projects. The lab assistant isn't helping us at the moment. Are you using this computer?* - Beş cümlede de be fiili var, -ing yazımları doğru ve olumsuz/soru yapıları kurallara uygun."
+        }
+      ]
+    },
+    {
+      "id": "w10",
+      "week": 10,
+      "title": "Past Simple: \"to be\" (was/were) and Regular Verbs",
+      "summary": "Geçmiş zamanda to be fiilinin was/were halleri ve düzenli fiillere getirilen -ed ekinin kullanımı.",
+      "notes": "## 1. Past of \"to be\": was / were\n\nGeçmişte bir durumu anlatmak için be fiilinin geçmiş hali kullanılır.\n\n| Özne | Past | Örnek |\n|---|---|---|\n| I / He / She / It | **was** | I **was** at home yesterday. |\n| You / We / They | **were** | They **were** in the lab last night. |\n\n> [!ipucu]\n> Hatırlama yolu: **am ve is → was**, **are → were**. Yani şimdiki zamanda tek olan geçmişte de tektir.\n\n**Olumsuz:** was not (**wasn't**) / were not (**weren't**)\n- The exam **wasn't** difficult. → Sınav zor değildi.\n- We **weren't** late. → Geç kalmadık.\n\n**Soru:** Was / Were + özne ...?\n- **Was** the lecture interesting? → Yes, it was. / No, it wasn't.\n- **Were** you in class yesterday? → Yes, I was. / No, I wasn't.\n\n> [!dikkat]\n> Past'ta be fiiliyle soru sorarken **did kullanılmaz**: \"Did you were at home?\" YANLIŞ → \"**Were** you at home?\" DOĞRU\n\n## 2. Past Simple - Regular Verbs (Düzenli Fiiller)\n\nOlumlu cümlede fiile **-ed** eklenir ve bu ek **her özne için aynıdır**.\n\n| Özne | Fiil |\n|---|---|\n| I / You / He / She / It / We / They | work**ed** |\n\n- I **finished** my homework last night. → Ödevimi dün gece bitirdim.\n- She **studied** three hours yesterday. → Dün üç saat çalıştı.\n- We **installed** the new software. → Yeni yazılımı kurduk.\n\n> [!sınav]\n> Past Simple'da üçüncü tekil şahıs ayrımı **yoktur**. \"He worked\" ve \"They worked\" aynıdır. Present Simple'daki -s derdi burada bitiyor.\n\n## 3. -ed Yazım Kuralları\n\n| Kural | Örnek |\n|---|---|\n| Genel: + ed | work → work**ed**, open → open**ed** |\n| -e ile bitiyorsa sadece + d | use → use**d**, like → like**d** |\n| Sessiz + y → y düşer + ied | study → stud**ied**, try → tr**ied** |\n| Sesli + y → sadece + ed | play → play**ed**, enjoy → enjoy**ed** |\n| Tek heceli sessiz-sesli-sessiz → çiftle + ed | stop → sto**pped**, plan → pla**nned** |\n\n**-ed okunuşu** (dinleme sınavı için): /t/ (worked, stopped), /d/ (played, opened), /ıd/ (wanted, needed - t/d ile bitenler).\n\n## 4. Past Time Expressions - Geçmiş Zaman İfadeleri\n\n**yesterday** (dün), **last night / last week / last year** (dün gece / geçen hafta / geçen yıl), **two days ago** (iki gün önce), **in 2020**, **when I was a child** (çocukken)\n\nDikkat: **ago** ifadenin **sonuna** gelir: *three years ago* (üç yıl önce), *ten minutes ago*.\n\nÖrnek paragraf:\n\n> **Last term I studied very hard. I attended all the lectures and I finished all my assignments on time. The programming exam was difficult, but I wasn't nervous because I was ready. My classmates were surprised when I passed with a high grade.**\n\n*Geçen dönem çok sıkı çalıştım. Bütün derslere katıldım ve tüm ödevlerimi zamanında bitirdim. Programlama sınavı zordu ama hazır olduğum için gergin değildim. Yüksek notla geçtiğimde sınıf arkadaşlarım şaşırdı.*\n\n## 5. VOCABULARY - Kelime Listesi\n\n| English | Türkçe |\n|---|---|\n| yesterday | dün |\n| last night / last week | dün gece / geçen hafta |\n| ago | önce |\n| to finish | bitirmek |\n| to start | başlamak |\n| to open / to close | açmak / kapatmak |\n| to answer | cevaplamak |\n| to repeat | tekrarlamak |\n| to explain | açıklamak |\n| to solve | çözmek |\n| to check | kontrol etmek |\n| to copy / to paste | kopyalamak / yapıştırmak |\n| to crash (a program) | çökmek (program) |\n| to save a file | dosya kaydetmek |\n| to register (for a course) | derse kayıt olmak |\n",
+      "keyPoints": [
+        "am/is → was, are → were.",
+        "Olumsuz wasn't / weren't; soru Was/Were + özne şeklinde kurulur.",
+        "be fiiliyle geçmiş soru sorarken did kullanılmaz.",
+        "Düzenli fiiller geçmişte -ed alır ve bu ek tüm özneler için aynıdır.",
+        "-e ile bitenler sadece -d alır: used, liked.",
+        "Sessiz + y ile bitenler -ied alır: studied, tried.",
+        "Tek heceli sessiz-sesli-sessiz fiillerde son harf çiftlenir: stopped, planned.",
+        "ago ifadesi zaman ifadesinin sonuna gelir: two weeks ago."
+      ],
+      "pitfalls": [
+        "was/were karıştırmak: \"They was\" yerine \"They were\".",
+        "be fiiliyle did kullanmak: \"Did you were there?\" yerine \"Were you there?\".",
+        "studyed / stopd gibi yanlış -ed yazımları; doğrusu studied, stopped.",
+        "Past Simple'da özneye göre ek değiştirmeye çalışmak - -ed her öznede aynıdır."
+      ],
+      "flashcards": [
+        {
+          "q": "was / were",
+          "a": "to be fiilinin geçmişi: I/he/she/it was, you/we/they were. He was in the lab yesterday."
+        },
+        {
+          "q": "study → studied",
+          "a": "Sessiz + y ile biten fiiller -ied alır - I studied all night. (Bütün gece ders çalıştım.)"
+        },
+        {
+          "q": "stop → stopped",
+          "a": "Tek heceli sessiz-sesli-sessiz fiillerde son harf çiftlenir - The program stopped suddenly."
+        },
+        {
+          "q": "ago",
+          "a": "önce - I registered for this course two weeks ago. (Bu derse iki hafta önce kayıt oldum.)"
+        },
+        {
+          "q": "to crash",
+          "a": "çökmek - My laptop crashed during the exam. (Sınav sırasında dizüstüm çöktü.)"
+        },
+        {
+          "q": "to explain",
+          "a": "açıklamak - The lecturer explained the algorithm again. (Hoca algoritmayı tekrar açıkladı.)"
+        },
+        {
+          "q": "to check",
+          "a": "kontrol etmek - I checked my e-mails last night. (Dün gece e-postalarımı kontrol ettim.)"
+        },
+        {
+          "q": "wasn't / weren't",
+          "a": "Olumsuz geçmiş be: The exam wasn't easy. / We weren't late."
+        },
+        {
+          "q": "to register",
+          "a": "kayıt olmak - She registered for three courses. (Üç derse kayıt oldu.)"
+        },
+        {
+          "q": "last night",
+          "a": "dün gece - I finished my project last night. (Projemi dün gece bitirdim.)"
+        }
+      ],
+      "questions": [
+        {
+          "id": "w10q1",
+          "type": "mcq",
+          "difficulty": 1,
+          "q": "Fill in the blank: My friends ___ in the library yesterday afternoon.",
+          "choices": [
+            "was",
+            "were",
+            "is",
+            "are"
+          ],
+          "answer": 1,
+          "explain": "\"My friends\" çoğul özne olduğu için geçmiş zamanda **were** kullanılır. Kural: am/is → was, are → were. \"yesterday\" kelimesi geçmiş zamanı zorunlu kılar."
+        },
+        {
+          "id": "w10q2",
+          "type": "mcq",
+          "difficulty": 1,
+          "q": "Fill in the blank: The midterm exam ___ very difficult, but I passed it.",
+          "choices": [
+            "were",
+            "is",
+            "was",
+            "did"
+          ],
+          "answer": 2,
+          "explain": "\"The midterm exam\" tekil bir öznedir → **was**. \"but I passed it\" ifadesi cümlenin geçmişte olduğunu doğrular; did ise be fiiliyle birlikte kullanılmaz."
+        },
+        {
+          "id": "w10q3",
+          "type": "short",
+          "difficulty": 1,
+          "q": "Write the Past Simple form of the verb \"study\".",
+          "accept": [
+            "studied"
+          ],
+          "explain": "Sessiz harf + y ile biten fiillerde y düşer ve **-ied** gelir: study → **studied**. \"studyed\" yazımı yanlıştır; ama play gibi sesli + y olsaydı sadece -ed alırdı (played)."
+        },
+        {
+          "id": "w10q4",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Write the Past Simple form of the verb \"stop\".",
+          "accept": [
+            "stopped"
+          ],
+          "explain": "**stop** tek heceli ve sessiz-sesli-sessiz yapıdadır, bu yüzden son harf çiftlenir: **stopped**. Aynı kural plan → planned, drop → dropped için geçerlidir."
+        },
+        {
+          "id": "w10q5",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Correct the mistake: \"Did you were at the lecture yesterday?\" Write the correct question.",
+          "accept": [
+            "were you at the lecture yesterday"
+          ],
+          "explain": "be fiiliyle soru sorulurken did **kullanılmaz**; be fiilinin kendisi başa gelir: **Were you at the lecture yesterday?** did yalnızca normal fiillerle kurulan geçmiş sorularında gerekir."
+        },
+        {
+          "id": "w10q6",
+          "type": "mcq",
+          "difficulty": 2,
+          "q": "Fill in the blank: We ___ the new software on all the lab computers last week.",
+          "choices": [
+            "install",
+            "installs",
+            "are installing",
+            "installed"
+          ],
+          "answer": 3,
+          "explain": "\"last week\" geçmiş zaman ifadesidir → Past Simple **installed**. Düzenli fiillerde -ed eki her özne için aynıdır, we ile de aynen kullanılır."
+        },
+        {
+          "id": "w10q7",
+          "type": "tf",
+          "difficulty": 2,
+          "q": "In the Past Simple, regular verbs take a different ending for he/she/it (for example \"he workeds\").",
+          "answer": false,
+          "explain": "Yanlış. Past Simple'da özneye göre ek değişmez: I worked, he worked, they worked - hepsi aynıdır. Üçüncü tekil -s kuralı yalnızca Present Simple'a aittir."
+        },
+        {
+          "id": "w10q8",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Translate into English: Dün gece ödevimi bitirdim.",
+          "accept": [
+            "i finished my homework last night",
+            "i finished my assignment last night",
+            "i completed my homework last night"
+          ],
+          "explain": "\"bitirdim\" düzenli bir fiilin geçmiş halidir → **finished**. \"dün gece\" = last night ve cümlenin sonuna gelir: I finished my homework last night. İngilizcede **yesterday night** denmez; \"dün gece\" için tek doğru biçim last night'tır."
+        },
+        {
+          "id": "w10q9",
+          "type": "mcq",
+          "difficulty": 2,
+          "q": "Fill in the blank: I registered for this course three weeks ___.",
+          "choices": [
+            "ago",
+            "past",
+            "last",
+            "before"
+          ],
+          "answer": 0,
+          "explain": "Geçmişteki bir süreyi ifade ederken **ago** kullanılır ve zaman ifadesinin **sonuna** gelir: three weeks ago. \"before\" bir olaydan öncesini anlatır ve tek başına bu yapıda kullanılmaz."
+        },
+        {
+          "id": "w10q10",
+          "type": "mcq",
+          "difficulty": 3,
+          "q": "Read the text and answer.\n\n*\"Last Monday our programming lecture was in the computer lab. The lecturer explained the new topic and we practised for two hours. My laptop crashed in the middle of the lesson, so I worked with my classmate. The lesson wasn't boring at all.\"*\n\nWhy did the writer work with a classmate?",
+          "choices": [
+            "Because the lecturer asked them.",
+            "Because the writer's laptop crashed.",
+            "Because the lecture was boring.",
+            "Because there weren't enough computers."
+          ],
+          "answer": 1,
+          "explain": "Metinde \"My laptop crashed in the middle of the lesson, **so** I worked with my classmate\" yazıyor. **so** sonuç bağlacıdır; sebep, ondan önce gelen laptop'un çökmesidir. Ayrıca \"wasn't boring\" ifadesi ilk seçeneği doğrudan çürütür."
+        },
+        {
+          "id": "w10q11",
+          "type": "short",
+          "difficulty": 3,
+          "q": "Fill in the blanks: \"The exam ___ (be) difficult, but the students ___ (be) ready for it.\"",
+          "accept": [
+            "was, were",
+            "was and were"
+          ],
+          "explain": "İlk özne \"the exam\" tekil → **was**; ikinci özne \"the students\" çoğul → **were**. Aynı cümlede iki farklı be çekimi görüldüğü için özne-fiil uyumunu ölçen tipik bir sorudur."
+        },
+        {
+          "id": "w10q12",
+          "type": "open",
+          "difficulty": 3,
+          "q": "Write 5 sentences about last weekend. Use was/were and at least three regular verbs in the Past Simple.",
+          "rubric": [
+            "En az bir was ve bir were cümlesi kurmalı",
+            "En az üç düzenli fiili -ed ile doğru çekmeli",
+            "Geçmiş zaman ifadeleri kullanmalı (last weekend, yesterday, two days ago)",
+            "Bir olumsuz cümle içermeli (wasn't / weren't)"
+          ],
+          "explain": "Örnek tam cevap: *Last weekend I was at home in Kırıkkale. My friends were at the cinema on Saturday. I studied for my English exam in the morning. I finished my programming project on Sunday. The weather wasn't very good, so I didn't go out.* - was/were doğru özneyle eşleştirilmiş, studied ve finished -ed kurallarına uygun yazılmış."
+        }
+      ]
+    },
+    {
+      "id": "w11",
+      "week": 11,
+      "title": "Past Simple: Irregular Verbs, Negatives & Questions",
+      "summary": "Düzensiz fiillerin ikinci halleri ile did/didn't yardımcı fiiliyle kurulan geçmiş zaman olumsuz ve soru yapıları.",
+      "notes": "## 1. Irregular Verbs - Düzensiz Fiiller\n\nBazı fiiller geçmişte **-ed almaz**, biçimleri tamamen değişir. Ezberlenmesi şart olan temel liste:\n\n| Base (V1) | Past (V2) | Türkçe |\n|---|---|---|\n| go | **went** | gitmek |\n| come | **came** | gelmek |\n| do | **did** | yapmak |\n| have | **had** | sahip olmak |\n| make | **made** | yapmak, üretmek |\n| take | **took** | almak |\n| get | **got** | almak, elde etmek |\n| write | **wrote** | yazmak |\n| read | **read** (okunuşu /red/) | okumak |\n| see | **saw** | görmek |\n| give | **gave** | vermek |\n| find | **found** | bulmak |\n| think | **thought** | düşünmek |\n| buy | **bought** | satın almak |\n| teach | **taught** | öğretmek |\n| say | **said** | söylemek |\n| begin | **began** | başlamak |\n| run | **ran** | koşmak, çalıştırmak |\n| know | **knew** | bilmek |\n| understand | **understood** | anlamak |\n\n> [!ipucu]\n> **read** yazılışı değişmez ama okunuşu değişir: present /rid/, past /red/. Yazılı sınavda cümlenin zamanına bakarak anlarsın.\n\n## 2. Olumsuz: didn't + yalın fiil\n\nGeçmiş zamanda olumsuzluk **did not (didn't)** ile kurulur ve ana fiil **V1'e (yalın hale) döner**.\n\n| Yanlış | Doğru |\n|---|---|\n| I didn't went | I **didn't go** |\n| She didn't studied | She **didn't study** |\n| We didn't saw | We **didn't see** |\n\n> [!dikkat]\n> Zaman bilgisi **did** üzerindedir; bu yüzden ana fiil geçmiş halde kalamaz. Aynı mantık Present Simple'daki does/doesn't kuralıyla birebir aynıdır.\n\n- I **didn't finish** the project on time. → Projeyi zamanında bitirmedim.\n- He **didn't come** to the lecture. → Derse gelmedi.\n\n## 3. Soru: Did + özne + yalın fiil?\n\n```text\nDid you study last night?      -> Yes, I did. / No, I didn't.\nDid she write the report?      -> Yes, she did. / No, she didn't.\nWhat did you do at the weekend?\nWhere did they go after class?\nWhy didn't he answer the e-mail?\n```\n\n> [!sınav]\n> Sorularda da fiil yalındır: \"Did you went?\" YANLIŞ → \"**Did you go?**\" DOĞRU\n> İstisna: soru kelimesi özneyse did kullanılmaz → **Who wrote this program?**\n\n## 4. was/were mi did mi?\n\nBu ayrım sınavın en kritik noktasıdır:\n\n| Cümlede ne var? | Kullanılacak yapı |\n|---|---|\n| Sadece **be** (sıfat, isim, yer) | was / were / wasn't / Were you...? |\n| Bir **ana fiil** | did / didn't / Did you...? |\n\n- The lab **was** crowded. (be var → was)\n- We **didn't work** in the lab. (ana fiil var → didn't)\n- **Were** you tired? / **Did** you sleep well?\n\n## 5. VOCABULARY - Kelime Listesi\n\n| English | Türkçe |\n|---|---|\n| to go / went | gitmek |\n| to write / wrote | yazmak |\n| to take / took | almak |\n| to find / found | bulmak |\n| to think / thought | düşünmek |\n| to teach / taught | öğretmek |\n| to understand / understood | anlamak |\n| to begin / began | başlamak |\n| report | rapor |\n| result | sonuç |\n| mistake | hata |\n| to choose / chose | seçmek |\n| to send / sent | göndermek |\n| to build / built | inşa etmek, kurmak |\n| to break / broke | kırmak, bozmak |\n",
+      "keyPoints": [
+        "Düzensiz fiiller -ed almaz; ikinci halleri ezberlenmelidir (go-went, write-wrote, take-took).",
+        "Olumsuz: didn't + yalın fiil. \"didn't went\" yanlıştır.",
+        "Soru: Did + özne + yalın fiil? Kısa cevap: Yes, I did. / No, I didn't.",
+        "be fiiliyle geçmiş cümlelerde was/were kullanılır, did kullanılmaz.",
+        "Soru kelimesi özneyse did kullanılmaz: Who wrote this program?",
+        "read fiilinin yazımı değişmez, okunuşu değişir (/rid/ → /red/).",
+        "did/didn't kullanıldığında zaman bilgisi yardımcı fiil üzerindedir."
+      ],
+      "pitfalls": [
+        "\"I didn't went\" demek - didn't varken fiil yalın kalmalı.",
+        "\"Did you saw?\" demek - doğrusu \"Did you see?\".",
+        "was/were ile did'i karıştırmak: \"Did you were tired?\" yerine \"Were you tired?\".",
+        "Düzensiz fiile -ed eklemek: \"goed\", \"writed\", \"taked\" gibi biçimler yoktur."
+      ],
+      "flashcards": [
+        {
+          "q": "go → went",
+          "a": "gitmek - I went to the library yesterday. (Dün kütüphaneye gittim.)"
+        },
+        {
+          "q": "write → wrote",
+          "a": "yazmak - She wrote the report last night. (Raporu dün gece yazdı.)"
+        },
+        {
+          "q": "take → took",
+          "a": "almak - He took five courses last term. (Geçen dönem beş ders aldı.)"
+        },
+        {
+          "q": "think → thought",
+          "a": "düşünmek - I thought the exam was easy. (Sınavın kolay olduğunu düşündüm.)"
+        },
+        {
+          "q": "teach → taught",
+          "a": "öğretmek - Our lecturer taught us C last term. (Hocamız geçen dönem bize C öğretti.)"
+        },
+        {
+          "q": "didn't + yalın fiil",
+          "a": "Geçmiş olumsuz - He didn't come to class. (didn't came DEĞİL)"
+        },
+        {
+          "q": "Did you ...?",
+          "a": "Geçmiş soru - Did you finish the project? Kısa cevap: Yes, I did. / No, I didn't."
+        },
+        {
+          "q": "to send / sent",
+          "a": "göndermek - I sent the file by e-mail. (Dosyayı e-postayla gönderdim.)"
+        },
+        {
+          "q": "to break / broke",
+          "a": "kırmak, bozmak - The update broke the program. (Güncelleme programı bozdu.)"
+        },
+        {
+          "q": "read → read",
+          "a": "Yazımı aynı, okunuşu farklı: present /rid/, past /red/. I read the article yesterday."
+        }
+      ],
+      "questions": [
+        {
+          "id": "w11q1",
+          "type": "mcq",
+          "difficulty": 1,
+          "q": "Fill in the blank: I ___ to the computer lab after the lecture yesterday.",
+          "choices": [
+            "goed",
+            "gone",
+            "went",
+            "go"
+          ],
+          "answer": 2,
+          "explain": "**go** düzensiz bir fiildir ve geçmiş hali **went**'tir; -ed almaz. \"gone\" üçüncü hali (V3) olup Present Perfect gibi yapılarda kullanılır, tek başına Past Simple cümlesi kuramaz."
+        },
+        {
+          "id": "w11q2",
+          "type": "mcq",
+          "difficulty": 2,
+          "q": "Which sentence is CORRECT?",
+          "choices": [
+            "She didn't wrote the report.",
+            "She not wrote the report.",
+            "She didn't writed the report.",
+            "She didn't write the report."
+          ],
+          "answer": 3,
+          "explain": "**didn't** zaman bilgisini taşır, bu yüzden ana fiil yalın halde kalır: **didn't write**. Bu, does/doesn't kuralının geçmiş zamandaki tam karşılığıdır."
+        },
+        {
+          "id": "w11q3",
+          "type": "mcq",
+          "difficulty": 2,
+          "q": "Make it a question: \"They finished the project last week.\"",
+          "choices": [
+            "Did they finish the project last week?",
+            "Were they finish the project last week?",
+            "Do they finish the project last week?",
+            "Did they finished the project last week?"
+          ],
+          "answer": 0,
+          "explain": "Geçmiş soru **Did + özne + yalın fiil** kalıbıyla kurulur: **Did they finish...?** Fiili geçmiş halde bırakmak (finished) çift zaman işareti yaratır ve yanlıştır."
+        },
+        {
+          "id": "w11q4",
+          "type": "short",
+          "difficulty": 1,
+          "q": "Write the Past Simple (V2) form of the verb \"take\".",
+          "accept": [
+            "took"
+          ],
+          "explain": "**take** düzensizdir: take → **took**. \"taked\" diye bir biçim yoktur. Aynı grupta make → made, get → got vardır."
+        },
+        {
+          "id": "w11q5",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Correct the mistake: \"Did you saw the new laboratory?\" Write the correct question.",
+          "accept": [
+            "did you see the new laboratory"
+          ],
+          "explain": "did kullanıldığında ana fiil yalın olur: **Did you see the new laboratory?** \"saw\" burada kullanılamaz, çünkü geçmişlik bilgisi zaten did'in üzerindedir."
+        },
+        {
+          "id": "w11q6",
+          "type": "mcq",
+          "difficulty": 3,
+          "q": "Fill in the blank: ___ you tired after the exam?",
+          "choices": [
+            "Did",
+            "Were",
+            "Do",
+            "Have"
+          ],
+          "answer": 1,
+          "explain": "Cümlede ana fiil yok, yalnızca bir sıfat (\"tired\") var; bu yüzden be fiili gerekir → **Were you tired?** did yalnızca ana fiil bulunan sorularda kullanılır (Did you sleep well?)."
+        },
+        {
+          "id": "w11q7",
+          "type": "tf",
+          "difficulty": 2,
+          "q": "The sentence \"He didn't came to the lecture\" is correct English.",
+          "answer": false,
+          "explain": "Yanlış. didn't varken ana fiil **yalın** olmalıdır: **He didn't come to the lecture.** Bir cümlede geçmişlik iki kez işaretlenmez; did zaten geçmişi gösterir."
+        },
+        {
+          "id": "w11q8",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Translate into English: Dün akşam ödevimi bitirmedim.",
+          "accept": [
+            "i didnt finish my homework last night",
+            "i did not finish my homework last night",
+            "i didn't finish my homework yesterday evening"
+          ],
+          "explain": "Geçmiş olumsuz → **didn't + yalın fiil**: I didn't finish my homework last night. \"didn't finished\" hatalıdır çünkü zaman bilgisi didn't üzerindedir."
+        },
+        {
+          "id": "w11q9",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Give the short answer: \"Did you study for the exam?\" (Answer: Yes)",
+          "accept": [
+            "yes i did"
+          ],
+          "explain": "did ile sorulan bir soruya kısa cevap yine **did** ile verilir: Yes, I did. \"Yes, I studied\" tam cevaptır ama kısa cevap kalıbı değildir; \"Yes, I was\" ise yanlıştır."
+        },
+        {
+          "id": "w11q10",
+          "type": "mcq",
+          "difficulty": 3,
+          "q": "Fill in the blank: ___ wrote this program? - Ahmet did.",
+          "choices": [
+            "Who did",
+            "Whom did",
+            "Who",
+            "Who does"
+          ],
+          "answer": 2,
+          "explain": "Soru kelimesi **özne** konumundaysa did kullanılmaz ve fiil doğrudan geçmiş halde gelir: **Who wrote this program?** \"Who did write\" yalnızca vurgulu bir kullanımdır, standart soru biçimi değildir."
+        },
+        {
+          "id": "w11q11",
+          "type": "mcq",
+          "difficulty": 3,
+          "q": "Read the text and answer.\n\n*\"Last term Deniz took five courses. She didn't take the database course because it was full. Her lecturer taught programming very well, so she got a high grade. She wrote her final project in Python and sent it by e-mail two days before the deadline.\"*\n\nWhy didn't Deniz take the database course?",
+          "choices": [
+            "Because she didn't like it.",
+            "Because she took five other courses.",
+            "Because the lecturer was busy.",
+            "Because the course was full."
+          ],
+          "answer": 3,
+          "explain": "Metinde \"She didn't take the database course **because it was full**\" yazıyor - sebep doğrudan because ile verilmiş. Dikkat: \"didn't take\" yapısında fiil yalın (take), \"took\" ise olumlu cümlede kullanılmış; iki yapının farkı bu metinde net görülüyor."
+        },
+        {
+          "id": "w11q12",
+          "type": "open",
+          "difficulty": 3,
+          "q": "Write 5 sentences about your last term at university. Use at least three irregular verbs, one negative sentence with didn't, and one question with Did.",
+          "rubric": [
+            "En az üç düzensiz fiili doğru V2 halinde kullanmalı (went, took, wrote, got...)",
+            "didn't + yalın fiil ile bir olumsuz cümle kurmalı",
+            "Did + özne + yalın fiil ile bir soru kurmalı",
+            "Geçmiş zaman ifadeleri kullanmalı (last term, last week, two months ago)"
+          ],
+          "explain": "Örnek tam cevap: *Last term I took six courses. I wrote my first program in C. My lecturer taught us algorithms very clearly. I didn't pass the mathematics exam, so I studied again. Did you have the same lecturer last term?* - took/wrote/taught düzensiz fiiller doğru çekilmiş, didn't ve Did sonrasında fiiller yalın kalmış."
+        }
+      ]
+    },
+    {
+      "id": "w12",
+      "week": 12,
+      "title": "Countable / Uncountable Nouns; some, any, much, many, a lot of",
+      "summary": "Sayılabilen ve sayılamayan isimlerin ayrımı ile bunlarla kullanılan miktar belirteçlerinin doğru seçimi.",
+      "notes": "## 1. Countable vs Uncountable\n\n| Countable (sayılabilir) | Uncountable (sayılamayan) |\n|---|---|\n| Tek tek sayılabilir: one file, two files | Sayılamaz, çoğul yapılmaz |\n| Çoğulu vardır: computers, books, students | Tek biçimi vardır: water, information, money |\n| a/an alır: **a** book | a/an almaz: ~~a water~~ |\n| How **many**? | How **much**? |\n\n**Türk öğrenciler için tuzak listesi** - Türkçede çoğul yapılabilen ama İngilizcede **sayılamayan** kelimeler:\n\n| Uncountable | Yanlış kullanım | Doğrusu |\n|---|---|---|\n| information | ~~informations~~ | some information / a piece of information |\n| advice | ~~advices~~ | some advice / a piece of advice |\n| homework | ~~homeworks~~ | a lot of homework |\n| news | ~~a news~~ | some news (news tekildir!) |\n| money | ~~monies~~ | a lot of money |\n| furniture | ~~furnitures~~ | some furniture |\n| software | ~~softwares~~ | some software |\n| equipment | ~~equipments~~ | a piece of equipment |\n| research | ~~researches~~ | some research |\n| knowledge | ~~knowledges~~ | a lot of knowledge |\n\n> [!dikkat]\n> **news** kelimesi -s ile bitse de **tekildir**: \"The news **is** good.\" (Haber iyi.) \"The news are\" YANLIŞ.\n\nSayılamayanları saymak için **ölçü kabı** kullanılır:\n- a **glass of** water, a **piece of** advice, a **cup of** coffee, a **kilo of** sugar, a **piece of** information\n\n## 2. some / any\n\n| | Countable çoğul | Uncountable |\n|---|---|---|\n| **Olumlu** | some books | some water |\n| **Olumsuz** | any books | any water |\n| **Soru** | any books? | any water? |\n\n- There are **some** students in the lab. → Laboratuvarda birkaç öğrenci var.\n- I don't have **any** money. → Hiç param yok.\n- Do you have **any** questions? → Sorunuz var mı?\n\n> [!ipucu]\n> İstisna: **teklif ve rica** sorularında olumlu beklendiği için some kullanılır:\n> *Would you like **some** tea?* (Çay ister misin?) / *Can I have **some** water?*\n\n## 3. much / many / a lot of\n\n| | Kullanım | Örnek |\n|---|---|---|\n| **many** | countable çoğul | many students, many files |\n| **much** | uncountable | much time, much money |\n| **a lot of / lots of** | her ikisi de | a lot of students / a lot of time |\n\n> [!sınav]\n> **much** genellikle olumsuz ve sorularda kullanılır; olumlu cümlede doğal olan **a lot of**'tur.\n> \"I have much homework\" kulağa garip gelir → \"I have **a lot of** homework\" DOĞRU\n> Ama: \"I don't have **much** homework.\" / \"How **much** homework do you have?\" doğrudur.\n\n## 4. a few / a little\n\n| | Kullanım | Anlam |\n|---|---|---|\n| **a few** | countable | birkaç (az ama yeterli) |\n| **a little** | uncountable | biraz |\n| **few** | countable | çok az (yetersiz - olumsuz vurgu) |\n| **little** | uncountable | çok az (yetersiz) |\n\n- I have **a few** friends in this class. → Bu sınıfta birkaç arkadaşım var.\n- There is **a little** milk in the fridge. → Buzdolabında biraz süt var.\n- **Few** students passed the exam. → Çok az öğrenci sınavı geçti. (olumsuz ton)\n\n## 5. VOCABULARY - Kelime Listesi\n\n| English | Türkçe |\n|---|---|\n| information (uncountable) | bilgi |\n| data | veri |\n| memory | bellek |\n| storage | depolama |\n| space (disk space) | alan (disk alanı) |\n| equipment | ekipman, donanım |\n| advice | tavsiye |\n| research | araştırma |\n| knowledge | bilgi birikimi |\n| money | para |\n| time | zaman |\n| traffic | trafik |\n| electricity | elektrik |\n| a piece of | bir parça / bir adet |\n| enough | yeterli |\n",
+      "keyPoints": [
+        "Sayılabilir isimler çoğul yapılır ve a/an alır; sayılamayanlar almaz.",
+        "information, advice, homework, news, money, furniture, software İngilizcede sayılamazdır.",
+        "news kelimesi -s ile biter ama tekildir: The news is good.",
+        "some olumlu cümlelerde, any olumsuz ve sorularda kullanılır.",
+        "Teklif ve ricalarda soruda some kullanılır: Would you like some tea?",
+        "many sayılabilirlerle, much sayılamayanlarla; a lot of ikisiyle de kullanılır.",
+        "much olumlu cümlede doğal değildir, yerine a lot of tercih edilir.",
+        "a few sayılabilirle, a little sayılamayanla kullanılır."
+      ],
+      "pitfalls": [
+        "\"informations\", \"advices\", \"homeworks\" gibi çoğullar yapmak - bunlar sayılamayandır.",
+        "\"The news are good\" demek; news tekildir, \"is\" alır.",
+        "Olumsuz cümlede some kullanmak: \"I don't have some money\" yerine \"any money\".",
+        "much/many karıştırmak: \"How much students\" yerine \"How many students\"."
+      ],
+      "flashcards": [
+        {
+          "q": "information",
+          "a": "bilgi (sayılamayan) - I need some information. (informations DEĞİL)"
+        },
+        {
+          "q": "advice",
+          "a": "tavsiye (sayılamayan) - Can you give me some advice? (advices DEĞİL)"
+        },
+        {
+          "q": "homework",
+          "a": "ödev (sayılamayan) - We have a lot of homework this week. (homeworks DEĞİL)"
+        },
+        {
+          "q": "news",
+          "a": "haber - -s ile biter ama tekildir: The news is very good. (The news are DEĞİL)"
+        },
+        {
+          "q": "much / many",
+          "a": "much sayılamayanla (much time), many sayılabilirle (many students) kullanılır."
+        },
+        {
+          "q": "a lot of",
+          "a": "çok - Hem sayılabilir hem sayılamayanla kullanılır: a lot of files / a lot of memory."
+        },
+        {
+          "q": "a few / a little",
+          "a": "a few sayılabilirle (a few friends), a little sayılamayanla (a little milk)."
+        },
+        {
+          "q": "storage / disk space",
+          "a": "depolama / disk alanı - There isn't much disk space left. (Fazla disk alanı kalmadı.)"
+        },
+        {
+          "q": "equipment",
+          "a": "ekipman (sayılamayan) - The lab has modern equipment. (equipments DEĞİL)"
+        },
+        {
+          "q": "a piece of",
+          "a": "bir adet/parça - a piece of advice, a piece of information, a piece of equipment."
+        }
+      ],
+      "questions": [
+        {
+          "id": "w12q1",
+          "type": "mcq",
+          "difficulty": 1,
+          "q": "Fill in the blank: How ___ students are there in your class?",
+          "choices": [
+            "many",
+            "any",
+            "a little",
+            "much"
+          ],
+          "answer": 0,
+          "explain": "\"students\" sayılabilir çoğul bir isimdir → **How many**. How much yalnızca sayılamayan isimlerle kullanılır (How much time?)."
+        },
+        {
+          "id": "w12q2",
+          "type": "mcq",
+          "difficulty": 2,
+          "q": "Which sentence is CORRECT?",
+          "choices": [
+            "I need some informations about the course.",
+            "I need some information about the course.",
+            "I need an information about the course.",
+            "I need many informations about the course."
+          ],
+          "answer": 1,
+          "explain": "**information** sayılamayan bir isimdir: çoğul yapılmaz ve a/an almaz. Doğru kullanım **some information**'dır. Tek bir bilgi için \"a piece of information\" denir."
+        },
+        {
+          "id": "w12q3",
+          "type": "mcq",
+          "difficulty": 2,
+          "q": "Fill in the blank: I don't have ___ free time this week.",
+          "choices": [
+            "many",
+            "some",
+            "much",
+            "a few"
+          ],
+          "answer": 2,
+          "explain": "\"time\" sayılamayan bir isimdir ve cümle olumsuzdur → **much**. many sayılabilirlerle kullanılır; some olumsuz cümlede any'ye döner; a few de sayılabilirler içindir."
+        },
+        {
+          "id": "w12q4",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Fill in the blank: There aren't ___ chairs in the laboratory.",
+          "accept": [
+            "any",
+            "many"
+          ],
+          "explain": "Olumsuz cümlede çoğul sayılabilir isimle **any** (hiç) ya da **many** (çok) kullanılabilir: There aren't any chairs / There aren't many chairs. Olumlu olsaydı some gelirdi."
+        },
+        {
+          "id": "w12q5",
+          "type": "tf",
+          "difficulty": 2,
+          "q": "The word \"news\" ends in -s but is uncountable and singular, so we say \"The news is good\".",
+          "answer": true,
+          "explain": "Doğru. **news** -s ile bitmesine rağmen sayılamayan ve **tekil** bir isimdir: **The news is good.** Aynı şekilde \"a news\" da denmez; \"a piece of news\" kullanılır. Öğrencinin yaygın yanlışı sondaki -s'yi çoğul eki sanmaktır; benzer tuzak information, advice ve furniture gibi sayılamayan isimlerde de görülür."
+        },
+        {
+          "id": "w12q6",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Correct the mistake: \"Our lecturer gave us many advices.\" Write the correct sentence.",
+          "accept": [
+            "our lecturer gave us a lot of advice",
+            "our lecturer gave us much advice",
+            "our lecturer gave us some advice"
+          ],
+          "explain": "**advice** sayılamayandır: çoğul yapılmaz ve many almaz. Doğrusu: Our lecturer gave us **a lot of advice** (ya da some advice). Tek bir tavsiye için \"a piece of advice\" denir."
+        },
+        {
+          "id": "w12q7",
+          "type": "mcq",
+          "difficulty": 2,
+          "q": "Fill in the blank: Would you like ___ coffee?",
+          "choices": [
+            "any",
+            "much",
+            "many",
+            "some"
+          ],
+          "answer": 3,
+          "explain": "Soru cümlesi olmasına rağmen **teklif** anlamı taşıdığı için **some** kullanılır: Would you like some coffee? Bu, \"soruda any\" kuralının en bilinen istisnasıdır."
+        },
+        {
+          "id": "w12q8",
+          "type": "mcq",
+          "difficulty": 2,
+          "q": "Fill in the blank: There is ___ disk space left, so I can't install the program.",
+          "choices": [
+            "little",
+            "many",
+            "a few",
+            "a lot of"
+          ],
+          "answer": 0,
+          "explain": "\"disk space\" sayılamayandır ve cümle yetersizlik vurgular (\"can't install\") → **little** (çok az). \"a little\" olsaydı \"biraz var, yeter\" anlamı çıkardı; anlam farkı a'nın varlığındadır."
+        },
+        {
+          "id": "w12q9",
+          "type": "short",
+          "difficulty": 3,
+          "q": "Translate into English: Bu hafta çok ödevimiz var.",
+          "accept": [
+            "we have a lot of homework this week",
+            "we have lots of homework this week"
+          ],
+          "explain": "**homework** sayılamayandır, çoğul yapılmaz. Olumlu cümlede \"much\" doğal olmadığı için **a lot of** kullanılır: We have a lot of homework this week."
+        },
+        {
+          "id": "w12q10",
+          "type": "mcq",
+          "difficulty": 3,
+          "q": "Read the text and answer.\n\n*\"Our new computer lab has a lot of modern equipment. There are thirty computers and two printers. There isn't much space between the desks, but there are a few sockets on every wall. The lab assistant gives us some useful advice about the software.\"*\n\nWhich statement is TRUE about the lab?",
+          "choices": [
+            "There are no sockets in the lab.",
+            "The lab has modern equipment.",
+            "There is a lot of space between the desks.",
+            "The assistant gives no advice."
+          ],
+          "answer": 1,
+          "explain": "İlk cümlede \"a lot of modern equipment\" deniyor. Metin ayrıca \"isn't much space\" (fazla yer yok) ve \"a few sockets\" (birkaç priz var) diyor; bu yüzden A ve A yanlıştır. Dikkat: equipment ve advice sayılamayan olduğu için çoğul yapılmamış."
+        },
+        {
+          "id": "w12q11",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Fill in the blank with \"a few\" or \"a little\": I have ___ friends in the computer engineering department.",
+          "accept": [
+            "a few"
+          ],
+          "explain": "\"friends\" sayılabilir çoğul bir isimdir → **a few**. a little yalnızca sayılamayan isimlerle kullanılır (a little water, a little time)."
+        },
+        {
+          "id": "w12q12",
+          "type": "open",
+          "difficulty": 3,
+          "q": "Write 5 sentences about what there is (and isn't) in your dormitory room or the computer lab. Use some, any, much, many and a lot of correctly.",
+          "rubric": [
+            "Olumlu cümlede some, olumsuz/soruda any kullanmalı",
+            "many'yi sayılabilir, much'ı sayılamayan isimle kullanmalı",
+            "En az bir a lot of cümlesi kurmalı",
+            "Sayılamayan isimleri (money, time, information, equipment) çoğul yapmamalı"
+          ],
+          "explain": "Örnek tam cevap: *There are some books on my desk. There aren't any chairs for guests. I don't have much free time this term. There are many students in the lab every afternoon. We have a lot of equipment in the new laboratory.* - some olumluda, any olumsuzda, much sayılamayanla, many sayılabilirle ve a lot of olumlu cümlede doğru kullanılmış."
+        }
+      ]
+    },
+    {
+      "id": "w13",
+      "week": 13,
+      "title": "Comparative and Superlative Adjectives",
+      "summary": "Sıfatların karşılaştırma (daha ...) ve en üstünlük (en ...) derecelerinin yapımı ve kullanımı.",
+      "notes": "## 1. Üç Derece\n\n| Derece | Anlam | Örnek |\n|---|---|---|\n| Positive | normal | fast (hızlı) |\n| Comparative | daha ... | fast**er** (daha hızlı) |\n| Superlative | en ... | **the** fast**est** (en hızlı) |\n\n## 2. Kısa Sıfatlar (1 hece, bazı 2 heceliler)\n\n| Kural | Comparative | Superlative |\n|---|---|---|\n| Genel: +er / +est | old → older | the oldest |\n| -e ile bitiyorsa: +r / +st | large → larger | the largest |\n| Sessiz + y → y düşer +ier/iest | easy → easier | the easiest |\n| Tek heceli sessiz-sesli-sessiz → çiftle | big → bigger | the biggest |\n\n- My laptop is **faster** than yours. → Benim dizüstüm seninkinden daha hızlı.\n- This is **the biggest** laboratory in the faculty. → Bu, fakültedeki en büyük laboratuvar.\n\n## 3. Uzun Sıfatlar (2+ hece)\n\n**more** + sıfat / **the most** + sıfat\n\n- expensive → **more** expensive → **the most** expensive\n- difficult → **more** difficult → **the most** difficult\n- interesting → **more** interesting → **the most** interesting\n\n- Python is **more popular than** C in data science.\n- This is **the most difficult** course this term.\n\n> [!dikkat]\n> İkisi birlikte kullanılmaz! \"more faster\" YANLIŞ, \"more bigger\" YANLIŞ. Ya -er ya more, ikisi birden asla.\n\n## 4. Düzensiz Sıfatlar\n\n| Positive | Comparative | Superlative |\n|---|---|---|\n| good | **better** | the **best** |\n| bad | **worse** | the **worst** |\n| far | **farther / further** | the **farthest / furthest** |\n| many / much | **more** | the **most** |\n| little | **less** | the **least** |\n\n## 5. Kullanım Kalıpları\n\n| Kalıp | Örnek | Türkçe |\n|---|---|---|\n| ...er / more ... **than** | She is taller **than** me. | ...-den daha ... |\n| **the** ...est / most ... **in/of** | the best student **in** the class | ...-in en ...-i |\n| **as** ... **as** | This laptop is **as** fast **as** mine. | ... kadar ... |\n| **not as** ... **as** | Python isn't **as** difficult **as** C++. | ... kadar ... değil |\n\n> [!sınav]\n> İki tuzak: **than** unutmak ve superlative'de **the** unutmak.\n> \"She is taller me\" YANLIŞ → \"She is taller **than** me\"\n> \"He is best student\" YANLIŞ → \"He is **the** best student\"\n\n> [!ipucu]\n> Türkçedeki \"-den daha\" ifadesindeki \"-den\" İngilizcede **from** değil **than**'dir. \"taller from me\" en yaygın Türk öğrenci hatalarından biridir.\n\n## 6. VOCABULARY - Kelime Listesi\n\n| English | Türkçe |\n|---|---|\n| fast / slow | hızlı / yavaş |\n| expensive / cheap | pahalı / ucuz |\n| easy / difficult | kolay / zor |\n| powerful | güçlü |\n| useful / useless | faydalı / faydasız |\n| popular | popüler |\n| reliable | güvenilir |\n| efficient | verimli |\n| modern / old-fashioned | modern / eski moda |\n| light / heavy | hafif / ağır |\n| complex | karmaşık |\n| secure | güvenli |\n| accurate | doğru, isabetli |\n| better / worse | daha iyi / daha kötü |\n| the best / the worst | en iyi / en kötü |\n",
+      "keyPoints": [
+        "Kısa sıfatlar -er/-est, uzun sıfatlar more/the most alır.",
+        "-er ve more asla birlikte kullanılmaz: \"more faster\" yanlıştır.",
+        "Sessiz + y ile biten sıfatlarda y düşer: easy → easier → the easiest.",
+        "Tek heceli sessiz-sesli-sessiz sıfatlarda son harf çiftlenir: big → bigger.",
+        "Düzensizler: good-better-the best, bad-worse-the worst, far-further-the furthest.",
+        "Karşılaştırmada than kullanılır (from değil).",
+        "Superlative'den önce the gelir: the best student in the class.",
+        "as ... as = ... kadar; olumsuzu not as ... as."
+      ],
+      "pitfalls": [
+        "\"more faster\" ya da \"most easiest\" gibi çift derece kullanmak.",
+        "than yerine from kullanmak: \"taller from me\" yanlıştır.",
+        "Superlative'de the'yi unutmak: \"He is best\" yerine \"He is the best\".",
+        "good/bad sıfatlarına -er eklemek: \"gooder\", \"badder\" diye biçimler yoktur."
+      ],
+      "flashcards": [
+        {
+          "q": "good → better → the best",
+          "a": "Düzensiz - My new laptop is better than my old one. (Yeni dizüstüm eskisinden daha iyi.)"
+        },
+        {
+          "q": "bad → worse → the worst",
+          "a": "Düzensiz - This was the worst exam of the term. (Bu, dönemin en kötü sınavıydı.)"
+        },
+        {
+          "q": "big → bigger → the biggest",
+          "a": "Tek heceli sessiz-sesli-sessiz sıfatta son harf çiftlenir."
+        },
+        {
+          "q": "expensive → more expensive",
+          "a": "Uzun sıfatlar more alır - This computer is more expensive than that one."
+        },
+        {
+          "q": "than",
+          "a": "-den daha - She is taller than me. (from DEĞİL, than kullanılır.)"
+        },
+        {
+          "q": "as ... as",
+          "a": "... kadar - This laptop is as fast as yours. Olumsuzu: isn't as fast as."
+        },
+        {
+          "q": "reliable",
+          "a": "güvenilir - Linux is more reliable than some other systems for servers."
+        },
+        {
+          "q": "efficient",
+          "a": "verimli - This algorithm is the most efficient solution. (Bu algoritma en verimli çözüm.)"
+        },
+        {
+          "q": "easy → easier → the easiest",
+          "a": "Sessiz + y sıfatlarda y düşer, -ier/-iest gelir."
+        },
+        {
+          "q": "the most difficult",
+          "a": "en zor - It is the most difficult course in the first year. (Superlative'de the unutulmaz.)"
+        }
+      ],
+      "questions": [
+        {
+          "id": "w13q1",
+          "type": "mcq",
+          "difficulty": 1,
+          "q": "Fill in the blank: My new laptop is ___ than my old one.",
+          "choices": [
+            "fast",
+            "fastest",
+            "faster",
+            "more fast"
+          ],
+          "answer": 2,
+          "explain": "\"than\" varsa comparative gerekir. **fast** tek heceli kısa bir sıfattır, bu yüzden **faster** olur; \"more fast\" yanlıştır çünkü kısa sıfatlar more almaz."
+        },
+        {
+          "id": "w13q2",
+          "type": "mcq",
+          "difficulty": 2,
+          "q": "Fill in the blank: This is ___ course in the first year.",
+          "choices": [
+            "difficult",
+            "more difficult",
+            "difficultest",
+            "the most difficult"
+          ],
+          "answer": 3,
+          "explain": "\"in the first year\" bir grup içinde en üstünlüğü gösterir → superlative. **difficult** uzun bir sıfat olduğu için **the most difficult** olur; \"difficultest\" diye bir biçim yoktur."
+        },
+        {
+          "id": "w13q3",
+          "type": "short",
+          "difficulty": 1,
+          "q": "Write the comparative form of the adjective \"big\".",
+          "accept": [
+            "bigger"
+          ],
+          "explain": "**big** tek heceli ve sessiz-sesli-sessiz yapıdadır, bu yüzden son harf çiftlenir: **bigger**. Aynı kural hot → hotter, thin → thinner için de geçerlidir."
+        },
+        {
+          "id": "w13q4",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Write the superlative form of the adjective \"good\".",
+          "accept": [
+            "the best",
+            "best"
+          ],
+          "explain": "**good** düzensizdir: good → better → **the best**. \"goodest\" ya da \"the most good\" diye biçimler yoktur; superlative'de the kullanılmalıdır."
+        },
+        {
+          "id": "w13q5",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Correct the mistake: \"She is more taller than me.\" Write the correct sentence.",
+          "accept": [
+            "she is taller than me",
+            "she is taller than i am",
+            "she's taller than me"
+          ],
+          "explain": "Bir sıfat aynı anda hem -er hem more alamaz. **tall** kısa bir sıfat olduğu için sadece -er gelir: **She is taller than me.**"
+        },
+        {
+          "id": "w13q6",
+          "type": "mcq",
+          "difficulty": 2,
+          "q": "Fill in the blank: Python isn't ___ difficult ___ C++ for beginners.",
+          "choices": [
+            "as / as",
+            "the most / of",
+            "more / than",
+            "so / than"
+          ],
+          "answer": 0,
+          "explain": "İki şeyin eşit olmadığını göstermek için **not as ... as** kalıbı kullanılır: isn't **as** difficult **as** C++. \"more ... than\" olsaydı üstünlük anlamı çıkardı, oysa cümle eşitliği reddediyor."
+        },
+        {
+          "id": "w13q7",
+          "type": "tf",
+          "difficulty": 2,
+          "q": "In comparisons English uses \"than\", not \"from\", as in \"She is taller than me\".",
+          "answer": true,
+          "explain": "Doğru. Karşılaştırmada Türkçedeki \"-den\" ekinin karşılığı **than**'dir, from değil: **She is taller than me.** Öğrencinin yaygın yanlışı \"benden uzun\" ifadesini birebir çevirip *taller from me* demektir; bu, Türk öğrencilerin en sık yaptığı karşılaştırma hatasıdır."
+        },
+        {
+          "id": "w13q8",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Translate into English: Bu, fakültedeki en büyük laboratuvar.",
+          "accept": [
+            "this is the biggest laboratory in the faculty",
+            "this is the biggest lab in the faculty",
+            "this is the largest laboratory in the faculty"
+          ],
+          "explain": "\"en büyük\" → superlative **the biggest** (big tek heceli, son harf çiftlenir). Bir alan içinde en üstünlük belirtirken **in** kullanılır: in the faculty."
+        },
+        {
+          "id": "w13q9",
+          "type": "mcq",
+          "difficulty": 3,
+          "q": "Fill in the blank: Yesterday's exam was bad, but today's was even ___.",
+          "choices": [
+            "badder",
+            "worse",
+            "worst",
+            "more bad"
+          ],
+          "answer": 1,
+          "explain": "**bad** düzensizdir: bad → **worse** → the worst. Cümlede iki sınav karşılaştırıldığı için comparative gerekir; \"worst\" superlative olduğundan burada uygun değildir."
+        },
+        {
+          "id": "w13q10",
+          "type": "mcq",
+          "difficulty": 3,
+          "q": "Read the text and answer.\n\n*\"I have two laptops. The old one is heavier and slower, but its battery is better. The new one is lighter and much faster, and it is the most expensive computer in our house. However, its battery is the worst part.\"*\n\nWhich statement is TRUE?",
+          "choices": [
+            "The old laptop is faster than the new one.",
+            "The new laptop has a better battery.",
+            "The new laptop is more expensive than the old one.",
+            "The old laptop is lighter."
+          ],
+          "answer": 2,
+          "explain": "Metin yeni bilgisayar için \"the most expensive computer in our house\" diyor, yani eskisinden pahalıdır. Eski model daha ağır ve yavaş (heavier, slower) ama pili daha iyi (better); yeni modelin pili ise \"the worst part\" olarak niteleniyor."
+        },
+        {
+          "id": "w13q11",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Fill in the blank: This algorithm is ___ efficient ___ the other one - they use the same amount of memory.",
+          "accept": [
+            "as, as"
+          ],
+          "explain": "İki şeyin eşit olduğunu göstermek için **as ... as** kalıbı kullanılır: as efficient as the other one. Cümlenin ikinci yarısı (aynı miktarda bellek) eşitliği doğruluyor."
+        },
+        {
+          "id": "w13q12",
+          "type": "open",
+          "difficulty": 3,
+          "q": "Compare two things you know (two phones, two courses, two cities) in 5 sentences. Use at least two comparatives, one superlative and one \"as ... as\" structure.",
+          "rubric": [
+            "En az iki comparative cümlesi kurmalı ve than kullanmalı",
+            "Bir superlative cümlesi kurmalı ve the'yi unutmamalı",
+            "Bir as ... as ya da not as ... as yapısı kullanmalı",
+            "Kısa ve uzun sıfatlarda -er/more ayrımını doğru yapmalı"
+          ],
+          "explain": "Örnek tam cevap: *My old phone was slower than my new one. The new phone is more expensive but it is also more reliable. Its camera is the best feature. However, the old phone was as light as the new one. For me, the battery is the most important part of a phone.* - slower (-er), more expensive/more reliable (uzun sıfat), the best/the most important (superlative + the) ve as light as yapıları doğru kullanılmış."
+        }
+      ]
+    },
+    {
+      "id": "w14",
+      "week": 14,
+      "title": "Future: \"be going to\" and \"will\"; Making Plans",
+      "summary": "Gelecek zamanı anlatan be going to ve will yapılarının farkı ile plan yapma ve karar bildirme kalıpları.",
+      "notes": "## 1. be going to - Plan ve Kanıtlı Tahmin\n\n**am / is / are + going to + yalın fiil**\n\nKullanım alanları:\n\n1. **Önceden yapılmış plan / niyet**: I **am going to study** medicine next year.\n2. **Görünen kanıta dayalı tahmin**: Look at those clouds! It **is going to rain**.\n\n- We **are going to start** the project next week. → Projeye gelecek hafta başlayacağız.\n- She **isn't going to take** that course. → O dersi almayacak.\n- **Are** you **going to attend** the seminar? → Seminere katılacak mısın?\n\n> [!ipucu]\n> Konuşma dilinde \"going to\" çoğu zaman **gonna** diye telaffuz edilir, ama yazılı sınavda böyle yazılmaz.\n\n## 2. will - Anlık Karar, Tahmin, Söz\n\n**will + yalın fiil** (özneye göre değişmez)\n\nKullanım alanları:\n\n1. **Konuşma anında verilen karar**: The phone is ringing. I **will answer** it.\n2. **Kanıtsız tahmin / inanç**: I think computers **will be** much faster in ten years.\n3. **Söz verme**: I **will help** you with your homework.\n4. **Teklif**: **Shall I** help you? / I **will** carry that for you.\n\n**Olumsuz:** will not = **won't**\n- I **won't** be late again. → Bir daha geç kalmayacağım.\n\n**Soru:** Will + özne + yalın fiil? → **Will** you come to the meeting? Yes, I will. / No, I won't.\n\n> [!dikkat]\n> will'den sonra fiil daima yalındır: \"He will goes\" YANLIŞ, \"He will to go\" YANLIŞ → \"He **will go**\" DOĞRU. can gibi bir modal olduğu için özneye göre değişmez.\n\n## 3. going to mu will mi? - Ana Fark\n\n| be going to | will |\n|---|---|\n| **Önceden** düşünülmüş plan | Konuşma **anında** alınan karar |\n| I'm going to buy a new laptop. (araştırdım, karar verdim) | This one is broken. I'll buy a new one. (şimdi karar verdim) |\n| Görünen kanıta dayalı tahmin | Kişisel görüşe dayalı tahmin |\n| The server is overloading. It's going to crash. | I think the server will be fine. |\n\n> [!sınav]\n> Klasik soru: \"The phone is ringing.\" → \"I ___ answer it.\" Cevap **will** (anlık karar), going to değil.\n> Diğer klasik: \"I bought the tickets. We ___ go to the concert.\" Cevap **are going to** (önceden plan).\n\n## 4. Plan Yapma Kalıpları\n\n```text\nWhat are you going to do this weekend?    Bu hafta sonu ne yapacaksın?\nI'm going to visit my family.             Ailemi ziyaret edeceğim.\nWould you like to come with us?           Bizimle gelmek ister misin?\nLet's meet at the library at two.         Saat ikide kütüphanede buluşalım.\nI'm afraid I can't. I have an exam.       Maalesef gelemem, sınavım var.\nThat sounds great!                        Kulağa harika geliyor!\n```\n\nGelecek zaman ifadeleri: **tomorrow, next week/month/year, tonight, soon, in two days, at the weekend**.\n\n## 5. Örnek Paragraf\n\n> **Next term I am going to take five courses. I am also going to join the robotics club because I want to learn more about hardware. I think the second year will be more difficult than the first one, but I won't give up. After graduation I am going to work as a software engineer, and I hope I will find a good job in Ankara.**\n\n*Gelecek dönem beş ders alacağım. Ayrıca robotik kulübüne katılacağım çünkü donanım hakkında daha çok şey öğrenmek istiyorum. Bence ikinci sınıf birinciden daha zor olacak ama pes etmeyeceğim. Mezuniyetten sonra yazılım mühendisi olarak çalışacağım ve umarım Ankara'da iyi bir iş bulurum.*\n\nDikkat: **planlar** için going to, **tahmin ve niyet ifadeleri** için will kullanılmış.\n\n## 6. VOCABULARY - Kelime Listesi\n\n| English | Türkçe |\n|---|---|\n| plan | plan |\n| to graduate / graduation | mezun olmak / mezuniyet |\n| career | kariyer |\n| internship | staj |\n| to apply (for a job) | başvurmak |\n| job interview | iş görüşmesi |\n| CV / resume | özgeçmiş |\n| salary | maaş |\n| to improve | geliştirmek |\n| goal / aim | hedef / amaç |\n| in the future | gelecekte |\n| soon | yakında |\n| to attend a seminar | seminere katılmak |\n| artificial intelligence | yapay zeka |\n| to develop | geliştirmek (yazılım) |\n",
+      "keyPoints": [
+        "be going to = am/is/are + going to + yalın fiil; önceden yapılmış planı anlatır.",
+        "will + yalın fiil; anlık karar, tahmin, söz ve teklif bildirir.",
+        "will özneye göre değişmez, -s almaz ve to ile kullanılmaz.",
+        "will not = won't.",
+        "Görünen kanıta dayalı tahminde going to, kişisel görüşte will tercih edilir.",
+        "be going to yapısında be fiili düşmez: \"I going to study\" yanlıştır.",
+        "Gelecek ifadeleri: tomorrow, next week, tonight, soon, in two days."
+      ],
+      "pitfalls": [
+        "\"He will goes\" veya \"He will to go\" demek - will'den sonra fiil yalın olmalı.",
+        "be going to yapısında be fiilini unutmak: \"I going to buy\" yerine \"I am going to buy\".",
+        "Anlık kararda going to kullanmak: telefon çaldığında \"I am going to answer\" yerine \"I'll answer\".",
+        "\"gonna\" biçimini yazılı sınavda kullanmak - konuşma dilidir."
+      ],
+      "flashcards": [
+        {
+          "q": "be going to",
+          "a": "Planlanmış gelecek - I am going to take five courses next term. (be fiili düşmez.)"
+        },
+        {
+          "q": "will",
+          "a": "Anlık karar/tahmin - The phone is ringing; I'll answer it. Fiil daima yalındır."
+        },
+        {
+          "q": "won't",
+          "a": "will not kısaltması - I won't be late again. (Bir daha geç kalmayacağım.)"
+        },
+        {
+          "q": "internship",
+          "a": "staj - I am going to do an internship next summer. (Gelecek yaz staj yapacağım.)"
+        },
+        {
+          "q": "to graduate",
+          "a": "mezun olmak - I will graduate in four years. (Dört yılda mezun olacağım.)"
+        },
+        {
+          "q": "to apply for a job",
+          "a": "işe başvurmak - She is going to apply for a job in Ankara."
+        },
+        {
+          "q": "CV / resume",
+          "a": "özgeçmiş - I will prepare my CV before the interview. (Görüşmeden önce özgeçmişimi hazırlayacağım.)"
+        },
+        {
+          "q": "artificial intelligence",
+          "a": "yapay zeka - Artificial intelligence will change many jobs. (Yapay zeka birçok işi değiştirecek.)"
+        },
+        {
+          "q": "goal / aim",
+          "a": "hedef, amaç - My goal is to become a software engineer. (Hedefim yazılım mühendisi olmak.)"
+        },
+        {
+          "q": "Let's meet at ...",
+          "a": "Buluşalım - Let's meet at the library at two o'clock. Plan yapma kalıbıdır."
+        }
+      ],
+      "questions": [
+        {
+          "id": "w14q1",
+          "type": "mcq",
+          "difficulty": 1,
+          "q": "Fill in the blank: I ___ take five courses next term; I already registered for them.",
+          "choices": [
+            "will",
+            "go to",
+            "will to",
+            "am going to"
+          ],
+          "answer": 3,
+          "explain": "Kayıt zaten yapıldığı için bu **önceden yapılmış bir plandır** → **am going to**. will anlık kararlar içindir; \"will to\" diye bir yapı ise hiç yoktur."
+        },
+        {
+          "id": "w14q2",
+          "type": "mcq",
+          "difficulty": 2,
+          "q": "The phone is ringing. Which is the most natural response?",
+          "choices": [
+            "I will answer it.",
+            "I am answering it.",
+            "I answer it.",
+            "I am going to answer it."
+          ],
+          "answer": 0,
+          "explain": "Telefon o anda çaldığı için karar **konuşma anında** alınmıştır → **I will answer it.** be going to önceden planlanmış eylemler için kullanılır ve burada bir plan söz konusu değildir."
+        },
+        {
+          "id": "w14q3",
+          "type": "mcq",
+          "difficulty": 2,
+          "q": "Which sentence is CORRECT?",
+          "choices": [
+            "He will to go to the seminar.",
+            "He will go to the seminar.",
+            "He will goes to the seminar.",
+            "He wills go to the seminar."
+          ],
+          "answer": 1,
+          "explain": "**will** bir modal fiildir: özneye göre değişmez (wills yoktur), arkasından to gelmez ve ana fiil daima yalındır → **He will go.**"
+        },
+        {
+          "id": "w14q4",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Correct the mistake: \"I going to apply for an internship next summer.\" Write the correct sentence.",
+          "accept": [
+            "i am going to apply for an internship next summer",
+            "im going to apply for an internship next summer"
+          ],
+          "explain": "be going to yapısında **be fiili zorunludur**: I **am** going to apply... Türkçede \"başvuracağım\" tek kelime olduğu için be fiili sık unutulur."
+        },
+        {
+          "id": "w14q5",
+          "type": "short",
+          "difficulty": 2,
+          "q": "Write the negative form of \"will\" (the contraction).",
+          "accept": [
+            "wont"
+          ],
+          "explain": "will not kısaltması **won't**'tur; yazımı düzensizdir (willn't diye bir biçim yoktur). Örnek: I won't be late again."
+        },
+        {
+          "id": "w14q6",
+          "type": "mcq",
+          "difficulty": 2,
+          "q": "Fill in the blank: Look at the battery indicator! The laptop ___ shut down in a minute.",
+          "choices": [
+            "will",
+            "goes to",
+            "is going to",
+            "shall"
+          ],
+          "answer": 2,
+          "explain": "Gözle görülen bir **kanıt** (pil göstergesi) var → **is going to**. Kanıta dayalı tahminlerde going to kullanılır; will ise kişisel görüş ve tahminler içindir."
+        },
+        {
+          "id": "w14q7",
+          "type": "tf",
+          "difficulty": 1,
+          "q": "After \"will\" the main verb takes -s with he/she/it, for example \"She will comes\".",
+          "answer": false,
+          "explain": "Yanlış. **will** bir modal fiildir; kendisi de arkasındaki fiil de özneye göre değişmez: **She will come.** Aynı kural can için de geçerlidir (She can come)."
+        },
+        {
+          "id": "w14q8",
+          "type": "short",
+          "difficulty": 3,
+          "q": "Translate into English: Gelecek yaz staj yapacağım.",
+          "accept": [
+            "i am going to do an internship next summer",
+            "im going to do an internship next summer",
+            "i will do an internship next summer"
+          ],
+          "explain": "Planlanmış bir gelecek eylem olduğu için **am going to do** en uygun yapıdır: I am going to do an internship next summer. Basit bir niyet ifadesi olarak \"I will do\" da kabul edilebilir."
+        },
+        {
+          "id": "w14q9",
+          "type": "mcq",
+          "difficulty": 2,
+          "q": "Fill in the blank: ___ you come to the meeting tomorrow? - Yes, I will.",
+          "choices": [
+            "Do",
+            "Are",
+            "Does",
+            "Will"
+          ],
+          "answer": 3,
+          "explain": "Kısa cevap \"Yes, I will\" olduğu için soru da **Will** ile kurulmalıdır: Will you come...? Soru ve kısa cevabın aynı yardımcı fiili taşıması İngilizcede değişmez bir kuraldır."
+        },
+        {
+          "id": "w14q10",
+          "type": "mcq",
+          "difficulty": 3,
+          "q": "Read the text and answer.\n\n*\"Next year I am going to study abroad for one term. I applied for the Erasmus programme last month and I am going to learn German before I go. My friends think it will be difficult, but I won't change my mind. I hope I will make many new friends there.\"*\n\nWhat did the writer already do?",
+          "choices": [
+            "He applied for the Erasmus programme.",
+            "He studied abroad for one term.",
+            "He made many new friends.",
+            "He learned German."
+          ],
+          "answer": 0,
+          "explain": "\"I applied for the Erasmus programme last month\" cümlesi Past Simple'dır, yani **zaten yapılmış** bir eylemdir. Diğer üçü gelecek yapılarıyla (going to / will) anlatılmıştır, henüz gerçekleşmemiştir; zaman yapılarını ayırt etmek sorunun anahtarıdır."
+        },
+        {
+          "id": "w14q11",
+          "type": "short",
+          "difficulty": 3,
+          "q": "Fill in the blanks with \"will\" or \"going to\": \"A: I don't understand this exercise. B: Don't worry, I ___ help you.\"",
+          "accept": [
+            "will",
+            "ll",
+            "i will",
+            "i will help you",
+            "i'll help you"
+          ],
+          "explain": "B, A'nın sözünü duyduğu anda yardım etmeye karar veriyor → anlık karar → **will**. Önceden planlanmış bir yardım olsaydı \"I am going to help you\" denirdi."
+        },
+        {
+          "id": "w14q12",
+          "type": "open",
+          "difficulty": 3,
+          "q": "Write 6 sentences about your plans for the future (next term, after graduation). Use at least three \"be going to\" and two \"will\" structures, including one negative.",
+          "rubric": [
+            "En az üç be going to cümlesi kurmalı ve be fiilini unutmamalı",
+            "En az iki will cümlesi kurmalı ve fiili yalın bırakmalı",
+            "Bir olumsuz cümle içermeli (won't ya da isn't going to)",
+            "Gelecek zaman ifadeleri kullanmalı (next term, after graduation, in the future)"
+          ],
+          "explain": "Örnek tam cevap: *Next term I am going to take a database course. I am also going to do an internship next summer. I am not going to change my department. I think I will graduate in four years. I will apply for a job in Ankara after graduation. I won't stop learning new programming languages.* - Planlar going to ile, tahmin ve niyetler will ile ifade edilmiş; be fiili ve yalın fiil kuralları doğru uygulanmış."
+        }
+      ]
+    }
+  ]
+}
