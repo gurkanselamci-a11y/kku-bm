@@ -22,6 +22,10 @@ import searchView, { invalidateSearchIndex } from './views/search.js';
 import mistakesView from './views/mistakes.js';
 import notesView from './views/notes.js';
 import { ico } from './icons.js';
+import accountView from './views/account.js';
+import aktsAdminView from './views/aktsadmin.js';
+import { startSync } from './sync.js';
+import { refreshAkts } from './akts.js';
 
 const routes = [
   { re: /^\/$/, view: homeView, nav: '/' },
@@ -39,6 +43,8 @@ const routes = [
   { re: /^\/yanlislarim$/, view: mistakesView, nav: '/istatistik', study: true, math: true },
   { re: /^\/notlarim$/, view: notesView, nav: '/istatistik', math: true },
   { re: /^\/ayarlar$/, view: settingsView, nav: '/' },
+  { re: /^\/hesap$/, view: accountView, nav: '/hesap' },
+  { re: /^\/akts$/, view: aktsAdminView, nav: '/hesap' },
 ];
 
 // KaTeX yalnızca matematik gösteren ekranlarda yüklenir — ana sayfa hafif kalsın.
@@ -291,6 +297,16 @@ export function applyKeepAwake() { syncStudy(); }
 
 window.addEventListener('hashchange', render);
 
+// Başka cihazdan veri geldiğinde, oturum ya da AKTS düzeltmeleri değiştiğinde ekranı tazele.
+// Çalışma ekranlarında (konu, quiz, kart, sınav) yeniden çizilmez: yarım kalan soru kaybolmasın;
+// yeni veri bir sonraki açılışta görünür.
+for (const ev of ['kkubm:synced', 'kkubm:user', 'kkubm:akts']) {
+  window.addEventListener(ev, () => {
+    refreshChrome();
+    if (currentRoute && !currentRoute.study && currentRoute.nav !== '/hesap') render();
+  });
+}
+
 document.getElementById('backBtn').addEventListener('click', () => history.back());
 document.getElementById('moreBtn').addEventListener('click', () => (moreSheet().hidden ? openMore() : closeMore()));
 moreSheet().addEventListener('click', (e) => {
@@ -317,6 +333,12 @@ matchMedia('(prefers-color-scheme: dark)').addEventListener('change', applyTheme
   }
   document.getElementById('splash').remove();
   document.getElementById('shell').hidden = false;
+
+  // Oturum ve AKTS düzeltmeleri ekranla PARALEL başlar (beklenmez, açılışı yavaşlatmaz).
+  // render()'dan sonraya koymak kilitlenme yaratıyordu: #/akts gibi oturumu bekleyen bir
+  // sayfa doğrudan açılınca, sayfa oturumu, oturum da sayfanın bitmesini bekliyordu.
+  startSync();
+  refreshAkts();
   await render();
 
   if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {

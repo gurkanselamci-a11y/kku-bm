@@ -95,6 +95,11 @@ export default async function settingsView() {
         </div>
       </div>
 
+      <a class="card" href="#/hesap" style="display:block">
+        <div class="row">${ico('user', 'ico-md')}<span class="grow"><b>Hesap ve eşitleme</b>
+        <small class="muted" style="display:block">Giriş yap, tüm cihazlarında aynı ilerlemeyle devam et</small></span>${ico('right')}</div>
+      </a>
+
       <div class="card">
         <h2 style="margin-top:0">Veri</h2>
         <p class="small muted" style="margin-top:0">Tüm ilerlemen bu cihazın tarayıcısında saklanır. Telefonuna taşımak
@@ -230,7 +235,8 @@ export default async function settingsView() {
       });
 
       root.querySelector('#resetAllBtn').addEventListener('click', () => {
-        if (!confirmAction('TÜM ilerlemen, notların ve istatistiklerin silinecek. Bu geri alınamaz. Emin misin?')) return;
+        if (!confirmAction('TÜM ilerlemen, notların ve istatistiklerin silinecek. Giriş yaptıysan hesabındaki kopya da, '
+          + 'diğer cihazların da sıfırlanır. Bu geri alınamaz. Emin misin?')) return;
         if (!confirmAction('Son kez soruyorum: her şey silinsin mi?')) return;
         store.reset();
         toast('Sıfırlandı');

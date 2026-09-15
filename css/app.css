@@ -732,3 +732,36 @@ textarea.ans-input.code { font-family: var(--fm); font-size: 13.5px; }
   .past-row { grid-template-columns: 1fr 52px 96px 30px; }
   .past-coef { display: none; }
 }
+
+/* ---------- hesap ve giriş ---------- */
+.auth-card { max-width: 460px; margin-inline: auto; width: 100%; }
+.g-btn { background: var(--surface); border-color: var(--line); color: var(--txt); font-weight: 600; gap: 10px; padding: 11px 15px; }
+.g-btn:hover { background: var(--surface-2); }
+.g-logo { width: 18px; height: 18px; flex: none; }
+.or { display: flex; align-items: center; gap: 10px; margin: 16px 0 12px; color: var(--txt-3); }
+.or::before, .or::after { content: ''; flex: 1; border-top: 1px solid var(--line-soft); }
+.or span { font-family: var(--fm); font-size: 10.5px; letter-spacing: .08em; text-transform: uppercase; }
+.linkish { background: none; border: 0; padding: 4px 0; color: var(--acc); font: inherit; font-size: 13px; font-weight: 600; cursor: pointer; font-family: var(--ff-head); }
+.auth-err { margin: 0 0 12px; padding: 9px 12px; border: 1px solid color-mix(in srgb, var(--bad) 45%, var(--line)); border-radius: var(--r);
+  background: color-mix(in srgb, var(--bad) 8%, var(--surface)); color: var(--bad); font-size: 13.5px; }
+.field input[type="email"], .field input[type="password"] { padding: 10px 12px; border-radius: var(--r); border: 1px solid var(--line); background: var(--surface-2); }
+.avatar { width: 44px; height: 44px; flex: none; border-radius: 50%; display: grid; place-content: center;
+  background: var(--acc); color: var(--surface); font-family: var(--ff-head); font-weight: 700; font-size: 16px; }
+.sync-line { display: flex; align-items: center; gap: 7px; margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--line-soft);
+  font-size: 13px; color: var(--txt-2); }
+.sync-line.ok { color: var(--ok); }
+.sync-line.warn { color: var(--warn); }
+.sync-line.bad { color: var(--bad); }
+.sync-line.busy .ico { animation: spin 1s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ---------- yönetici: AKTS düzeltmeleri ---------- */
+.akts-group h3 { margin: 8px 0 6px; font-family: var(--fm); font-size: 11px; font-weight: 500; letter-spacing: .08em; text-transform: uppercase; color: var(--txt-3); }
+.akts-row { display: flex; align-items: center; gap: 10px; padding: 9px 12px; margin-bottom: 6px;
+  background: var(--surface); border: 1px solid var(--line-soft); border-radius: var(--r); }
+.akts-row b { display: block; font-size: 14px; font-weight: 600; font-family: var(--ff-head); }
+.akts-row input { width: 74px; flex: none; padding: 8px 10px; border-radius: var(--r); border: 1px solid var(--line); background: var(--surface-2);
+  font-family: var(--fm); font-variant-numeric: tabular-nums; text-align: right; }
+.akts-row.fixed { border-color: color-mix(in srgb, var(--acc) 50%, var(--line)); box-shadow: inset 3px 0 0 var(--acc); }
+.akts-row.fixed input { border-color: var(--acc); color: var(--acc); font-weight: 600; }
+.akts-row .icon-btn { width: 30px; height: 30px; font-size: 13px; }

@@ -7,6 +7,7 @@
 
 import { store } from './store.js';
 import { defaultItems } from './grades.js';
+import { aktsOf } from './akts.js';
 
 export const KINDS = ['Teori', 'Uygulama', 'Lab'];
 
@@ -89,7 +90,7 @@ export function courseInfo(cur, code) {
     icon: m.icon || 'book',
     color: m.color || '#6366f1',
     instructor: m.instructor || '',
-    akts: Number(m.credits?.akts) || 0,
+    akts: aktsOf(code, m),          // yönetici düzeltmesi varsa o (js/akts.js)
     kredi: Number(m.credits?.kredi) || 0,
     elective: !!m.elective,
     semester: sem ? sem.n : null,

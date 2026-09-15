@@ -8,6 +8,8 @@ import { escHtml, progressBar, fmtMin, DAYS, empty } from '../ui.js';
 import { myCourses, weekSlots, toMin, totalAkts } from '../plan.js';
 import { computeCourse, coefOf, weightedGpa, fmtGpa } from '../grades.js';
 import { ico } from '../icons.js';
+import { cloudConfigured } from '../cloud.js';
+import { getUser, isAuthKnown } from '../sync.js';
 
 export function currentWeek(settings) {
   if (!settings.semesterStart) return null;
@@ -134,6 +136,12 @@ export default async function homeView() {
             <span>${ico('flame')} ${s.streak.current} gün</span>
           </div>
         </div>
+
+        ${cloudConfigured() && isAuthKnown() && !getUser() ? `<a class="card" href="#/hesap" style="--c:var(--acc);display:block">
+          <div class="row">${ico('user', 'ico-md')}
+          <span class="grow"><b>Giriş yap</b>
+          <small class="muted" style="display:block">İlerlemen hesabına kaydedilsin; telefondan da bilgisayardan da aynı yerden devam et</small></span>
+          <span class="btn primary">Giriş</span></div></a>` : ''}
 
         ${due.total > 0 ? `<a class="card" href="#/kartlar" style="--c:var(--acc-2);display:block">
           <div class="row">${ico('layers', 'ico-md')}

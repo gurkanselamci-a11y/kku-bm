@@ -11,9 +11,9 @@ const emptyState = () => ({
     dailyGoal: 30,          // dakika
     newCardsPerDay: 20,
     quizLength: 10,
-    // Bu kurulum Doğukan Büyüklü için hazırlandı; ana sayfa onu adıyla selamlar.
-    // Alan Ayarlar'dan değiştirilebilir, boş bırakılırsa buradaki ada geri döner.
-    name: 'Doğukan',
+    // Ana sayfadaki selamlama. Hesap sistemiyle birlikte her kullanıcının kendi adı:
+    // hesap açarken yazılan ya da Google hesabındaki ad. Ayarlar'dan değiştirilebilir.
+    name: '',
     semesterStart: '2026-09-21', // güz dönemi ilk ders haftası — Ayarlar'dan değiştirilebilir
     activeSemester: 1,
     // Konu anlatımının okuma ayarları. null = "temanın değerini kullan" (css/app.css).
@@ -74,9 +74,6 @@ function migrate(s) {
   if (!s || typeof s !== 'object') return base;
   // Eksik alanları tamamla (ileri sürümlerde alan eklendiğinde kırılmasın)
   const merged = { ...base, ...s, settings: { ...base.settings, ...(s.settings || {}) } };
-  // Kayıtlı ad boşsa varsayılana dön: eski kayıtlarda bu alan '' olarak duruyor ve
-  // yayılma (spread) sırasında varsayılanı eziyordu, karşılama adsız kalıyordu.
-  if (!merged.settings.name) merged.settings.name = base.settings.name;
   // "Mühendislik Defteri" temasının okuma değerleri kayıtlara somut sayı olarak
   // yazılmıştı; kullanıcı kaydırıcıya dokunmadıysa bunlar tercih değil, eski
   // varsayılandır. Temizleyip temaya bırakıyoruz.

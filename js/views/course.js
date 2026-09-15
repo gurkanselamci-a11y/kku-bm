@@ -6,6 +6,7 @@ import { escHtml, progressBar, empty } from '../ui.js';
 import { dueCount } from '../srs.js';
 import { currentWeek } from './home.js';
 import { ico } from '../icons.js';
+import { aktsOf } from '../akts.js';
 
 export default async function courseView([code]) {
   const meta = await getCourseMeta(code);
@@ -50,7 +51,7 @@ export default async function courseView([code]) {
           <div class="row">
             <span class="cc-ico" style="width:44px;height:44px;font-size:22px;background:color-mix(in srgb, ${meta.color} 18%, transparent);border-radius:12px;display:grid;place-content:center">${ico(meta.icon)}</span>
             <span class="grow"><h1 style="font-size:19px;margin:0">${escHtml(course.name)}</h1>
-            <span class="tiny muted">${escHtml(code)}${course.credits ? ` · ${course.credits.kredi} kredi · ${course.credits.akts} AKTS` : ''}</span></span>
+            <span class="tiny muted">${escHtml(code)}${course.credits ? ` · ${course.credits.kredi} kredi · ${aktsOf(code, course)} AKTS` : ''}</span></span>
           </div>
           <div style="margin-top:13px">${progressBar(pr.pct, meta.color)}</div>
           <div class="row spread tiny muted" style="margin-top:6px">

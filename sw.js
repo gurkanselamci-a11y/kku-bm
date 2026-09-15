@@ -1,6 +1,6 @@
 /* sw.js — çevrimdışı çalışma. Kabuk önbelleğe alınır, ders içerikleri ilk erişimde saklanır. */
 
-const VERSION = 'v1.4.1';
+const VERSION = 'v1.5.0';
 const CACHE = `kkubm-${VERSION}`;
 
 const CORE = [
@@ -12,6 +12,17 @@ const CORE = [
   'js/store.js',
   'js/data.js',
   'js/icons.js',
+  // hesap ve eşitleme
+  'js/syncmerge.js',
+  'js/sync.js',
+  'js/cloud.js',
+  'js/firebase-config.js',
+  'js/akts.js',
+  'js/views/account.js',
+  'js/views/aktsadmin.js',
+  'vendor/firebase/firebase-app.js',
+  'vendor/firebase/firebase-auth.js',
+  'vendor/firebase/firebase-firestore-lite.js',
   'js/md.js',
   'js/srs.js',
   'js/plan.js',
