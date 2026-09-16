@@ -347,6 +347,23 @@ matchMedia('(prefers-color-scheme: dark)').addEventListener('change', applyTheme
 
       // DİKKAT: dinleyici register'dan HEMEN sonra, araya `await` koymadan bağlanmalı;
       // arada bekleme olursa olay kaçar.
+      swReg = reg;
+
+      // Yeni sürüm ÖNCEKİ ziyarette inip beklemeye geçtiyse 'updatefound' bir daha
+      // tetiklenmez; bu yüzden açılışta bekleyeni doğrudan sınıyoruz. (Telefonda
+      // "Yeni içerik hazır" çubuğunun hiç çıkmamasının sebebi buydu.)
+      if (reg.waiting && navigator.serviceWorker.controller) showUpdateBar();
+
+      // Tarayıcı güncellemeyi kendi takvimine göre sorar; uygulamaya her dönüldüğünde
+      // (en fazla 30 dakikada bir) biz de soruyoruz.
+      let lastCheck = Date.now();
+      const recheck = () => {
+        if (document.visibilityState !== 'visible' || Date.now() - lastCheck < 30 * 60e3) return;
+        lastCheck = Date.now();
+        reg.update().catch(() => {});
+      };
+      document.addEventListener('visibilitychange', recheck);
+
       reg.addEventListener('updatefound', () => {
         // Bu olay ilk kurulumda da tetiklenir. Ayrımı O AN yönetici olup olmadığı verir:
         // yönetici varsa sayfa zaten eski sürümle çalışıyor, yani bu bir güncellemedir.
@@ -387,7 +404,106 @@ function showUpdateBar() {
   bar.className = 'update-bar';
   bar.innerHTML = '<span>Yeni içerik hazır</span><button class="btn primary" id="updateBtn">Yenile</button>';
   document.body.appendChild(bar);
-  bar.querySelector('#updateBtn').addEventListener('click', () => location.reload());
+  bar.querySelector('#updateBtn').addEventListener('click', () => applyUpdate());
+}
+
+// ---------- sürüm ve güncelleme (Hesap ekranındaki kart da bunları kullanır) ----------
+
+let swReg = null;
+
+/**
+ * Şu an ÇALIŞAN kodun sürümü. sw.js'teki VERSION ile aynı olmalı; tools/build-dist.mjs
+ * paketlerken ikisini karşılaştırır ve farklıysa yayına izin vermez.
+ *
+ * Neden service worker'a sormuyoruz: yeni sürüm indiğinde service worker kendini hemen
+ * devreye alıyor, yani "çalışan service worker" güncel görünürken ekrandaki HTML/JS hâlâ
+ * eski olabiliyor. Karşılaştırmanın doğru tarafı, sayfanın kendi kodudur.
+ */
+export const APP_VERSION = 'v1.7.0';
+
+/** Çalışan service worker'a sorar. Yanıt yoksa null (henüz yönetmiyordur). */
+function askSw(message, timeout = 1500) {
+  return new Promise((resolve) => {
+    const sw = navigator.serviceWorker?.controller;
+    if (!sw) return resolve(null);
+    const ch = new MessageChannel();
+    const t = setTimeout(() => resolve(null), timeout);
+    ch.port1.onmessage = (e) => { clearTimeout(t); resolve(e.data); };
+    try { sw.postMessage(message, [ch.port2]); } catch { clearTimeout(t); resolve(null); }
+  });
+}
+
+/** { installed, server, waiting } — yüklü sürüm, sunucudaki sürüm, hazır bekleyen var mı. */
+export async function updateInfo() {
+  const reg = swReg || (await navigator.serviceWorker?.getRegistration?.().catch(() => null)) || null;
+  swReg = reg;
+  const [msg, server] = await Promise.all([
+    askSw({ type: 'version' }),
+    // Sorgu ekliyoruz: düz 'sw.js' isteğini service worker'ın kendi önbelleği karşılıyor ve
+    // hep eski sürümü döndürüyordu — uygulama kendi güncellemesini göremiyordu.
+    fetch(`sw.js?v=${Date.now()}`, { cache: 'no-store' })
+      .then((r) => r.text())
+      .then((t) => (t.match(/VERSION = '([^']+)'/) || [])[1] || null)
+      .catch(() => null),
+  ]);
+  const installed = msg?.version || null;      // çalışan service worker (bilgi amaçlı)
+  const needsReload = !!reg?.waiting || (!!server && server !== APP_VERSION);
+  return { installed, server, loaded: APP_VERSION, waiting: !!reg?.waiting, needsReload, supported: !!navigator.serviceWorker };
+}
+
+/** Sunucuda yeni sürüm var mı diye sorar; indiyse hazır bekler. */
+export async function checkUpdate() {
+  const reg = swReg || (await navigator.serviceWorker?.getRegistration?.().catch(() => null));
+  swReg = reg;
+  if (!reg) return { supported: false };
+  try { await reg.update(); } catch { /* çevrimdışı olabilir */ }
+  // Kurulum birkaç saniye sürebilir; bitmesini kısa süre bekle.
+  for (let i = 0; i < 20 && (reg.installing || (!reg.waiting && !reg.active)); i++) {
+    await new Promise((r) => setTimeout(r, 300));
+  }
+  return { ...(await updateInfo()), supported: true };
+}
+
+/**
+ * Yeni sürümü devreye alıp sayfayı yeniler.
+ * Yeni sürüm hâlâ iniyorsa önce kurulumun bitmesini bekler: aksi hâlde sayfa yenilenir
+ * ama yine eski kopya açılır (kullanıcı "güncelledim" sanır, hiçbir şey değişmez).
+ */
+export async function applyUpdate() {
+  const reg = swReg || (await navigator.serviceWorker?.getRegistration?.().catch(() => null));
+  const pending = reg?.waiting || reg?.installing;
+  if (pending && pending.state === 'installing') {
+    await new Promise((res) => {
+      const done = () => { if (pending.state === 'installed' || pending.state === 'activated' || pending.state === 'redundant') res(); };
+      pending.addEventListener('statechange', done);
+      setTimeout(res, 20000);      // inmesi uzarsa yine de devam et
+      done();
+    });
+  }
+  reg?.waiting?.postMessage('skipWaiting');
+
+  // Yeni sürüm "etkinleşiyor" durumundayken yenilersek sayfayı hâlâ eski service worker
+  // karşılar ve ESKİ kopya açılır — kullanıcı güncellediğini sanır. Devralma bitene kadar
+  // (en fazla 10 sn) bekliyoruz.
+  const ready = () => !!reg?.active && reg.active.state === 'activated' && !reg.waiting && !reg.installing;
+  for (let i = 0; i < 40 && reg && !ready(); i++) await new Promise((r) => setTimeout(r, 250));
+  location.reload();
+}
+
+/**
+ * Son çare: service worker kaydını ve önbellekleri silip baştan kurar. Ders içeriği
+ * yeniden inmek zorunda kalır, o yüzden yalnızca güncelleme bir türlü gelmiyorsa.
+ */
+export async function resetAppCache() {
+  try {
+    const regs = await navigator.serviceWorker.getRegistrations();
+    await Promise.all(regs.map((r) => r.unregister()));
+  } catch { /* desteklenmiyorsa sorun değil */ }
+  try {
+    const keys = await caches.keys();
+    await Promise.all(keys.filter((k) => k.startsWith('kkubm-')).map((k) => caches.delete(k)));
+  } catch { /* yok sayılır */ }
+  location.reload();
 }
 
 // Klavye kısayolları (masaüstü)

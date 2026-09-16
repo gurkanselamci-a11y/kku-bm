@@ -1,6 +1,6 @@
 /* sw.js — çevrimdışı çalışma. Kabuk önbelleğe alınır, ders içerikleri ilk erişimde saklanır. */
 
-const VERSION = 'v1.6.0';
+const VERSION = 'v1.7.0';
 const CACHE = `kkubm-${VERSION}`;
 
 const CORE = [
@@ -112,7 +112,10 @@ self.addEventListener('install', (e) => {
   e.waitUntil((async () => {
     const cache = await caches.open(CACHE);
     // Çekirdek dosyalar — biri düşerse kurulum çökmesin
-    await Promise.all(CORE.map((u) => cache.add(u).catch((err) => console.warn('SW atlandı:', u, err.message))));
+    // `cache: 'reload'` şart: düz cache.add tarayıcının HTTP önbelleğini kullanabiliyor ve
+    // yeni sürüm ESKİ dosyalarla kurulabiliyor (güncelleme yapıldı sanılır, hiçbir şey değişmez).
+    await Promise.all(CORE.map((u) => cache.add(new Request(u, { cache: 'reload' }))
+      .catch((err) => console.warn('SW atlandı:', u, err.message))));
     self.skipWaiting();
   })());
 });
@@ -163,6 +166,8 @@ self.addEventListener('fetch', (e) => {
 
 self.addEventListener('message', (e) => {
   if (e.data === 'skipWaiting') { self.skipWaiting(); return; }
+  // Sayfa "hangi sürümdeyim" diye sorabilsin (Hesap ekranındaki sürüm kartı).
+  if (e.data && e.data.type === 'version') { e.ports?.[0]?.postMessage({ version: VERSION }); return; }
   // Sayfa açılışta kullanıcının bulunduğu yarıyılı bildirir; o yarıyılın dersleri
   // önbelleğe önce alınır, böylece çevrimdışı kalındığında en olası dersler hazır olur.
   if (e.data && e.data.type === 'prefetch') {

@@ -5,6 +5,7 @@ import { escHtml, toast, confirmAction } from '../ui.js';
 import { ico } from '../icons.js';
 import { cloudConfigured } from '../cloud.js';
 import { onSync, syncNow, signOut, getUser, getSyncStatus } from '../sync.js';
+import { updateInfo, checkUpdate, applyUpdate, resetAppCache } from '../app.js';
 
 // Google'ın marka yönergesindeki çok renkli "G" — giriş düğmesinde tek renkli simge kullanılamaz.
 const GOOGLE_G = `<svg class="g-logo" viewBox="0 0 48 48" aria-hidden="true"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/><path fill="#FF3D00" d="m6.3 14.7 6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 38.2 44 33 44 24c0-1.3-.1-2.4-.4-3.5z"/></svg>`;
@@ -43,7 +44,21 @@ export default async function accountView() {
   return {
     title: 'Hesap',
     sub: 'Giriş ve eşitleme',
-    html: `<div class="stack" id="acct"><div class="empty"><div class="e-ico">${ico('clock')}</div><b>Oturum kontrol ediliyor…</b></div></div>`,
+    html: `<div class="stack">
+      <div id="acct"><div class="empty"><div class="e-ico">${ico('clock')}</div><b>Oturum kontrol ediliyor…</b></div></div>
+
+      <div class="card" id="verCard">
+        <h2 style="margin-top:0">Uygulama sürümü</h2>
+        <p class="small" id="verLine" style="margin:0 0 12px">Sürüm okunuyor…</p>
+        <div class="btn-row">
+          <button class="btn" id="verCheck" type="button">${ico('refresh')} Güncelleme var mı?</button>
+          <button class="btn primary" id="verApply" type="button" hidden>${ico('download')} Yeni sürüme geç</button>
+        </div>
+        <p class="tiny muted" style="margin:12px 0 0">Güncelleme bir türlü gelmiyorsa
+        <button type="button" class="linkish" id="verReset">önbelleği temizle ve baştan kur</button> —
+        ders içeriği yeniden indirilir.</p>
+      </div>
+    </div>`,
 
     onMount(root) {
       const host = root.querySelector('#acct');
@@ -217,6 +232,46 @@ export default async function accountView() {
 
       // Göreli zaman ("2 dk önce") sayfa açık kaldıkça tazelensin.
       const tick = setInterval(() => { if (getUser()) updateStatusOnly(getSyncStatus()); }, 30000);
+
+      // ---------- sürüm kartı ----------
+      const verLine = root.querySelector('#verLine');
+      const verCheck = root.querySelector('#verCheck');
+      const verApply = root.querySelector('#verApply');
+
+      const showVersion = (info) => {
+        if (!info.supported) { verLine.textContent = 'Bu tarayıcı çevrimdışı çalışmayı desteklemiyor.'; verCheck.hidden = true; return; }
+        const now = info.loaded || info.installed || 'bilinmiyor';
+        if (info.needsReload) {
+          verLine.innerHTML = `Bu sayfa <b>${escHtml(now)}</b> sürümüyle açık · yeni sürüm <b>${escHtml(info.server || info.installed || '?')}</b> hazır.`;
+          verApply.hidden = false;
+        } else {
+          verLine.innerHTML = `Sürüm <b>${escHtml(now)}</b> · güncel.`;
+          verApply.hidden = true;
+        }
+      };
+
+      updateInfo().then(showVersion).catch(() => { verLine.textContent = 'Sürüm okunamadı.'; });
+
+      verCheck.addEventListener('click', async () => {
+        verCheck.disabled = true;
+        const label = verCheck.innerHTML;
+        verCheck.textContent = 'Bakılıyor…';
+        try {
+          const info = await checkUpdate();
+          showVersion(info);
+          if (!info.needsReload) toast('Zaten en güncel sürümdesin');
+          else toast('Yeni sürüm hazır — "Yeni sürüme geç"e dokun', 3200);
+        } catch {
+          toast('Güncelleme denetlenemedi (internet yok olabilir)', 3200);
+        } finally { verCheck.disabled = false; verCheck.innerHTML = label; }
+      });
+
+      verApply.addEventListener('click', () => { verApply.disabled = true; verApply.textContent = 'Geçiliyor…'; applyUpdate(); });
+
+      root.querySelector('#verReset').addEventListener('click', () => {
+        if (!confirmAction('Önbellek temizlenip uygulama baştan kurulacak. İlerlemen silinmez ama ders içeriği yeniden indirilir. Devam edilsin mi?')) return;
+        resetAppCache();
+      });
 
       return () => { off(); clearInterval(tick); };
     },
