@@ -5,6 +5,7 @@
 // yönetici yazar. Burada yerel önbelleğe de alınır ki çevrimdışıyken ve giriş yapılmamışken
 // de doğru AKTS ile ortalama hesaplansın.
 
+import { store } from './store.js';
 import { cloudConfigured } from './cloud.js';
 
 const KEY = 'kkubm.akts';
@@ -22,13 +23,38 @@ const save = () => { try { localStorage.setItem(KEY, JSON.stringify(data)); } ca
 /** Müfredattaki (düzeltilmemiş) değer. */
 export const dataAkts = (meta) => Number(meta?.credits?.akts) || 0;
 
-/** Geçerli AKTS: düzeltme varsa o, yoksa müfredattaki. */
+const num = (v) => (typeof v === 'number' && Number.isFinite(v) ? v : null);
+
+/**
+ * Geçerli AKTS. Öncelik sırası:
+ *   1) kullanıcının kendi düzeltmesi (store.state.akts — hesabıyla birlikte eşitlenir)
+ *   2) yöneticinin herkes için yaptığı düzeltme (Firestore config/akts)
+ *   3) müfredattaki değer (data/curriculum.json)
+ */
 export function aktsOf(code, meta) {
-  const o = data.overrides?.[code];
-  return typeof o === 'number' && Number.isFinite(o) ? o : dataAkts(meta);
+  const mine = num(store.state.akts?.[code]);
+  if (mine !== null) return mine;
+  const shared = num(data.overrides?.[code]);
+  return shared !== null ? shared : dataAkts(meta);
 }
 
+/** Yöneticinin herkes için yayınladığı düzeltmeler. */
 export const aktsOverrides = () => ({ ...(data.overrides || {}) });
+
+/** Kullanıcının kendi düzeltmeleri. */
+export const myAktsOverrides = () => ({ ...(store.state.akts || {}) });
+
+/** Kullanıcının düzeltmelerini topluca yazar; null/boş olanlar silinir. */
+export function setMyAkts(overrides) {
+  const clean = {};
+  for (const [code, v] of Object.entries(overrides || {})) {
+    const n = Number(v);
+    if (Number.isFinite(n) && n >= 0 && n <= 60) clean[code] = Math.round(n * 2) / 2;
+  }
+  store.update((s) => { s.akts = clean; });
+  window.dispatchEvent(new CustomEvent('kkubm:akts'));
+  return clean;
+}
 export const aktsInfo = () => ({ updatedAt: data.updatedAt, updatedBy: data.updatedBy });
 
 /** Buluttaki düzeltmeleri çeker; değiştiyse 'kkubm:akts' olayı yayar. Hata sessizdir. */

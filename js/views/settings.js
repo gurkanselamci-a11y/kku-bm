@@ -95,6 +95,11 @@ export default async function settingsView() {
         </div>
       </div>
 
+      <a class="card" href="#/akts" style="display:block">
+        <div class="row">${ico('sigma', 'ico-md')}<span class="grow"><b>AKTS düzeltme</b>
+        <small class="muted" style="display:block">Müfredattaki AKTS yanlışsa kendi hesabın için düzelt — ortalama buna göre hesaplanır</small></span>${ico('right')}</div>
+      </a>
+
       <a class="card" href="#/hesap" style="display:block">
         <div class="row">${ico('user', 'ico-md')}<span class="grow"><b>Hesap ve eşitleme</b>
         <small class="muted" style="display:block">Giriş yap, tüm cihazlarında aynı ilerlemeyle devam et</small></span>${ico('right')}</div>

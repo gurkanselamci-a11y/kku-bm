@@ -183,7 +183,7 @@ export default async function accountView() {
           if (c.isAdmin(u)) {
             host.querySelector('#adminBox').innerHTML = `<a class="card" href="#/akts" style="display:block">
               <div class="row"><span class="grow"><b>Yönetici · AKTS düzeltmeleri</b>
-              <small class="muted" style="display:block">Yanlış AKTS değerlerini tüm kullanıcılar için düzelt</small></span>
+              <small class="muted" style="display:block">Düzeltmeleri kendi hesabın için ya da tüm kullanıcılar için yayınla</small></span>
               ${ico('right')}</div></a>`;
           }
         });

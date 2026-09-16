@@ -49,6 +49,10 @@ const emptyState = () => ({
   enrollment: {},
   // grades[code] = { items: [{ id, name, weight, score, replaces? }], letter, manual }
   grades: {},
+  // akts[KOD] = sayı — kullanıcının kendi AKTS düzeltmeleri. Müfredattaki değer yanlışsa
+  // herkes kendi hesabı için düzeltebilir; yöneticinin herkes için yaptığı düzeltmenin
+  // (Firestore config/akts) önüne geçer. Diğer veriler gibi cihazlar arası eşitlenir.
+  akts: {},
   // transcript = [{ id, code, name, akts, letter, term }] — önceki dönemlerden gelen dersler
   transcript: [],
   streak: { current: 0, best: 0, lastDay: null },

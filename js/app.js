@@ -23,7 +23,7 @@ import mistakesView from './views/mistakes.js';
 import notesView from './views/notes.js';
 import { ico } from './icons.js';
 import accountView from './views/account.js';
-import aktsAdminView from './views/aktsadmin.js';
+import aktsEditView from './views/aktsedit.js';
 import { startSync } from './sync.js';
 import { refreshAkts } from './akts.js';
 
@@ -44,7 +44,7 @@ const routes = [
   { re: /^\/notlarim$/, view: notesView, nav: '/istatistik', math: true },
   { re: /^\/ayarlar$/, view: settingsView, nav: '/' },
   { re: /^\/hesap$/, view: accountView, nav: '/hesap' },
-  { re: /^\/akts$/, view: aktsAdminView, nav: '/hesap' },
+  { re: /^\/akts$/, view: aktsEditView, nav: '/ayarlar' },
 ];
 
 // KaTeX yalnızca matematik gösteren ekranlarda yüklenir — ana sayfa hafif kalsın.

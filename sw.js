@@ -1,6 +1,6 @@
 /* sw.js — çevrimdışı çalışma. Kabuk önbelleğe alınır, ders içerikleri ilk erişimde saklanır. */
 
-const VERSION = 'v1.5.1';
+const VERSION = 'v1.6.0';
 const CACHE = `kkubm-${VERSION}`;
 
 const CORE = [
@@ -19,7 +19,7 @@ const CORE = [
   'js/firebase-config.js',
   'js/akts.js',
   'js/views/account.js',
-  'js/views/aktsadmin.js',
+  'js/views/aktsedit.js',
   'vendor/firebase/firebase-app.js',
   'vendor/firebase/firebase-auth.js',
   'vendor/firebase/firebase-firestore-lite.js',
