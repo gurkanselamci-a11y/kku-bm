@@ -73,9 +73,14 @@ const CALLOUTS = {
 };
 
 /** Markdown -> HTML */
-export function md(src) {
+export function md(src, sharedSlots) {
   if (!src) return '';
-  const slots = [];
+  // Alinti kutusunun govdesi ic ice bir md() cagrisiyla islenir. Ic cagri KENDI slot
+  // tablosunu kurarsa disaridan gelen yer tutuculari cozemez; eskiden bu yuzden govde
+  // once restore edilip (KaTeX/kod HTML'i metne gomulup) md()'ye veriliyordu, ic cagri
+  // da o HTML'i kacisliyordu: kutu icindeki formuller ham <span> etiketleri olarak
+  // gorunuyordu. Cozum, slot tablosunu ic cagriyla PAYLASMAK.
+  const slots = sharedSlots || [];
   const stash = (html) => P0 + (slots.push(html) - 1) + P1;
   const restore = (s) => s.replace(new RegExp(P0 + '(\\d+)' + P1, 'g'), (_, n) => slots[+n]);
 
@@ -151,8 +156,10 @@ export function md(src) {
         title = tag[2].trim() || conf.title;
         buf[0] = '';
       }
-      const inner = md(restore(buf.join('\n')));
-      out.push('<div class="callout c-' + conf.cls + '"><div class="callout-h">' + conf.icon + ' ' + esc(title || conf.title) + '</div>' + inner + '</div>');
+      const inner = md(buf.join('\n'), slots);
+      // conf.icon bir SIMGE ADI (icons.js). Dogrudan yazilirsa baslikta "alert" gibi duz
+      // metin cikar. Baslik markdown da tasiyabilir (**kalin**), o yuzden inline()'dan gecer.
+      out.push('<div class="callout c-' + conf.cls + '"><div class="callout-h">' + ico(conf.icon) + ' ' + inline(title || conf.title) + '</div>' + inner + '</div>');
       continue;
     }
 
