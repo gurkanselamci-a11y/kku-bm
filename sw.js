@@ -1,6 +1,6 @@
 /* sw.js — çevrimdışı çalışma. Kabuk önbelleğe alınır, ders içerikleri ilk erişimde saklanır. */
 
-const VERSION = 'v1.9.0';
+const VERSION = 'v1.9.1';
 const CACHE = `kkubm-${VERSION}`;
 
 const CORE = [
@@ -31,6 +31,7 @@ const CORE = [
   'js/wakelock.js',
   'js/attachments.js',
   'js/nlmexport.js',
+  'js/docx.js',
   'js/views/home.js',
   'js/views/courses.js',
   'js/views/course.js',
