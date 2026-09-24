@@ -1,0 +1,132 @@
+[
+  {
+    "v": "v1.9.2",
+    "tarih": "2026-09-24",
+    "baslik": "Sürüm geçmişi: neyin değiştiği uygulamada görünüyor",
+    "maddeler": [
+      "Hesap → Uygulama sürümü kartının altında son değişiklikler madde madde",
+      "Eski sürümler katlanmış listede duruyor"
+    ]
+  },
+  {
+    "v": "v1.9.1",
+    "tarih": "2026-09-24",
+    "baslik": "Haftayı Word belgesi olarak indirme",
+    "maddeler": [
+      "Konu sayfasındaki indirme düğmesi ikiye ayrıldı: Word (.docx) ve .md",
+      "Word belgesinde başlıklar gezinme bölmesinde, tablolar gerçek tablo, kod tek aralıklı",
+      "Dosya cihazda üretiliyor; çevrimdışıyken de çalışıyor"
+    ]
+  },
+  {
+    "v": "v1.9.0",
+    "tarih": "2026-09-24",
+    "baslik": "NotebookLM'e aktarma: haftayı sesli anlattırma",
+    "maddeler": [
+      "Haftanın tamamı (anlatım, kartlar, sorular ve gerekçeleri) tek dokunuşla panoya",
+      "Formüller düz yazıya çevriliyor, kod olduğu gibi kalıyor",
+      "Hazır yönerge düğmesi: anlatım formülleri türetsin, örnekleri adım adım çözsün",
+      "Ders başına NotebookLM defteri kaydediliyor, sonraki haftalar doğrudan oraya gidiyor"
+    ]
+  },
+  {
+    "v": "v1.8.3",
+    "tarih": "2026-09-23",
+    "baslik": "Uyarı kutularındaki formüller düzgün görünüyor",
+    "maddeler": [
+      "Kutuların içindeki formüller ham etiket olarak görünüyordu, düzeltildi",
+      "132 derste 4995 kutuyu etkiliyordu",
+      "Altı derste eşleşmemiş $ yüzünden bozuk görünen formüller onarıldı"
+    ]
+  },
+  {
+    "v": "v1.8.2",
+    "tarih": "2026-09-23",
+    "baslik": "Ayrık Matematik dersin slaytlarına göre yeniden yazıldı",
+    "maddeler": [
+      "14 hafta hocanın slayt sırasıyla eşleştirildi, her haftada slayt numarası yazıyor",
+      "Slaytlarda doğrulanan 70 matematiksel hata \"Slayttaki hatalar\" kutusunda",
+      "13 ve 14. hafta geçici; slaytlar paylaşılınca güncellenecek"
+    ]
+  },
+  {
+    "v": "v1.8.1",
+    "tarih": "2026-09-22",
+    "baslik": "Nesne Yönelimli Programlama Python'a taşındı",
+    "maddeler": [
+      "Ders C++ yerine okutulan kitabın (Gaddis) 14 bölümüyle birebir eşleşiyor",
+      "42 kod sorusunun hepsi çalıştırılarak doğrulandı",
+      "İlk 9 haftaya \"NYP köşesi\" ve C ile karşılaştırmalar eklendi"
+    ]
+  },
+  {
+    "v": "v1.8.0",
+    "tarih": "2026-09-22",
+    "baslik": "Konulara dosya ekleme",
+    "maddeler": [
+      "PDF, Word, Excel ve fotoğraf eklenebiliyor (tek dosya en çok 25 MB)",
+      "Fotoğraflarda önizleme; PDF tarayıcıda, Word/Excel cihazın uygulamasında açılıyor",
+      "Dosyalar yalnızca o cihazda duruyor, yedeğe ve buluta girmiyor"
+    ]
+  },
+  {
+    "v": "v1.7.0",
+    "tarih": "2026-09-16",
+    "baslik": "Sürüm kartı ve güncelleme düzeltmeleri",
+    "maddeler": [
+      "Hesap sayfasına sürüm kartı ve \"Güncelleme var mı?\" düğmesi",
+      "Güncelleme bir türlü gelmezse önbelleği temizleme seçeneği"
+    ]
+  },
+  {
+    "v": "v1.6.0",
+    "tarih": "2026-09-16",
+    "baslik": "AKTS düzeltmeleri",
+    "maddeler": [
+      "Yanlış AKTS değerini herkes kendi hesabında düzeltebiliyor"
+    ]
+  },
+  {
+    "v": "v1.5.1",
+    "tarih": "2026-09-15",
+    "baslik": "Hesap sistemi ve cihazlar arası eşitleme",
+    "maddeler": [
+      "Giriş yapınca ilerleme, notlar ve program cihazlar arasında eşitleniyor"
+    ]
+  },
+  {
+    "v": "v1.4.1",
+    "tarih": "2026-09-15",
+    "baslik": "Mobil menü",
+    "maddeler": [
+      "Tüm bölümler alt çubuktan erişilebilir hale geldi"
+    ]
+  },
+  {
+    "v": "v1.3.0",
+    "tarih": "2026-09-15",
+    "baslik": "Arama hızlandı",
+    "maddeler": [
+      "Arama her açılışta 54 MB indiriyordu; derlenmiş dizinle 6 saniyeden 2 saniyeye indi",
+      "Notların tamamında arama isteğe bağlı düğmeye taşındı"
+    ]
+  },
+  {
+    "v": "v1.2.0",
+    "tarih": "2026-09-14",
+    "baslik": "Çevrimdışı kurulum arka plana alındı",
+    "maddeler": [
+      "Uygulama açılırken 35 MB inmesini beklemiyor",
+      "Önce bulunduğun yarıyılın dersleri indiriliyor"
+    ]
+  },
+  {
+    "v": "v1.0.0",
+    "tarih": "2026-09-08",
+    "baslik": "İlk sürüm",
+    "maddeler": [
+      "144 dersin tamamı: 2016 konu, 26 bin soru, 20 bin kart",
+      "Çevrimdışı çalışma, aralıklı tekrar, deneme sınavı, ders programı ve not takibi"
+    ]
+  }
+]

@@ -1,6 +1,6 @@
 /* sw.js — çevrimdışı çalışma. Kabuk önbelleğe alınır, ders içerikleri ilk erişimde saklanır. */
 
-const VERSION = 'v1.9.1';
+const VERSION = 'v1.9.2';
 const CACHE = `kkubm-${VERSION}`;
 
 const CORE = [
@@ -62,6 +62,7 @@ const CORE = [
   'vendor/fonts/ibm-plex-sans-latin-italic-2.woff2',
   'data/curriculum.json',
   'data/index.json',
+  'data/changelog.json',
   'data/search.json',
   'icons/icon.svg',
   'icons/icon-192.png',
