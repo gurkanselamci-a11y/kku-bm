@@ -2178,7 +2178,7 @@
           "q": "Aynı program **ad ile** (by name) çalıştırılırsa `a` dizisinin toplamı kaç olur?",
           "answer": 123,
           "tolerance": 0.5,
-          "explain": "Ad ile çağırmada `x` yerine metinsel olarak `a[i]` konur ve **her kullanımda** yeniden çözülür. Gövdenin ilk satırı $i$'yi $2$ yaptığı için sonraki tüm kullanımlar $a[1]$'i değil $a[2]$'yi gösterir.\n\n1. $i = 2$.\n2. `x = x + i` $\\Rightarrow$ `a[2] = a[2] + 2` $\\Rightarrow a[2] = 32$.\n3. $a[1] = 20 \\cdot 2 = 40$.\n4. `x = x + 1` $\\Rightarrow$ `a[2] = 33$.\n\n$a = [10, 40, 33, 40]$, toplam $123$.\n\nDört kipin dört farklı sonuç vermesi ($120$, $125$, $103$, $123$) tesadüf değil, kurgunun amacıdır: gövde hem `i`'yi hem de gerçek parametrenin bulunduğu hücreyi değiştirdiği için her kip kendi imzasını bırakır. Sınavda bu tip soruda önce \"adres ne zaman sabitleniyor?\" sorusunu cevapla; geri kalan mekanik izlemedir."
+          "explain": "Ad ile çağırmada `x` yerine metinsel olarak `a[i]` konur ve **her kullanımda** yeniden çözülür. Gövdenin ilk satırı $i$'yi $2$ yaptığı için sonraki tüm kullanımlar $a[1]$'i değil $a[2]$'yi gösterir.\n\n1. $i = 2$.\n2. `x = x + i` $\\Rightarrow$ `a[2] = a[2] + 2` $\\Rightarrow a[2] = 32$.\n3. $a[1] = 20 \\cdot 2 = 40$.\n4. `x = x + 1` $\\Rightarrow$ `a[2] = 33`.\n\n$a = [10, 40, 33, 40]$, toplam $123$.\n\nDört kipin dört farklı sonuç vermesi ($120$, $125$, $103$, $123$) tesadüf değil, kurgunun amacıdır: gövde hem `i`'yi hem de gerçek parametrenin bulunduğu hücreyi değiştirdiği için her kip kendi imzasını bırakır. Sınavda bu tip soruda önce \"adres ne zaman sabitleniyor?\" sorusunu cevapla; geri kalan mekanik izlemedir."
         },
         {
           "id": "w9q6",

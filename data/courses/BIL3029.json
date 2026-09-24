@@ -155,7 +155,7 @@
           "id": "w1q4",
           "type": "numeric",
           "difficulty": 3,
-          "q": "Bir ürünü ASIC olarak üretmek 1.500.000 $ bir kerelik maliyet (NRE) ve birim başına 4 $ tutuyor. Aynı işi yapan FPGA çözümünde NRE yok, birim maliyet 79 $. Kaç adetlik üretimde iki seçenek başabaş gelir?",
+          "q": "Bir ürünü ASIC olarak üretmek 1.500.000 dolar bir kerelik maliyet (NRE) ve birim başına 4 dolar tutuyor. Aynı işi yapan FPGA çözümünde NRE yok, birim maliyet 79 dolar. Kaç adetlik üretimde iki seçenek başabaş gelir?",
           "answer": 20000,
           "tolerance": 1,
           "unit": "adet",

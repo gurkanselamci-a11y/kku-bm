@@ -1171,7 +1171,7 @@
           "q": "Aynı duruşta $J$'nin tekil değerleri $\\sigma=(0{,}7037;\\ 0{,}1206)$'dır. Koşul sayısı $\\kappa$ kaçtır?",
           "answer": 5.836,
           "tolerance": 0.05,
-          "explain": "$$\\kappa = \\frac{\\sigma_{\\max}}{\\sigma_{\\min}} = \\frac{0{,}7037}{0{,}1206} approx 5{,}835$\n\n(Yuvarlanmamış tekil değerlerle $5{,}836$ çıkar; fark verilen dört basamaklı yuvarlamadan gelir ve tolerans içindedir.)\n\nYorumu: uç işlevci en iyi doğrultuda, en kötü doğrultuya göre yaklaşık $5{,}8$ kat daha hızlı hareket edebilir. Bir tutarlılık denetimi: tekil değerlerin çarpımı $0{,}7037\\times0{,}1206 = 0{,}0849$ ve bu tam olarak $|\\det J|$'ye eşit — kare matrislerde her zaman böyledir, hesabınızı bununla sınayabilirsiniz."
+          "explain": "$$\\kappa = \\frac{\\sigma_{\\max}}{\\sigma_{\\min}} = \\frac{0{,}7037}{0{,}1206} \\approx 5{,}835$$\n\n(Yuvarlanmamış tekil değerlerle $5{,}836$ çıkar; fark verilen dört basamaklı yuvarlamadan gelir ve tolerans içindedir.)\n\nYorumu: uç işlevci en iyi doğrultuda, en kötü doğrultuya göre yaklaşık $5{,}8$ kat daha hızlı hareket edebilir. Bir tutarlılık denetimi: tekil değerlerin çarpımı $0{,}7037\\times0{,}1206 = 0{,}0849$ ve bu tam olarak $|\\det J|$'ye eşit — kare matrislerde her zaman böyledir, hesabınızı bununla sınayabilirsiniz."
         },
         {
           "id": "w5q6",
