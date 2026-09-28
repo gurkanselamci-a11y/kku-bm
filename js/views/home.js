@@ -188,6 +188,7 @@ export default async function homeView() {
             <a class="btn" href="#/notlar">${ico('cap')} Notlar & ortalama</a>
             <a class="btn" href="#/derslerim">${ico('list')} Derslerim</a>
             <a class="btn" href="#/notlarim">${ico('note')} Notlarım</a>
+            ${store.savedQCount() ? `<a class="btn" href="#/kaydettiklerim">${ico('star')} Kaydettiklerim (${store.savedQCount()})</a>` : ''}
           </div>
         </div>
       </div>`,

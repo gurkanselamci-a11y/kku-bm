@@ -20,6 +20,7 @@ import statsView from './views/stats.js';
 import settingsView from './views/settings.js';
 import searchView, { invalidateSearchIndex } from './views/search.js';
 import mistakesView from './views/mistakes.js';
+import savedView from './views/saved.js';
 import notesView from './views/notes.js';
 import { ico } from './icons.js';
 import accountView from './views/account.js';
@@ -40,8 +41,9 @@ const routes = [
   { re: /^\/notlar$/, view: gradesView, nav: '/notlar' },
   { re: /^\/istatistik$/, view: statsView, nav: '/istatistik' },
   { re: /^\/ara(?:\/(.*))?$/, view: searchView, nav: '/ara', math: true },
-  { re: /^\/yanlislarim$/, view: mistakesView, nav: '/istatistik', study: true, math: true },
-  { re: /^\/notlarim$/, view: notesView, nav: '/istatistik', math: true },
+  { re: /^\/yanlislarim(?:\/([A-Z0-9]+))?$/, view: mistakesView, nav: '/yanlislarim', study: true, math: true },
+  { re: /^\/kaydettiklerim$/, view: savedView, nav: '/kaydettiklerim', math: true },
+  { re: /^\/notlarim$/, view: notesView, nav: '/notlarim', math: true },
   { re: /^\/ayarlar$/, view: settingsView, nav: '/' },
   { re: /^\/hesap$/, view: accountView, nav: '/hesap' },
   { re: /^\/akts$/, view: aktsEditView, nav: '/ayarlar' },
@@ -419,7 +421,7 @@ let swReg = null;
  * devreye alıyor, yani "çalışan service worker" güncel görünürken ekrandaki HTML/JS hâlâ
  * eski olabiliyor. Karşılaştırmanın doğru tarafı, sayfanın kendi kodudur.
  */
-export const APP_VERSION = 'v1.9.2';
+export const APP_VERSION = 'v1.10.0';
 
 /** Çalışan service worker'a sorar. Yanıt yoksa null (henüz yönetmiyordur). */
 function askSw(message, timeout = 1500) {
@@ -510,7 +512,7 @@ export async function resetAppCache() {
 document.addEventListener('keydown', (e) => {
   if (e.target.matches('input, textarea, select')) return;
   if (e.metaKey || e.ctrlKey || e.altKey) return;
-  const map = { d: '/dersler', k: '/kartlar', s: '/sinav', p: '/program', i: '/istatistik', h: '/', a: '/ara', y: '/yanlislarim', n: '/notlarim', g: '/notlar', m: '/derslerim' };
+  const map = { d: '/dersler', k: '/kartlar', s: '/sinav', p: '/program', i: '/istatistik', h: '/', a: '/ara', y: '/yanlislarim', n: '/notlarim', f: '/kaydettiklerim', g: '/notlar', m: '/derslerim' };
   const to = map[e.key.toLowerCase()];
   if (to) { go(to); e.preventDefault(); }
 });

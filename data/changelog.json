@@ -1,5 +1,19 @@
 [
   {
+    "v": "v1.10.0",
+    "tarih": "2026-09-28",
+    "baslik": "Soru kaydetme, sembol şeridi ve daha adil cevap denetimi",
+    "maddeler": [
+      "Soru ekranındaki yıldıza basınca soru çözümüyle birlikte Kaydettiklerim'e düşüyor, ders ders gruplanıyor",
+      "Yanlışlarım ders ders süzülüyor: Ayrık Matematik çalışırken araya başka dersin sorusu girmiyor",
+      "Sayısal cevabı sembolik yazabiliyorsun: e√6, pi/4, C(10,3), 5! — hesap makinesine gerek yok",
+      "Makul yuvarlama artık yanlış sayılmıyor: 6,6584 beklenen yerde 6,66 da kabul ediliyor",
+      "Mantık sorularında ¬ ∧ ∨ → şeridi; «¬p ∧ ¬q», «~p ^ ~q» ve «p' ve q'» aynı cevap sayılıyor",
+      "Mantık cevapları gerçekten karşılaştırılıyor — eskiden işaretler atıldığı için «p ∧ q» da doğru sayılıyordu",
+      "Sembolle yazamadığın cevabı «Cevabım aslında doğruydu» ile kendin doğru sayabiliyorsun"
+    ]
+  },
+  {
     "v": "v1.9.2",
     "tarih": "2026-09-24",
     "baslik": "Sürüm geçmişi: neyin değiştiği uygulamada görünüyor",

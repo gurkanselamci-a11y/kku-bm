@@ -3,12 +3,34 @@
 // Hem ders quizi (views/quiz.js) hem de yanlış tekrarı (views/mistakes.js) bunu kullanır.
 
 import { store } from './store.js';
-import { checkAnswer } from './data.js';
+import { checkAnswer, sembolSeridi } from './data.js';
 import { md, mdInline, mdPhrase } from './md.js';
 import { escHtml, toast, bindCopy, fitMath } from './ui.js';
 import { ico } from './icons.js';
 
 const DIFF = { 1: 'kolay', 2: 'orta', 3: 'zor' };
+
+/** Kendi kendine doğru sayılabilen tipler — cevap serbest metin olduğu için. */
+const ELLE_SAYILIR = new Set(['short', 'numeric', 'code']);
+
+/** Sembol şeridi: telefondan ¬ ∧ ∨ √ π yazmanın başka yolu yok. */
+function seritHtml(q) {
+  const list = sembolSeridi(q);
+  if (!list) return '';
+  return `<div class="sym-row" id="symRow">${list
+    .map((s) => `<button type="button" class="sym" data-sym="${escHtml(s)}">${escHtml(s)}</button>`)
+    .join('')}</div>`;
+}
+
+/** İmlecin bulunduğu yere sembol ekler. */
+function imlece(input, ch) {
+  const a = input.selectionStart ?? input.value.length;
+  const b = input.selectionEnd ?? a;
+  input.value = input.value.slice(0, a) + ch + input.value.slice(b);
+  const p = a + ch.length;
+  try { input.setSelectionRange(p, p); } catch (_) {}
+  input.focus();
+}
 
 export function typeLabel(t) {
   return {
@@ -63,11 +85,13 @@ export function mountQuiz(root, questions, opts = {}) {
           <button class="choice" data-tf="true"><span class="ck">D</span><span>Doğru</span></button>
           <button class="choice" data-tf="false"><span class="ck">Y</span><span>Yanlış</span></button></div>`;
       case 'numeric':
-        return `<div class="row"><input class="ans-input" id="numIn" type="text" inputmode="decimal"
-          placeholder="Sayısal cevap${q.unit ? ' (' + escHtml(q.unit) + ')' : ''}" autocomplete="off">
-          ${q.unit ? `<span class="chip">${escHtml(q.unit)}</span>` : ''}</div>`;
+        return `<div class="row"><input class="ans-input" id="numIn" type="text" inputmode="text"
+          placeholder="Sayı ya da ifade${q.unit ? ' (' + escHtml(q.unit) + ')' : ''}" autocomplete="off">
+          ${q.unit ? `<span class="chip">${escHtml(q.unit)}</span>` : ''}</div>
+          ${seritHtml(q)}
+          <p class="tiny muted" style="margin:6px 0 0">Sembolik de yazabilirsin: <code>e√6</code>, <code>pi/4</code>, <code>C(10,3)</code>, <code>5!</code></p>`;
       case 'short':
-        return `<input class="ans-input" id="shortIn" type="text" placeholder="Kısa cevabını yaz" autocomplete="off">`;
+        return `<input class="ans-input" id="shortIn" type="text" placeholder="Kısa cevabını yaz" autocomplete="off">${seritHtml(q)}`;
       case 'code':
         return `<textarea class="ans-input code" id="codeIn" placeholder="Programın ekrana yazdıracağı çıktıyı yaz" spellcheck="false"></textarea>`;
       case 'open':
@@ -92,6 +116,7 @@ export function mountQuiz(root, questions, opts = {}) {
     } else {
       const input = area.querySelector('input, textarea');
       if (input) {
+        area.querySelectorAll('.sym').forEach((b) => b.addEventListener('click', () => imlece(input, b.dataset.sym)));
         input.addEventListener('keydown', (e) => {
           if (e.key === 'Enter' && (input.tagName === 'INPUT' || e.ctrlKey || e.metaKey)) {
             e.preventDefault();
@@ -129,6 +154,10 @@ export function mountQuiz(root, questions, opts = {}) {
           <span class="chip">${q.week}. hafta</span>
           <span class="chip">${DIFF[q.difficulty] || 'orta'}</span>
           <span class="chip">${typeLabel(q.type)}</span>
+          <span class="grow"></span>
+          <button class="q-save${store.isSavedQ(q.uid) ? ' on' : ''}" id="qSave"
+            title="Soruyu kaydet" aria-label="Soruyu kaydet" aria-pressed="${store.isSavedQ(q.uid)}">
+            ${ico(store.isSavedQ(q.uid) ? 'star-on' : 'star')}</button>
         </div>
         <div class="qtext">${mdInline(q.q)}</div>
         ${q.code ? `<div>${md('```' + (q.lang || '') + '\n' + q.code + '\n```')}</div>` : ''}
@@ -143,6 +172,15 @@ export function mountQuiz(root, questions, opts = {}) {
     bindCopy(host);
     fitMath(host);
     wireAnswer(q);
+
+    const saveBtn = host.querySelector('#qSave');
+    saveBtn.addEventListener('click', () => {
+      const on = store.toggleSavedQ(q.uid, q.courseCode);
+      saveBtn.classList.toggle('on', on);
+      saveBtn.setAttribute('aria-pressed', String(on));
+      saveBtn.innerHTML = ico(on ? 'star-on' : 'star');
+      toast(on ? 'Soru kaydedildi — Kaydettiklerim' : 'Kayıttan çıkarıldı');
+    });
 
     host.querySelector('#skipBtn').addEventListener('click', () => {
       if (!session.answeredNow) session.answered.push({ q, given: null, correct: false, skipped: true });
@@ -208,14 +246,41 @@ export function mountQuiz(root, questions, opts = {}) {
     }
 
     record(q, given, res.correct);
+
+    // Yakın/denk durumlar: kuru bir "Yanlış" öğrenciye nerede kaldığını söylemiyor.
+    const ipucu = !res.correct && res.yakin
+      ? `<p class="small" style="margin:0 0 8px">Çok yakınsın — istenen duyarlık daha yüksek.</p>`
+      : !res.correct && res.denk
+        ? `<p class="small" style="margin:0 0 8px">Yazdığın ifade buna <b>denk</b>, ama soru sadeleşmiş biçimi istiyor.</p>`
+        : '';
+    const okunan = res.deger != null && Number.isFinite(res.deger)
+      ? `<p class="tiny muted" style="margin:0 0 8px">Yazdığın ifade = ${res.deger.toFixed(4).replace(/\.?0+$/, '')}</p>`
+      : '';
+
     v.innerHTML = `<div class="verdict ${res.correct ? 'ok' : 'bad'}">
       <div class="verdict-h">${res.correct ? ico('check') + ' Doğru' : ico('x') + ' Yanlış'}</div>
       ${!res.correct && res.expected != null
         ? `<p class="small" style="margin:0 0 8px">Doğru cevap: <b>${q.type === 'code' ? '<code>' + escHtml(res.expected) + '</code>' : escHtml(res.expected)}</b></p>` : ''}
+      ${ipucu}${okunan}
+      ${/* Düğme açıklamanın ÜSTÜNDE: uzun açıklamalarda alta konunca yapışkan eylem
+            çubuğunun arkasına düşüyor ve dokunulamıyordu. */ ''}
+      ${!res.correct && ELLE_SAYILIR.has(q.type)
+        ? `<div class="self-fix"><button class="btn tiny" id="selfOk">${ico('check')} Cevabım aslında doğruydu</button>
+           <span class="tiny muted">Sembolle yazamadıysan buradan doğru sayabilirsin.</span></div>` : ''}
       <div class="prose">${md(q.explain || '')}</div>
     </div>`;
     bindCopy(v);
     fitMath(v);
+
+    v.querySelector('#selfOk')?.addEventListener('click', (e) => {
+      const btn = e.currentTarget;
+      store.selfCorrect({ code: q.courseCode, topicId: q.topicId, qid: q.uid, type: q.type });
+      const kayit = session.answered[session.answered.length - 1];
+      if (kayit && kayit.q === q) { kayit.correct = true; kayit.self = true; }
+      v.querySelector('.verdict').classList.replace('bad', 'ok');
+      btn.parentElement.innerHTML = `<span class="tiny">${ico('check')} Doğru sayıldı — bu soru yanlışlarından düştü.</span>`;
+      paintHead();
+    });
 
     host.querySelector('#actionBtn').textContent = nextLabel;
     host.querySelector('#skipBtn').hidden = true;

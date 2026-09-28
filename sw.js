@@ -1,6 +1,6 @@
 /* sw.js — çevrimdışı çalışma. Kabuk önbelleğe alınır, ders içerikleri ilk erişimde saklanır. */
 
-const VERSION = 'v1.9.2';
+const VERSION = 'v1.10.0';
 const CACHE = `kkubm-${VERSION}`;
 
 const CORE = [
@@ -11,6 +11,7 @@ const CORE = [
   'js/app.js',
   'js/store.js',
   'js/data.js',
+  'js/answers.js',
   'js/icons.js',
   // hesap ve eşitleme
   'js/syncmerge.js',
@@ -47,6 +48,7 @@ const CORE = [
   'js/views/search.js',
   'js/views/mistakes.js',
   'js/views/notes.js',
+  'js/views/saved.js',
   'js/quizrunner.js',
   'vendor/katex/katex.min.css',
   'vendor/katex/katex.min.js',

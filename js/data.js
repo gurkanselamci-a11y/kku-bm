@@ -181,56 +181,6 @@ export function shuffle(arr, rng = Math.random) {
   return a;
 }
 
-/** Cevap doğrulama — tüm soru tipleri için tek kapı. */
-export function checkAnswer(q, given) {
-  switch (q.type) {
-    case 'mcq':
-      return { correct: Number(given) === Number(q.answer), expected: q.choices?.[q.answer] };
-    case 'tf':
-      return { correct: Boolean(given) === Boolean(q.answer), expected: q.answer ? 'Doğru' : 'Yanlış' };
-    case 'numeric': {
-      const val = parseFloat(String(given).replace(',', '.').trim());
-      const tol = q.tolerance ?? 0.01;
-      const ok = Number.isFinite(val) && Math.abs(val - Number(q.answer)) <= Math.abs(tol);
-      return { correct: ok, expected: `${q.answer}${q.unit ? ' ' + q.unit : ''}` };
-    }
-    case 'short': {
-      const norm = normalize(given);
-      const accepted = (q.accept || []).map(normalize).filter(Boolean);
-      // Kabul edilen cevap, öğrencinin cümlesinde TAM KELİME olarak geçiyorsa doğru sayılır:
-      // accept "must" iken "must be tired" da kabul edilir, ama "mustard" edilmez.
-      const padded = ` ${norm} `;
-      const contains = (a) => padded.includes(` ${a} `);
-      // Olumsuzluk tuzağı: accept "correct" iken "not correct" doğru sayılmamalı.
-      const NEG = ['not', 'no', 'never', 'degil', 'yok', 'hayir', 'yanlis'];
-      const negated = (a) => NEG.some((n) => !` ${a} `.includes(` ${n} `) && padded.includes(` ${n} `));
-      const ok = norm.length > 0
-        && accepted.some((a) => a === norm || (contains(a) && !negated(a)));
-      return { correct: ok, expected: (q.accept || [])[0] };
-    }
-    case 'code': {
-      const norm = String(given || '').trim().replace(/\r/g, '').replace(/[ \t]+$/gm, '');
-      const exp = String(q.expected || '').trim().replace(/\r/g, '').replace(/[ \t]+$/gm, '');
-      return { correct: norm === exp, expected: q.expected };
-    }
-    case 'open':
-      return { correct: null, expected: q.explain }; // kendi kendini değerlendirme
-    default:
-      return { correct: null, expected: null };
-  }
-}
-
-/**
- * Türkçe duyarlı sadeleştirme: küçük harf, aksan ve noktalama temizliği.
- * Kesme işareti BOŞLUĞA değil hiçliğe düşer; böylece "She's" ile "Shes",
- * "Ankara'da" ile "Ankarada" aynı kabul edilir.
- */
-export function normalize(s) {
-  return String(s ?? '')
-    .toLocaleLowerCase('tr-TR')
-    .replace(/[‘’ʼ'`´]/g, '')
-    .replace(/[ıİ]/g, 'i').replace(/[şŞ]/g, 's').replace(/[ğĞ]/g, 'g')
-    .replace(/[üÜ]/g, 'u').replace(/[öÖ]/g, 'o').replace(/[çÇ]/g, 'c')
-    .replace(/[^\p{L}\p{N}]+/gu, ' ')
-    .trim();
-}
+// Cevap denetimi js/answers.js'e taşındı (sembolik ifadeler ve mantık karşılaştırması
+// orada). Eski çağrı yerleri bozulmasın diye buradan da dışa veriliyor.
+export { checkAnswer, normalize, sayiCoz, mantikCanon, mantikDenk, sembolSeridi } from './answers.js';

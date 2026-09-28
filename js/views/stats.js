@@ -108,6 +108,7 @@ export default async function statsView() {
 
       <div class="btn-row">
         <a class="btn grow" href="#/yanlislarim">${ico('target')} Yanlışlarım${mistakeCount ? ` (${mistakeCount})` : ''}</a>
+        <a class="btn grow" href="#/kaydettiklerim">${ico('star')} Kaydettiklerim${store.savedQCount() ? ` (${store.savedQCount()})` : ''}</a>
         <a class="btn grow" href="#/notlarim">${ico('note')} Notlarım${s.bookmarks.length || Object.keys(s.notes).length ? ` (${Object.keys(s.notes).length + s.bookmarks.length})` : ''}</a>
       </div>
 

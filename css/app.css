@@ -807,3 +807,37 @@ textarea.ans-input.code { font-family: var(--fm); font-size: 13.5px; }
 .cl-more > summary::before { content: '▸'; font-size: 11px; color: var(--txt-3); }
 .cl-more[open] > summary::before { content: '▾'; }
 .cl-more[open] > summary { margin-bottom: 10px; }
+
+/* ---- Soru kaydetme, sembol seridi ve "cevabim dogruydu" ---- */
+.q-save {
+  display: grid; place-content: center; width: 32px; height: 32px; flex: none;
+  border-radius: 999px; border: 1px solid var(--line-soft); background: var(--surface-2);
+  color: var(--txt-3); cursor: pointer; transition: color .15s, border-color .15s;
+}
+.q-save:hover { color: var(--txt-2); }
+.q-save.on { color: var(--warn); border-color: color-mix(in srgb, var(--warn) 45%, transparent); }
+
+.sym-row { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.sym {
+  min-width: 38px; padding: 7px 10px; border-radius: var(--r);
+  border: 1px solid var(--line-soft); background: var(--surface-2);
+  font-size: 16px; line-height: 1; color: var(--txt); cursor: pointer;
+}
+.sym:hover { background: var(--surface); border-color: var(--acc); }
+.sym:active { transform: translateY(1px); }
+
+.self-fix {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 8px;
+  margin: 10px 0 12px; padding-bottom: 10px; border-bottom: 1px solid var(--line-soft);
+}
+
+/* Kaydedilen soru karti */
+.sq .sq-sol { margin-top: 10px; border-top: 1px solid var(--line-soft); padding-top: 8px; }
+.sq .sq-sol > summary {
+  cursor: pointer; font-size: 13px; font-weight: 650; color: var(--acc);
+  list-style: none; padding: 2px 0;
+}
+.sq .sq-sol > summary::-webkit-details-marker { display: none; }
+.sq .sq-sol > summary::before { content: '▸ '; }
+.sq .sq-sol[open] > summary::before { content: '▾ '; }
+.sq .sq-sol[open] > summary { color: var(--txt-2); }

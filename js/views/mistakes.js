@@ -33,10 +33,14 @@ export async function loadMistakeQuestions() {
   return out;
 }
 
-export default async function mistakesView() {
-  const questions = await loadMistakeQuestions();
+export default async function mistakesView([filtre], { go } = {}) {
+  const hepsi = await loadMistakeQuestions();
+  // Ayrık Matematik çalışırken araya diferansiyel denklem sorusu girmesin: tur
+  // istenirse tek derse daraltılır (#/yanlislarim/BIL2001).
+  const secili = filtre && hepsi.some((q) => q.courseCode === filtre) ? filtre : null;
+  const questions = secili ? hepsi.filter((q) => q.courseCode === secili) : hepsi;
 
-  if (!questions.length) {
+  if (!hepsi.length) {
     const everAnswered = store.state.answers.length;
     return {
       title: 'Yanlışlarım',
@@ -54,35 +58,51 @@ export default async function mistakesView() {
     };
   }
 
-  // Ders bazında dağılım — kullanıcı neyle karşılaşacağını bilsin
-  const byCourse = {};
-  questions.forEach((q) => { byCourse[q.courseName] = (byCourse[q.courseName] || 0) + 1; });
-  const chips = Object.entries(byCourse)
-    .sort((a, b) => b[1] - a[1])
-    .map(([n, c]) => `<span class="chip">${escHtml(n)} · ${c}</span>`)
+  // Ders bazında dağılım — her rozet o derse daraltan bir düğme
+  const byCourse = new Map();
+  hepsi.forEach((q) => {
+    const v = byCourse.get(q.courseCode) || { ad: q.courseName, n: 0 };
+    v.n += 1;
+    byCourse.set(q.courseCode, v);
+  });
+  const chips = [`<a class="chip${secili ? '' : ' on'}" href="#/yanlislarim">Hepsi · ${hepsi.length}</a>`]
+    .concat([...byCourse.entries()]
+      .sort((a, b) => b[1].n - a[1].n)
+      .map(([code, v]) => `<a class="chip${secili === code ? ' on' : ''}" href="#/yanlislarim/${code}"
+        style="--c:var(--bad)">${escHtml(v.ad)} · ${v.n}</a>`))
     .join('');
 
   const picked = shuffle(questions).slice(0, Math.min(20, questions.length));
+  const dersAdi = secili ? byCourse.get(secili).ad : null;
 
   return {
     title: 'Yanlışlarım',
-    sub: `${questions.length} soru bekliyor`,
+    sub: dersAdi ? `${dersAdi} · ${questions.length} soru` : `${hepsi.length} soru bekliyor`,
     html: `<div class="stack">
         <div class="card">
           <b>Yanlış yaptığın sorular</b>
           <p class="small muted" style="margin:6px 0 10px">
-            Doğru çözdüğünde soru bu listeden düşer. Bu turda ${picked.length} soru var.</p>
+            Doğru çözdüğünde soru bu listeden düşer. Bu turda ${picked.length} soru var${
+              dersAdi ? `, hepsi ${escHtml(dersAdi)} dersinden` : ''}.</p>
           <div class="row wrap" style="gap:6px">${chips}</div>
         </div>
       </div>
       ${quizShell('var(--bad)', picked.length)}`,
 
     onMount(root) {
+      // Aynı adrese giden bağlantı tarayıcıda olay üretmez; "Listeyi yenile" ve zaten
+      // seçili olan rozet tıklandığında görünümü elle yeniden çizdiriyoruz.
+      root.addEventListener('click', (e) => {
+        const a = e.target.closest('a[href^="#/yanlislarim"]');
+        if (!a) return;
+        const to = a.getAttribute('href').slice(1);
+        if (location.hash.slice(1) === to) { e.preventDefault(); go?.(to); }
+      });
       mountQuiz(root, picked, {
-        showSource: true,
+        showSource: !secili,
         retryLabel: 'Bir tur daha',
         finishActions: () => `
-          <a class="btn" href="#/yanlislarim">Listeyi yenile</a>
+          <a class="btn" href="#/yanlislarim${secili ? '/' + secili : ''}">Listeyi yenile</a>
           <a class="btn ghost" href="#/istatistik">İstatistik</a>`,
       });
     },

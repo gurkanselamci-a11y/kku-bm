@@ -26,7 +26,7 @@ export default async function notesView() {
     .map((key) => ({ ...(resolve(courses, key) || {}), key }))
     .filter((x) => x.t);
 
-  if (!notes.length && !marks.length) {
+  if (!notes.length && !marks.length && !store.savedQCount()) {
     return {
       title: 'Notlarım',
       sub: 'Kendi notların',
@@ -40,6 +40,10 @@ export default async function notesView() {
     title: 'Notlarım',
     sub: `${notes.length} not · ${marks.length} kayıtlı konu`,
     html: `<div class="stack">
+      ${store.savedQCount() ? `<a class="card row spread" href="#/kaydettiklerim" style="--c:var(--acc)">
+        <span><b class="small">${ico('star-on')} Kaydettiğin sorular</b>
+        <small class="tiny muted" style="display:block;margin-top:2px">Çözümleriyle birlikte</small></span>
+        <span class="chip">${store.savedQCount()}</span></a>` : ''}
       ${marks.length ? `<div>
         <div class="sec-title"><h2>Kaydettiğin konular</h2><span class="tiny muted">${marks.length}</span></div>
         <div class="week-list">${marks.map((m) => `<a class="week-item" href="#/konu/${m.code}/${m.tid}" style="--c:${m.c.color}">

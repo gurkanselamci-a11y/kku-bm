@@ -38,8 +38,11 @@ const emptyState = () => ({
   answers: [],
   // sessions[YYYY-MM-DD] = { minutes, questions, correct }
   sessions: {},
-  // bookmarks = ["BIL1001/w3", ...]
+  // bookmarks = ["BIL1001/w3", ...]  — kaydedilen KONULAR
   bookmarks: [],
+  // savedQ[soruKimliği] = { at, code } — kaydedilen SORULAR. "Bu soruyu beğendim,
+  // çözümüyle birlikte tekrar bakacağım" kutusu; ders ders gruplanarak gösterilir.
+  savedQ: {},
   // notes[code/topicId] = "kişisel not"
   notes: {},
   notebooks: {},
@@ -184,6 +187,21 @@ export const store = {
     return this.isBookmarked(key);
   },
 
+  // Kaydedilen sorular. Anahtar soru kimliği ("BIL2001/w3/w3q4"); ders kodu ayrıca
+  // tutuluyor ki liste ekranı kimliği ayrıştırmak zorunda kalmasın.
+  isSavedQ(uid) { return !!(state.savedQ || {})[uid]; },
+
+  toggleSavedQ(uid, code) {
+    this.update((s) => {
+      if (!s.savedQ) s.savedQ = {};
+      if (s.savedQ[uid]) delete s.savedQ[uid];
+      else s.savedQ[uid] = { at: Date.now(), code: code || String(uid).split('/')[0] };
+    });
+    return this.isSavedQ(uid);
+  },
+
+  savedQCount() { return Object.keys(state.savedQ || {}).length; },
+
   // Dersin NotebookLM defteri: bir kez kaydedilir, sonraki haftalarda "aç" düğmesi
   // doğrudan o deftere gider. Kullanıcı başına, cihazda saklanır.
   getNotebook(code) { return (state.notebooks || {})[code] || ''; },
@@ -212,6 +230,23 @@ export const store = {
       if (rec.correct) s.sessions[day].correct += 1;
     });
     this.touchStreak();
+  },
+
+  /**
+   * "Cevabım aslında doğruydu" — sembol yazamadığı için yanlış görünen cevabı öğrenci
+   * kendi doğru sayar. Eski kaydın üzerine yazmak yerine YENİ kayıt eklenir: cihazlar
+   * arası birleştirme kayıtları (zaman + soru) anahtarıyla eşleştiriyor, yerinde
+   * değiştirilen kayıt diğer cihazdaki eski hâliyle geri gelebilirdi.
+   * Günün soru sayısı artmaz — soru zaten sayılmıştı; yalnızca doğru sayısı artar.
+   */
+  selfCorrect(rec) {
+    this.update((s) => {
+      s.answers.push({ ...rec, correct: true, self: true, at: Date.now() });
+      if (s.answers.length > 2000) s.answers = s.answers.slice(-2000);
+      const day = todayKey();
+      s.sessions[day] ||= { minutes: 0, questions: 0, correct: 0 };
+      s.sessions[day].correct += 1;
+    });
   },
 
   addMinutes(min) {
